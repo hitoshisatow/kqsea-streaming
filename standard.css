@@ -8,30 +8,27 @@ body {
     position: absolute;
     width: 760px;
     height: 53px;
-    padding-top: 0.2rem;
     font-size: 24px;
+    text-align: center;
 }
 
 .team-name-left {
     top: 0px;
     left: 0px;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(9,9,121,1) 82%, rgba(0,212,255,0) 100%);
-    text-align: right;
-    padding-right: 4rem;
+    background: rgb(40,96,232);
+    background: radial-gradient(circle, rgba(40,96,232,1) 0%, rgba(40,96,232,1) 81%, rgba(0,0,0,0) 100%);
 }
 
 .team-name-right {
     top: 0px;
     left: 760px;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(164,111,10,1) 17%, rgba(0,212,255,0.0033263305322128733) 100%);
-    padding-left: 4rem;
+    background: rgb(165,67,7);
+    background: radial-gradient(circle, rgba(165,67,7,1) 0%, rgba(165,67,7,1) 81%, rgba(0,0,0,0) 100%);
 }
 
 .team-score {
     position: absolute;
-    top: 25px;
+    top: 0px;
     width: 760px;
     height: 30px;
     display: flex;
@@ -58,17 +55,17 @@ body {
 
 .player {
     position: absolute;
-    top: 145px;
+    top: 175px;
     width: 152px;
-    height: 80px;
+    height: 50px;
 }
 
 .player > .graphic {
     position: absolute;
-    top: 20px;
+    top: 30px;
     left: 0px;
     width: 152px;
-    height: 40px;
+    height: 20px;
     background-position: center;
     background-repeat: no-repeat;
     z-index: 1;
@@ -105,40 +102,46 @@ body {
 }
 
 .queen-kill-graphic {
-    height: 20px;
+    height: 10px;
     width: 20px;
-    background-color: white;
-    -webkit-mask: url(https://api.iconify.design/mdi/crown.svg) no-repeat 50% 50%;
-    mask: url(https://api.iconify.design/mdi/crown.svg) no-repeat 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+[class*="blue-queen-queen-kill-graphic-"] {
+    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);
+}
+
+[class*="gold-queen-queen-kill-graphic-"] {
+    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);
 }
 
 .player > .queen-kill-container {
     position: absolute;
-    top: 0px;
+    top: 20px;
     left: 0px;
     width: 152px;
-    height: 20px;
+    height: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .player > .kills {
     position: absolute;
-    top: 20px;
+    top: 30px;
     left: 0px;
 }
 
 .player > .deaths {
     position: absolute;
-    top: 20px;
+    top: 30px;
     left: 76px;
 }
 
 .player > .berries {
-    position: absolute;
-    top: 40px;
-    left: 0px;
+    display: none;
 }
 
 .snail-distance {
@@ -146,14 +149,12 @@ body {
 }
 
 .player > .snail-distance-meters {
-    position: absolute;
-    top: 40px;
-    left: 76px;
+    display: none;
 }
 
 .player > .signed-in-name {
     position: absolute;
-    top: 60px;
+    top: -144px;
     left: 0px;
     width: 152px;
     height: 20px;
@@ -162,11 +163,11 @@ body {
     text-overflow: ellipsis;
 }
 
-.blue-stripes {
+.blue-checks {
     left: 0px;
 }
 
-.blue-abs {
+.blue-skulls {
     left: 152px;
 }
 
@@ -174,20 +175,20 @@ body {
     left: 304px;
 }
 
-.blue-skulls {
+.blue-abs {
     left: 456px;
 }
 
-.blue-checks {
+.blue-stripes {
     left: 608px;
 }
 
 
-.gold-stripes {
+.gold-checks {
     left: 760px;
 }
 
-.gold-abs {
+.gold-skulls {
     left: 912px;
 }
 
@@ -195,17 +196,17 @@ body {
     left: 1064px;
 }
 
-.gold-skulls {
+.gold-abs {
     left: 1216px;
 }
 
-.gold-checks {
+.gold-stripes {
     left: 1368px;
 }
 
 
 .blue-stripes-graphic {
-    background-image: url('https://kqhivemind.com/static/players/blue-icon-checks.svg');
+    background-image: url('https://kqhivemind.com/static/players/blue-icon-stripes.svg');
 }
 
 .blue-abs-graphic {
@@ -226,7 +227,7 @@ body {
 
 
 .gold-stripes-graphic {
-    background-image: url('https://kqhivemind.com/static/players/gold-icon-checks.svg');
+    background-image: url('https://kqhivemind.com/static/players/gold-icon-stripes.svg');
 }
 
 .gold-abs-graphic {
