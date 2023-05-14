@@ -4,7 +4,256 @@ body {
     text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
 }
 
-.bottom-panel {
+.team-name {
+    position: absolute;
+    width: 760px;
+    height: 53px;
+    padding-top: 0.2rem;
+    font-size: 24px;
+}
+
+.team-name-left {
+    top: 0px;
+    left: 0px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(9,9,121,1) 82%, rgba(0,212,255,0) 100%);
+    text-align: right;
+    padding-right: 4rem;
+}
+
+.team-name-right {
+    top: 0px;
+    left: 760px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(164,111,10,1) 17%, rgba(0,212,255,0.0033263305322128733) 100%);
+    padding-left: 4rem;
+}
+
+.team-score {
+    position: absolute;
+    top: 25px;
+    width: 760px;
+    height: 30px;
+    display: flex;
+}
+
+.team-score-left {
+    left: 0px;
+    flex-flow: row-reverse;
+    padding-right: 4rem;
+}
+
+.team-score-right {
+    left: 760px;
+    padding-left: 4rem;
+}
+
+.team-score-graphic {
+    width: 30px;
+    height: 30px;
+    background-image: url('https://kqassets.s3.us-west-2.amazonaws.com/emerald.gif');
+    background-position: center;
+    background-size: contain;
+}
+
+.player {
+    position: absolute;
+    top: 145px;
+    width: 152px;
+    height: 80px;
+}
+
+.player > .graphic {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 152px;
+    height: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.warrior-graphic {
+    position: absolute;
+    top: 30px;
+    left: 44px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    -webkit-mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;
+    mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;
+    z-index: 2;
+}
+
+.speed-graphic {
+    position: absolute;
+    top: 30px;
+    left: 88px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    -webkit-mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;
+    mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;
+    z-index: 2;
+}
+
+.player > .stat-container {
+    width: 76px;
+    height: 20px;
+    text-align: center;
+}
+
+.queen-kill-graphic {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    -webkit-mask: url(https://api.iconify.design/mdi/crown.svg) no-repeat 50% 50%;
+    mask: url(https://api.iconify.design/mdi/crown.svg) no-repeat 50% 50%;
+}
+
+.player > .queen-kill-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 152px;
+    height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.player > .kills {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+
+.player > .deaths {
+    position: absolute;
+    top: 20px;
+    left: 76px;
+}
+
+.player > .berries {
+    position: absolute;
+    top: 40px;
+    left: 0px;
+}
+
+.snail-distance {
+    display: none;
+}
+
+.player > .snail-distance-meters {
+    position: absolute;
+    top: 40px;
+    left: 76px;
+}
+
+.player > .signed-in-name {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    width: 152px;
+    height: 20px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.blue-stripes {
+    left: 0px;
+}
+
+.blue-abs {
+    left: 152px;
+}
+
+.blue-queen {
+    left: 304px;
+}
+
+.blue-skulls {
+    left: 456px;
+}
+
+.blue-checks {
+    left: 608px;
+}
+
+
+.gold-stripes {
+    left: 760px;
+}
+
+.gold-abs {
+    left: 912px;
+}
+
+.gold-queen {
+    left: 1064px;
+}
+
+.gold-skulls {
+    left: 1216px;
+}
+
+.gold-checks {
+    left: 1368px;
+}
+
+
+.blue-stripes-graphic {
+    background-image: url('https://kqhivemind.com/static/players/blue-icon-checks.svg');
+}
+
+.blue-abs-graphic {
+    background-image: url('https://kqhivemind.com/static/players/blue-icon-abs.svg');
+}
+
+.blue-queen-graphic {
+    background-image: url('https://kqhivemind.com/static/players/blue-icon-queen.svg');
+}
+
+.blue-skulls-graphic {
+    background-image: url('https://kqhivemind.com/static/players/blue-icon-skulls.svg');
+}
+
+.blue-checks-graphic {
+    background-image: url('https://kqhivemind.com/static/players/blue-icon-checks.svg');
+}
+
+
+.gold-stripes-graphic {
+    background-image: url('https://kqhivemind.com/static/players/gold-icon-checks.svg');
+}
+
+.gold-abs-graphic {
+    background-image: url('https://kqhivemind.com/static/players/gold-icon-abs.svg');
+}
+
+.gold-queen-graphic {
+    background-image: url('https://kqhivemind.com/static/players/gold-icon-queen.svg');
+}
+
+.gold-skulls-graphic {
+    background-image: url('https://kqhivemind.com/static/players/gold-icon-skulls.svg');
+}
+
+.gold-checks-graphic {
+    background-image: url('https://kqhivemind.com/static/players/gold-icon-checks.svg');
+}
+
+.panel-bottom {
+    display: none;
+}
+
+.panel-left {
+    display: none;
+}
+
+.panel-right {
     display: none;
 }
 
@@ -46,864 +295,4 @@ body {
 
 .current-time {
     display: none;
-}
-
-.team-name-left {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 744px;
-    height: 2.5rem;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(9,9,121,1) 82%, rgba(0,212,255,0) 100%);
-    text-align: right;
-    padding-right: 2.5rem;
-    padding-top: 0.2rem;
-    font-size: 24px;
-}
-
-.team-name-right {
-    position: absolute;
-    top: 0px;
-    left: 744px;
-    width: 744px;
-    height: 2.5rem;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(164,111,10,1) 17%, rgba(0,212,255,0.0033263305322128733) 100%);
-    padding-left: 2.5rem;
-    padding-top: 0.2rem;
-    font-size: 24px;
-}
-
-.panel-left {
-    position: absolute;
-    top: 203px;
-    left: 0px;
-    width: 744px;
-    height: 40px;
-    background-color: black;
-    opacity: 0.1;
-}
-
-.panel-right {
-    position: absolute;
-    top: 203px;
-    left: 744px;
-    width: 744px;
-    height: 40px;
-    background-color: black;
-    opacity: 0.1;
-}
-
-.queen-kill-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 60px;
-    height: 20px;
-    position: absolute;
-}
-
-.queen-kill-graphic {
-    height: 20px;
-    width: 20px;
-    background-color: white;
-    -webkit-mask: url(https://api.iconify.design/mdi/crown.svg) no-repeat 50% 50%;
-    mask: url(https://api.iconify.design/mdi/crown.svg) no-repeat 50% 50%;
-}
-
-.blue-checks-graphic {
-    position: absolute;
-    background-image: url('https://kqhivemind.com/static/players/blue-icon-checks.svg');
-    width: 30px;
-    height: 30px;
-    top: 213px;
-    left: 59px;
-}
-
-.blue-checks-signed-in-name {
-    position: absolute;
-    left: 0px;
-    top: 180px;
-    text-align: center;
-    width: 148px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.blue-checks-speed {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    top: 215px;
-    left: 40px;
-    background-color: white;
-    -webkit-mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;
-    mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;
-}
-
-.blue-checks-warrior {
-        position: absolute;
-    height: 20px;
-    width: 20px;
-    top: 215px;
-    left: 88px;
-    background-color: white;
-    -webkit-mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;
-    mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;
-}
-
-.blue-checks-kills {
-    position: absolute;
-    left: 0px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.blue-checks-kills-queen-container {
-    top: 203px;
-    left: 40px;
-}
-
-.blue-checks-deaths {
-    position: absolute;
-    left: 74px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.blue-checks-berries {
-    position: absolute;
-    left: 0px;
-    top: 223px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.blue-checks-snail-distance {
-    display: none;
-}
-
-.blue-checks-snail-distance-meters {
-    position: absolute;
-    left: 74px;
-    top: 223px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.blue-skulls-graphic {
-    position: absolute;
-    background-image: url('https://kqhivemind.com/static/players/blue-icon-skulls.svg');
-    width: 30px;
-    height: 30px;
-    top: 213px;
-    left: 208px;
-}
-
-.blue-skulls-signed-in-name {
-    position: absolute;
-    left: 152px;
-    top: 180px;
-    text-align: center;
-    width: 148px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.blue-skulls-speed {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    top: 215px;
-    left: 190px;
-    background-color: white;
-    -webkit-mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;
-    mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;
-}
-
-.blue-skulls-warrior {
-        position: absolute;
-    height: 20px;
-    width: 20px;
-    top: 215px;
-    left: 236px;
-    background-color: white;
-    -webkit-mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;
-    mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;
-}
-
-.blue-skulls-kills {
-    position: absolute;
-    left: 149px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.blue-skulls-kills-queen-container {
-    top: 203px;
-    left: 193px;
-}
-
-.blue-skulls-deaths {
-    position: absolute;
-    left: 223px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.blue-skulls-berries {
-    position: absolute;
-    left: 149px;
-    top: 223px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.blue-skulls-snail-distance {
-    display: none;
-}
-
-.blue-skulls-snail-distance-meters {
-    position: absolute;
-    left: 223px;
-    top: 223px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.blue-queen-graphic {
-    position: absolute;
-    background-image: url('https://kqhivemind.com/static/players/blue-icon-queen.svg');
-    width: 30px;
-    height: 30px;
-    top: 213px;
-    left: 357px;
-}
-
-.blue-queen-signed-in-name {
-    position: absolute;
-    left: 300px;
-    top: 180px;
-    text-align: center;
-    width: 148px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.blue-queen-kills {
-    position: absolute;
-    left: 297px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.blue-queen-kills-queen-container {
-    top: 203px;
-    left: 342px;
-}
-
-.blue-queen-deaths {
-    position: absolute;
-    left: 372px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.blue-queen-berries {
-    display: none;
-}
-
-.blue-queen-snail-distance {
-    display: none;
-}
-
-.blue-queen-snail-distance-meters {
-    display: none;
-}
-
-.blue-abs-graphic {
-    position: absolute;
-    background-image: url('https://kqhivemind.com/static/players/blue-icon-abs.svg');
-    width: 30px;
-    height: 30px;
-    top: 213px;
-    left: 506px;
-}
-
-.blue-abs-signed-in-name {
-    position: absolute;
-    left: 448px;
-    top: 180px;
-    text-align: center;
-    width: 148px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.blue-abs-speed {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    top: 215px;
-    left: 487px;
-    background-color: white;
-    -webkit-mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;
-    mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;
-}
-
-.blue-abs-warrior {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    top: 215px;
-    left: 535px;
-    background-color: white;
-    -webkit-mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;
-    mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;
-}
-
-.blue-abs-kills {
-    position: absolute;
-    left: 446px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.blue-abs-kills-queen-container {
-    top: 203px;
-    left: 491px;
-}
-
-.blue-abs-deaths {
-    position: absolute;
-    left: 521px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.blue-abs-berries {
-    position: absolute;
-    left: 446px;
-    top: 223px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.blue-abs-snail-distance {
-    display: none;
-}
-
-.blue-abs-snail-distance-meters {
-    position: absolute;
-    left: 521px;
-    top: 223px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.blue-stripes-graphic {
-    position: absolute;
-    background-image: url('https://kqhivemind.com/static/players/blue-icon-stripes.svg');
-    width: 30px;
-    height: 30px;
-    top: 213px;
-    left: 655px;
-}
-
-.blue-stripes-signed-in-name {
-    position: absolute;
-    left: 596px;
-    top: 180px;
-    text-align: center;
-    width: 148px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.blue-stripes-speed {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    top: 215px;
-    left: 636px;
-    background-color: white;
-    -webkit-mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;
-    mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;
-}
-
-.blue-stripes-warrior {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    top: 215px;
-    left: 683px;
-    background-color: white;
-    -webkit-mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;
-    mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;
-}
-
-.blue-stripes-kills {
-    position: absolute;
-    left: 595px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.blue-stripes-kills-queen-container {
-    top: 203px;
-    left: 640px;
-}
-
-.blue-stripes-deaths {
-    position: absolute;
-    left: 670px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.blue-stripes-berries {
-    position: absolute;
-    left: 595px;
-    top: 223px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.blue-stripes-snail-distance {
-    display: none;
-}
-
-.blue-stripes-snail-distance-meters {
-    position: absolute;
-    left: 670px;
-    top: 223px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.gold-checks-graphic {
-    position: absolute;
-    background-image: url('https://kqhivemind.com/static/players/gold-icon-checks.svg');
-    width: 30px;
-    height: 30px;
-    top: 213px;
-    left: 803px;
-}
-
-.gold-checks-signed-in-name {
-    position: absolute;
-    left: 744px;
-    top: 180px;
-    text-align: center;
-    width: 148px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.gold-checks-speed {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    top: 215px;
-    left: 784px;
-    background-color: white;
-    -webkit-mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;
-    mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;
-}
-
-.gold-checks-warrior {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    top: 215px;
-    left: 831px;
-    background-color: white;
-    -webkit-mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;
-    mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;
-}
-
-.gold-checks-kills {
-    position: absolute;
-    left: 744px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.gold-checks-kills-queen-container {
-    top: 203px;
-    left: 788px;
-}
-
-.gold-checks-deaths {
-    position: absolute;
-    left: 818px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.gold-checks-berries {
-    position: absolute;
-    left: 744px;
-    top: 223px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.gold-checks-snail-distance {
-    display: none;
-}
-
-.gold-checks-snail-distance-meters {
-    position: absolute;
-    left: 818px;
-    top: 223px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.gold-skulls-graphic {
-    position: absolute;
-    background-image: url('https://kqhivemind.com/static/players/gold-icon-skulls.svg');
-    width: 30px;
-    height: 30px;
-    top: 213px;
-    left: 952px;
-}
-
-.gold-skulls-signed-in-name {
-    position: absolute;
-    left: 892px;
-    top: 180px;
-    text-align: center;
-    width: 148px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.gold-skulls-speed {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    top: 215px;
-    left: 934px;
-    background-color: white;
-    -webkit-mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;
-    mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;
-}
-
-.gold-skulls-warrior {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    top: 215px;
-    left: 981px;
-    background-color: white;
-    -webkit-mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;
-    mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;
-}
-
-.gold-skulls-kills {
-    position: absolute;
-    left: 893px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.gold-skulls-kills-queen-container {
-    top: 203px;
-    left: 937px;
-}
-
-.gold-skulls-deaths {
-    position: absolute;
-    left: 967px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.gold-skulls-berries {
-    position: absolute;
-    left: 893px;
-    top: 223px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.gold-skulls-snail-distance {
-    display: none;
-}
-
-.gold-skulls-snail-distance-meters {
-    position: absolute;
-    left: 967px;
-    top: 223px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.gold-queen-graphic {
-    position: absolute;
-    background-image: url('https://kqhivemind.com/static/players/gold-icon-queen.svg');
-    width: 30px;
-    height: 30px;
-    top: 213px;
-    left: 1101px;
-}
-
-.gold-queen-signed-in-name {
-    position: absolute;
-    left: 1043px;
-    top: 180px;
-    text-align: center;
-    width: 148px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.gold-queen-kills {
-    position: absolute;
-    left: 1041px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.gold-queen-kills-queen-container {
-    top: 203px;
-    left: 1086px;
-}
-
-.gold-queen-deaths {
-    position: absolute;
-    left: 1116px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.gold-queen-berries {
-    display: none;
-}
-
-.gold-queen-snail-distance {
-    display: none;
-}
-
-.gold-queen-snail-distance-meters {
-    display: none;
-}
-
-.gold-abs-graphic {
-    position: absolute;
-    background-image: url('https://kqhivemind.com/static/players/gold-icon-abs.svg');
-    width: 30px;
-    height: 30px;
-    top: 213px;
-    left: 1250px;
-}
-
-.gold-abs-signed-in-name {
-    position: absolute;
-    left: 1191px;
-    top: 180px;
-    text-align: center;
-    width: 148px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.gold-abs-speed {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    top: 215px;
-    left: 1230px;
-    background-color: white;
-    -webkit-mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;
-    mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;
-}
-
-.gold-abs-warrior {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    top: 215px;
-    left: 1278px;
-    background-color: white;
-    -webkit-mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;
-    mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;
-}
-
-.gold-abs-kills {
-    position: absolute;
-    left: 1190px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.gold-abs-kills-queen-container {
-    top: 203px;
-    left: 1235px;
-}
-
-.gold-abs-deaths {
-    position: absolute;
-    left: 1265px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.gold-abs-berries {
-    position: absolute;
-    left: 1190px;
-    top: 223px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.gold-abs-snail-distance {
-    display: none;
-}
-
-.gold-abs-snail-distance-meters {
-    position: absolute;
-    left: 1265px;
-    top: 223px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.gold-stripes-graphic {
-    position: absolute;
-    background-image: url('https://kqhivemind.com/static/players/gold-icon-stripes.svg');
-    width: 30px;
-    height: 30px;
-    top: 213px;
-    left: 1399px;
-}
-
-.gold-stripes-signed-in-name {
-    position: absolute;
-    left: 1340px;
-    top: 180px;
-    text-align: center;
-    width: 148px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.gold-stripes-speed {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    top: 215px;
-    left: 1380px;
-    background-color: white;
-    -webkit-mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;
-    mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;
-}
-
-.gold-stripes-warrior {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    top: 215px;
-    left: 1427px;
-    background-color: white;
-    -webkit-mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;
-    mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;
-}
-
-.gold-stripes-kills {
-    position: absolute;
-    left: 1339px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.gold-stripes-kills-queen-container {
-    top: 203px;
-    left: 1384px;
-}
-
-.gold-stripes-deaths {
-    position: absolute;
-    left: 1414px;
-    top: 203px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.gold-stripes-berries {
-    position: absolute;
-    left: 1339px;
-    top: 223px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
-}
-
-.gold-stripes-snail-distance {
-    display: none;
-}
-
-.gold-stripes-snail-distance-meters {
-    position: absolute;
-    left: 1414px;
-    top: 223px;
-    width: 74px;
-    height: 18px;
-    text-align: center;
 }
