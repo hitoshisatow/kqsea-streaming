@@ -1,7 +1,7 @@
 body {
     color: lightgray;
     font-size: 16px;
-    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    text-shadow: 1px 1px 6px #000000;
 }
 
 .team-name {
@@ -15,15 +15,15 @@ body {
 .team-name-left {
     top: 0px;
     left: 0px;
-    background: rgb(40,96,232);
-    background: radial-gradient(circle, rgba(40,96,232,1) 0%, rgba(40,96,232,1) 81%, rgba(0,0,0,0) 100%);
+    background: rgb(76,70,252);
+    background: radial-gradient(circle, rgba(76,70,252,1) 0%, rgba(76,70,252,0) 100%);
 }
 
 .team-name-right {
     top: 0px;
     left: 760px;
-    background: rgb(165,67,7);
-    background: radial-gradient(circle, rgba(165,67,7,1) 0%, rgba(165,67,7,1) 81%, rgba(0,0,0,0) 100%);
+    background: rgb(251,160,63);
+    background: radial-gradient(circle, rgba(251,160,63,1) 0%, rgba(252,186,70,0) 100%);
 }
 
 .team-score {
@@ -69,6 +69,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     z-index: 1;
+    background-color: rgba(0, 0, 0, .8);
 }
 
 .warrior-graphic {
@@ -99,6 +100,7 @@ body {
     width: 76px;
     height: 20px;
     text-align: center;
+    z-index: 2;
 }
 
 .queen-kill-graphic {
