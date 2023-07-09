@@ -7,7 +7,7 @@ body {
 .team-name {
     position: absolute;
     width: 760px;
-    height: 53px;
+    height: 33px;
     font-size: 24px;
     text-align: center;
 }
@@ -58,6 +58,7 @@ body {
     top: 175px;
     width: 152px;
     height: 50px;
+    background-color: rgba(0, 0, 0, .8);
 }
 
 .player > .graphic {
@@ -69,7 +70,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     z-index: 1;
-    background-color: rgba(0, 0, 0, .8);
 }
 
 .warrior-graphic {
@@ -111,11 +111,43 @@ body {
     background-size: contain;
 }
 
-[class*="blue-queen-queen-kill-graphic-"] {
+[class*="blue-queen-kill-graphic-"] {
     background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);
 }
 
 [class*="gold-queen-queen-kill-graphic-"] {
+    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);
+}
+
+[class*="blue-checks-kill-graphic-"] {
+    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);
+}
+
+[class*="gold-checks-queen-kill-graphic-"] {
+    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);
+}
+
+[class*="blue-skulls-kill-graphic-"] {
+    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);
+}
+
+[class*="gold-skulls-queen-kill-graphic-"] {
+    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);
+}
+
+[class*="blue-abs-kill-graphic-"] {
+    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);
+}
+
+[class*="gold-abs-queen-kill-graphic-"] {
+    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);
+}
+
+[class*="blue-stripes-kill-graphic-"] {
+    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);
+}
+
+[class*="gold-stripes-queen-kill-graphic-"] {
     background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);
 }
 
@@ -156,7 +188,7 @@ body {
 
 .player > .signed-in-name {
     position: absolute;
-    top: -144px;
+    top: 0px;
     left: 0px;
     width: 152px;
     height: 20px;
