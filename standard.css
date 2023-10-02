@@ -1,7 +1,7 @@
 body {
-    color: lightgray;
+    color: white;
     font-size: 16px;
-    text-shadow: 1px 1px 6px #000000;
+    text-shadow: 1px 2px 2px #000000;
 }
 
 .team-name {
@@ -9,45 +9,49 @@ body {
     width: 760px;
     height: 33px;
     font-size: 24px;
-    text-align: center;
 }
 
 .team-name-left {
     top: 0px;
     left: 0px;
-    background: rgb(76,70,252);
-    background: radial-gradient(circle, rgba(76,70,252,1) 0%, rgba(76,70,252,0) 100%);
+    background: rgba(0,199,13,1);
+    background: linear-gradient(90deg, rgba(0,199,13,0.510329131652661) 0%, rgba(0,199,13,1) 76%, rgba(0,199,13,0.23021708683473385) 100%);
+    text-align: right;
+    padding-right: 220px;
 }
 
 .team-name-right {
     top: 0px;
     left: 760px;
-    background: rgb(251,160,63);
-    background: radial-gradient(circle, rgba(251,160,63,1) 0%, rgba(252,186,70,0) 100%);
+    background: rgba(0,199,13,1);
+    background: linear-gradient(270deg, rgba(0,199,13,0.510329131652661) 0%, rgba(0,199,13,1) 76%, rgba(0,199,13,0.23021708683473385) 100%);
+    text-align: left;
+    padding-left: 220px;
 }
 
 .team-score {
     position: absolute;
-    top: 0px;
-    width: 760px;
-    height: 30px;
+    top: -5px;
+    width: 160px;
+    height: 40px;
     display: flex;
 }
 
 .team-score-left {
     left: 0px;
     flex-flow: row-reverse;
-    padding-right: 4rem;
+    left: 600px;
+    margin-left: -40px;
 }
 
 .team-score-right {
     left: 760px;
-    padding-left: 4rem;
+    margin-left: 40px;
 }
 
 .team-score-graphic {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background-image: url('https://kqassets.s3.us-west-2.amazonaws.com/emerald.gif');
     background-position: center;
     background-size: contain;
@@ -111,45 +115,47 @@ body {
     background-size: contain;
 }
 
-[class*="blue-queen-kill-graphic-"] {
+.blue-queen-queen-kill-container > [class*="-queen-kill-graphic-"] {
     background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);
 }
 
-[class*="gold-queen-queen-kill-graphic-"] {
-    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);
-}
-
-[class*="blue-checks-kill-graphic-"] {
+.blue-stripes-queen-kill-container > [class*="-queen-kill-graphic-"] {
     background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);
 }
 
-[class*="gold-checks-queen-kill-graphic-"] {
-    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);
-}
-
-[class*="blue-skulls-kill-graphic-"] {
+.blue-abs-queen-kill-container > [class*="-queen-kill-graphic-"] {
     background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);
 }
 
-[class*="gold-skulls-queen-kill-graphic-"] {
-    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);
-}
-
-[class*="blue-abs-kill-graphic-"] {
+.blue-skulls-queen-kill-container > [class*="-queen-kill-graphic-"] {
     background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);
 }
 
-[class*="gold-abs-queen-kill-graphic-"] {
-    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);
-}
-
-[class*="blue-stripes-kill-graphic-"] {
+.blue-checks-queen-kill-container > [class*="-queen-kill-graphic-"] {
     background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);
 }
 
-[class*="gold-stripes-queen-kill-graphic-"] {
+
+.gold-queen-queen-kill-container > [class*="-queen-kill-graphic-"] {
     background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);
 }
+
+.gold-stripes-queen-kill-container > [class*="-queen-kill-graphic-"] {
+    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);
+}
+
+.gold-abs-queen-kill-container > [class*="-queen-kill-graphic-"] {
+    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);
+}
+
+.gold-skulls-queen-kill-container > [class*="-queen-kill-graphic-"] {
+    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);
+}
+
+.gold-checks-queen-kill-container > [class*="-queen-kill-graphic-"] {
+    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);
+}
+
 
 .player > .queen-kill-container {
     position: absolute;
