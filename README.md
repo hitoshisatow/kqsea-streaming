@@ -31,11 +31,15 @@ Check existing disks and partitions
 
 > `root@archiso ~ # fdisk -l`
 
-Modify MVNe drive to remove existing Windows partitions
+Modify MVNe drive to remove existing partitions
 
 > `root@archiso ~ # fdisk /dev/nvme0n1`
 
-Leave existing EFI System partition (/dev/nvme0n1p1) and remove any Windows partitions. Add new partition that takes remaining space. It should default to Linux filesystem type. Write changes and exit
+The existing EFI directory is small (100MB) so remove that and the Windows partitions. Add a new 1G partition and set type to `EFI System`. Add new partition that takes remaining space. It should default to Linux filesystem type. Write changes and exit
+
+#### Create FAT32 file system for EFI
+
+> `root@archiso ~ # mkfs.fat -F 32 /dev/nvme0n1p1`
 
 #### Create ext4 file system
 
@@ -66,6 +70,7 @@ Note: this might take a little bit while creating the journal. Just wait for it 
 #### Set time
 
 > `[root@archiso /]# ln -sf /usr/share/zoneinfo/PST8PDT /etc/localtime`
+>
 > `[root@archiso /]# hwclock --systohc`
 
 #### Localization
@@ -74,7 +79,7 @@ Edit `/etc/locale.gen` and uncomment `en_US.UTF-8`
 
 > `[root@archiso /]# locale-gen`
 
-Create `/etc/locale.confg` with the following contents
+Create `/etc/locale.conf` with the following contents
 
 > LANG=en_US.UTF-8
 
@@ -108,7 +113,7 @@ Create `/etc/hostname` with the following contents. Replace the number 1 with th
 
 #### Install streaming applications
 
-> `[root@archiso /]# pacman -S gnome networkmanager libva-mesa-driver vlc`
+> `[root@archiso /]# pacman -S gnome networkmanager libva-mesa-driver vlc code nodejs`
 
 Select all selections for gnome
 

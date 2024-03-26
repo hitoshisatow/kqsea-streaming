@@ -5,6 +5,7 @@ body {
 }
 
 .team-name {
+    display: none;
     position: absolute;
     width: 760px;
     height: 33px;
