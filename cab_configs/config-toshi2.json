@@ -1,0 +1,16 @@
+{
+  "cabinets": [
+    {
+      "sceneName": "sea",
+      "cabinetName": "toshi2",
+      "token": "Bq-ZsA6fYk28YgxWb_RlYNfhKd7UiySKZfAwrkKXsGo",
+      "url": "ws://192.168.0.57:12749"
+    }
+  ],
+  "servers": [
+    {
+      "name": "HiveMind",
+      "url": "wss://kqhivemind.com/ws/stats_listener/v3"
+    }
+  ]
+}

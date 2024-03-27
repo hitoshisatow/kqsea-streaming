@@ -1,0 +1,16 @@
+{
+  "cabinets": [
+    {
+      "sceneName": "sea",
+      "cabinetName": "4bs",
+      "token": "Q8Zquvm9q3FxRs-EJcpKkh_JvMeIoi6pqke7kKicn7E",
+      "url": "ws://192.168.50.222:12749"
+    }
+  ],
+  "servers": [
+    {
+      "name": "HiveMind",
+      "url": "wss://kqhivemind.com/ws/stats_listener/v3"
+    }
+  ]
+}
