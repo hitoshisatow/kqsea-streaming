@@ -113,7 +113,7 @@ Create `/etc/hostname` with the following contents. Replace the number 1 with th
 
 #### Install streaming applications
 
-> `[root@archiso /]# pacman -S gnome networkmanager libva-mesa-driver vlc code nodejs`
+> `[root@archiso /]# pacman -S gnome networkmanager libva-mesa-driver vlc nodejs`
 
 Select all selections for gnome
 
@@ -122,6 +122,8 @@ Select 1) noto-fonts-emoji for emoji-font
 Select 2) pipewire-jack for jack
 
 > `[root@archiso /]# flatpak install flathub com.obsproject.Studio`
+>
+> `[root@archiso /]# flatpak install flathub com.visualstudio.code`
 
 #### Enable services and restart system
 
