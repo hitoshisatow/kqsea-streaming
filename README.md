@@ -111,9 +111,9 @@ Create `/etc/hostname` with the following contents. Replace the number 1 with th
 
 > Add in the line `stream ALL=(ALL:ALL) ALL`
 
-#### Install streaming applications
+#### Install streaming application
 
-> `[root@archiso /]# pacman -S gnome networkmanager libva-mesa-driver vlc nodejs`
+> `[root@archiso /]# pacman -S gnome networkmanager libva-mesa-driver vlc nodejs npm`
 
 Select all selections for gnome
 
@@ -121,9 +121,15 @@ Select 1) noto-fonts-emoji for emoji-font
 
 Select 2) pipewire-jack for jack
 
-> `[root@archiso /]# flatpak install flathub com.obsproject.Studio`
+If you have issues with package signing run the following commmands
+
+> `[root@archiso /]# rm -r /etc/pacman.d/gnupg`
 >
-> `[root@archiso /]# flatpak install flathub com.visualstudio.code`
+> `[root@archiso /]# pacman-key --init`
+>
+> `[root@archiso /]# pacman-key --populate`
+
+> `[root@archiso /]# flatpak install flathub com.obsproject.Studio`
 
 #### Enable services and restart system
 
@@ -136,3 +142,23 @@ Select 2) pipewire-jack for jack
 > `root@archiso ~ # umount -R /mnt`
 >
 > `root@archiso ~ # reboot`
+
+#### Reboot into Gnome and configure system
+
+Connect to wifi then open console and install vscode
+
+> `[stream@kq-stream-1 ~]$ flatpak install flathub com.visualstudio.code`
+
+#### Settings
+
+Power settings - set Screen Blank to Never and Automatic Suspend to Off. Power Button Behavior to Power Off
+Appearance - Style Dark
+
+
+### Clone kqsea-stream GitHub repo
+
+> `[stream@kq-stream-1]$ git clone https://github.com/hitoshisatow/kqsea-streaming.git`
+
+## Running the hivemind client
+
+> `[stream@kq-stream-1]$ npx @kqhivemind/hivemind-client ~/kqsea-streaming/cab_configs/config-4bs.json`
