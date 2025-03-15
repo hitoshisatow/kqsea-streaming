@@ -113,7 +113,7 @@ Create `/etc/hostname` with the following contents. Replace the number 1 with th
 
 #### Install streaming application
 
-> `[root@archiso /]# pacman -S gnome networkmanager libva-mesa-driver vlc nodejs npm`
+> `[root@archiso /]# pacman -S gnome networkmanager libva-mesa-driver vlc nodejs npm base-devel librist cmake qrcodegencpp-cmake qt6-wayland rnnoise asio ffnvcodec-headers libdatachannel luajit nlohmann-json sndio swig uthash websocketpp`
 
 Select all selections for gnome
 
@@ -128,8 +128,6 @@ If you have issues with package signing run the following commmands
 > `[root@archiso /]# pacman-key --init`
 >
 > `[root@archiso /]# pacman-key --populate`
-
-> `[root@archiso /]# flatpak install flathub com.obsproject.Studio`
 
 #### Enable services and restart system
 
@@ -153,6 +151,36 @@ Connect to wifi then open console and install vscode
 
 Power settings - set Screen Blank to Never and Automatic Suspend to Off. Power Button Behavior to Power Off
 Appearance - Style Dark
+
+#### Compile OBS
+
+Download and untar libajantv2 to aur directory
+https://aur.archlinux.org/packages/libajantv2
+
+makepkg in directory to build libajantv2
+
+> `[stream@kq-stream-1]$ makepkg`
+>
+> `[stream@kq-stream-1]$ sudo pacman -U libajantv2-1:17.1.0-2-x86_64.pkg.tar.zst`
+
+Download and untar obs-studio-git to aur directory
+https://aur.archlinux.org/packages/obs-studio-git
+
+> `[stream@kq-stream-1]$ makepkg`
+>
+> `[stream@kq-stream-1]$ sudo pacman -U obs-studio-git-31.0.1.r98.gb28bb42-1-x86_64.pkg.tar.zst`
+
+Import profiles and standard scene in OBS
+
+Go into WebSocket Server Settings and Enable WebSocket server
+
+> `[stream@kq-stream-1]$ mkdir ~/.config/obs-studio/plugins`
+>
+> `[stream@kq-stream-1]$ tar -zxvf ~/kqsea-streaming/obs/plugins/move-transition-3.1.1-ubuntu-22.04.tar.gz -C ~/.config/obs-studio/plugins/`
+>
+> `[stream@kq-stream-1]$ tar -zxvf ~/kqsea-streaming/obs/plugins/obs-shaderfilter-2.3.2-ubuntu-22.04.tar.gz -C ~/.config/obs-studio/plugins/`
+>
+> `[stream@kq-stream-1]$ tar -zxvf ~/kqsea-streaming/obs/plugins/replay-source-1.8.0-ubuntu-22.04.tar.gz -C ~/.config/obs-studio/plugins/`
 
 
 ### Clone kqsea-stream GitHub repo
