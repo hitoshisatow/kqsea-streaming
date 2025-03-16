@@ -22,7 +22,7 @@ export const handlers = [
 export const obs = new OBSWebSocket();
 
 const connectToObs = async () => {
-    await obs.connect('ws://127.0.0.1:4455', 'k0qVoPtMaFKz2O8B');
+    await obs.connect('ws://127.0.0.1:4455', '87iJgg1UMHDzQA8T');
 }
 
 const createEventHandlerServer = () => {

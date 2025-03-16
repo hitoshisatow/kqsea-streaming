@@ -7,7 +7,7 @@
   "scripts": {
     "build": "rimraf ./build && tsc",
     "start": "npm run build && node dist/server.js",
-    "toshi": "npm run start & npx @kqhivemind/hivemind-client ~/kqsea-streaming/cab_configs/toshi.json",
+    "toshi": "npm run start & npx @kqhivemind/hivemind-client ~/kqsea-streaming/cab_configs/config-toshi.json",
     "start:dev": "npx nodemon"
   },
   "keywords": [],
