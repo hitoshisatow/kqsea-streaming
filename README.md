@@ -199,7 +199,7 @@ makepkg in directory to build obs-studio-git
 >
 > `[stream@kq-stream-1]$ (cd ~/aur/obs-studio-git && makepkg)`
 >
-> `[stream@kq-stream-1]$ sudo pacman -U ~/aur/obs-studio-git-31.0.1.r98.gb28bb42-1-x86_64.pkg.tar.zst`
+> `[stream@kq-stream-1]$ sudo pacman -U ~/aur/obs-studio-git/obs-studio-git-31.0.2.r116.g8db61f2-1-x86_64.pkg.tar.zst`
 
 Import profiles and standard scene in OBS
 
