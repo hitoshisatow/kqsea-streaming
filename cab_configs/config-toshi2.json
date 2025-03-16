@@ -11,6 +11,10 @@
     {
       "name": "HiveMind",
       "url": "wss://kqhivemind.com/ws/stats_listener/v3"
+    },
+    {
+      "name": "kqsea-streaming",
+      "url": "ws://localhost:8123"
     }
   ]
 }

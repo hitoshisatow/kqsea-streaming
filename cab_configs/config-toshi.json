@@ -13,7 +13,7 @@
       "url": "wss://kqhivemind.com/ws/stats_listener/v3"
     },
     {
-      "name": "kq-control",
+      "name": "kqsea-streaming",
       "url": "ws://localhost:8123"
     }
   ]

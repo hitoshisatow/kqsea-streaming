@@ -201,9 +201,7 @@ makepkg in directory to build obs-studio-git
 >
 > `[stream@kq-stream-1]$ sudo pacman -U ~/aur/obs-studio-git/obs-studio-git-31.0.2.r116.g8db61f2-1-x86_64.pkg.tar.zst`
 
-Import profiles and standard scene in OBS
-
-Go into WebSocket Server Settings and Enable WebSocket server
+Copy plugins to OBS config directory
 
 > `[stream@kq-stream-1]$ mkdir ~/.config/obs-studio/plugins`
 >
@@ -213,11 +211,16 @@ Go into WebSocket Server Settings and Enable WebSocket server
 >
 > `[stream@kq-stream-1]$ tar -zxvf ~/kqsea-streaming/obs/plugins/replay-source-1.8.0-ubuntu-22.04.tar.gz -C ~/.config/obs-studio/plugins/`
 
-
 ### Clone kqsea-stream GitHub repo
 
 > `[stream@kq-stream-1]$ git clone https://github.com/hitoshisatow/kqsea-streaming.git`
 
+### Configuring OBS
+
+Import profiles and standard scene in OBS and remove untitled entries
+
+Go into WebSocket Server Settings and Enable WebSocket server
+
 ## Running the hivemind client
 
-> `[stream@kq-stream-1]$ npx @kqhivemind/hivemind-client ~/kqsea-streaming/cab_configs/config-4bs.json`
+> `[stream@kq-stream-1]$ npm run toshi`
