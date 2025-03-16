@@ -126,7 +126,7 @@ Set password to 'stream'
 
 #### Install streaming application
 
-> `[root@archiso /]# pacman -S gnome networkmanager libva-mesa-driver vlc nodejs npm base-devel librist cmake qrcodegencpp-cmake qt6-wayland rnnoise asio ffnvcodec-headers libdatachannel luajit nlohmann-json sndio swig uthash websocketpp chromium`
+> `[root@archiso /]# pacman -S gnome networkmanager libva-mesa-driver vlc nodejs npm base-devel librist cmake qrcodegencpp-cmake qt6-wayland rnnoise ffnvcodec-headers libdatachannel luajit nlohmann-json sndio swig uthash websocketpp chromium`
 
 Select all selections for gnome
 
@@ -184,12 +184,16 @@ makepkg in directory to build libajantv2
 >
 > `[stream@kq-stream-1]$ sudo pacman -U ~/aur/libajantv2/libajantv2-1\:17.1.0-2-x86_64.pkg.tar.zst`
 
+Install downgraded version of asio
+
+> `[stream@kq-stream-1]$ sudo pacman -U https://archive.archlinux.org/packages/a/asio/asio-1.30.2-1-any.pkg.tar.zst`
+
 Download and untar obs-studio-git to aur directory
 https://aur.archlinux.org/packages/obs-studio-git
 
 > `[stream@kq-stream-1]$ (cd ~/Downloads && curl -O https://aur.archlinux.org/cgit/aur.git/snapshot/obs-studio-git.tar.gz)`
 
-makepkg in directory to build libajantv2
+makepkg in directory to build obs-studio-git
 
 > `[stream@kq-stream-1]$ tar xvzf ~/Downloads/obs-studio-git.tar.gz -C ~/aur`
 >
