@@ -10,16 +10,25 @@ The operation system used for the guide is Arch Linux and it's installation guid
 
 #### Boot into the Arch Linux medium
 
-1. Create a USB boot disk with Arch Linux
+1. Create a USB boot disk with Arch Linux (archlinux-2025.03.01-x86_64.iso)
 2. Boot Beelink and mash delete key to enter BIOS
 3. Go to boot menu and adjust the boot order to have USB as highest priority
 4. Reboot the computer with the Arch Linux medium connected
+5. Select Arch Linux install medium (x86_64, UEFI) from boot menu
 
 #### Connect to internet
 
 > `root@archiso ~ # iwctl`
+
+Get the device name
+
+> `[iwd]# station list`
+
+Get networks and connect to WIFI
+
+> `[iwd]# station <DEVICE_NAME> get-networks`
 >
-> `[iwd]# station wlan0 connect Toshi`
+> `[iwd]# station <DEVICE_NAME> connect <NETWORK_NAME>`
 >
 > `[iwd]# exit`
 >
@@ -35,7 +44,7 @@ Modify MVNe drive to remove existing partitions
 
 > `root@archiso ~ # fdisk /dev/nvme0n1`
 
-The existing EFI directory is small (100MB) so remove that and the Windows partitions. Add a new 1G partition and set type to `EFI System`. Add new partition that takes remaining space. It should default to Linux filesystem type. Write changes and exit
+The existing EFI directory is small (100MB) so remove that and the Windows partitions. Add a new 1G partition and set type to `EFI System`. Add new partition that takes remaining space. It should default to Linux filesystem type. Write changes and exit. This can be skipped if the partitions have already been set up from a previous installation
 
 #### Create FAT32 file system for EFI
 
@@ -93,6 +102,8 @@ Create `/etc/hostname` with the following contents. Replace the number 1 with th
 
 > `[root@archiso /]# passwd`
 
+Set password to 'stream'
+
 #### Set up GRUB boot loader
 
 > `[root@archiso /]# grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id="ARCH KQ Seattle Streaming"`
@@ -105,15 +116,17 @@ Create `/etc/hostname` with the following contents. Replace the number 1 with th
 >
 > `[root@archiso /]# passwd stream`
 
+Set password to 'stream'
+
 #### Add streaming user to sudo
 
 > `[root@archiso /]# visudo`
 
-> Add in the line `stream ALL=(ALL:ALL) ALL`
+> Add in the line `stream ALL=(ALL:ALL) ALL` you can add this after the line `root ALL=(ALL:ALL) ALL`
 
 #### Install streaming application
 
-> `[root@archiso /]# pacman -S gnome networkmanager libva-mesa-driver vlc nodejs npm base-devel librist cmake qrcodegencpp-cmake qt6-wayland rnnoise asio ffnvcodec-headers libdatachannel luajit nlohmann-json sndio swig uthash websocketpp`
+> `[root@archiso /]# pacman -S gnome networkmanager libva-mesa-driver vlc nodejs npm base-devel librist cmake qrcodegencpp-cmake qt6-wayland rnnoise asio ffnvcodec-headers libdatachannel luajit nlohmann-json sndio swig uthash websocketpp chromium`
 
 Select all selections for gnome
 
@@ -143,7 +156,9 @@ If you have issues with package signing run the following commmands
 
 #### Reboot into Gnome and configure system
 
-Connect to wifi then open console and install vscode
+Connect to WIFI. Use the Windows key to access the command search. Enter `settings`. Configure WIFI
+
+Install vscode by running the following command in a terminal
 
 > `[stream@kq-stream-1 ~]$ flatpak install flathub com.visualstudio.code`
 
@@ -154,21 +169,33 @@ Appearance - Style Dark
 
 #### Compile OBS
 
+> `[stream@kq-stream-1]$ mkdir ~/aur`
+
 Download and untar libajantv2 to aur directory
 https://aur.archlinux.org/packages/libajantv2
 
+> `[stream@kq-stream-1]$ (cd ~/Downloads && curl -O https://aur.archlinux.org/cgit/aur.git/snapshot/libajantv2.tar.gz)`
+
 makepkg in directory to build libajantv2
 
-> `[stream@kq-stream-1]$ makepkg`
+> `[stream@kq-stream-1]$ tar xvzf ~/Downloads/libajantv2.tar.gz -C ~/aur`
 >
-> `[stream@kq-stream-1]$ sudo pacman -U libajantv2-1:17.1.0-2-x86_64.pkg.tar.zst`
+> `[stream@kq-stream-1]$ (cd ~/aur/libajantv2 && makepkg)`
+>
+> `[stream@kq-stream-1]$ sudo pacman -U ~/aur/libajantv2/libajantv2-1\:17.1.0-2-x86_64.pkg.tar.zst`
 
 Download and untar obs-studio-git to aur directory
 https://aur.archlinux.org/packages/obs-studio-git
 
-> `[stream@kq-stream-1]$ makepkg`
+> `[stream@kq-stream-1]$ (cd ~/Downloads && curl -O https://aur.archlinux.org/cgit/aur.git/snapshot/obs-studio-git.tar.gz)`
+
+makepkg in directory to build libajantv2
+
+> `[stream@kq-stream-1]$ tar xvzf ~/Downloads/obs-studio-git.tar.gz -C ~/aur`
 >
-> `[stream@kq-stream-1]$ sudo pacman -U obs-studio-git-31.0.1.r98.gb28bb42-1-x86_64.pkg.tar.zst`
+> `[stream@kq-stream-1]$ (cd ~/aur/obs-studio-git && makepkg)`
+>
+> `[stream@kq-stream-1]$ sudo pacman -U ~/aur/obs-studio-git-31.0.1.r98.gb28bb42-1-x86_64.pkg.tar.zst`
 
 Import profiles and standard scene in OBS
 
