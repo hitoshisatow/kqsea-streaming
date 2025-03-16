@@ -1,0 +1,27 @@
+{
+  "name": "kq-control",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node dist/server.js",
+    "start:dev": "npx nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/ws": "^8.5.13",
+    "nodemon": "^3.1.7",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "obs-websocket-js": "^5.0.6",
+    "ws": "^8.18.0"
+  }
+}
