@@ -2,6 +2,11 @@ import WebSocketServer from 'ws';
 
 import { default as OBSWebSocket } from 'obs-websocket-js';
 import { InstantReplayHandler } from './hivemind-event-handlers/instant-replay-handler.js';
+import { readFileSync } from 'fs';
+
+type OBS_Config = {
+    password: string;
+}
 
 export type Event = {
     gameID: string
@@ -22,7 +27,26 @@ export const handlers = [
 export const obs = new OBSWebSocket();
 
 const connectToObs = async () => {
-    await obs.connect('ws://127.0.0.1:4455', '87iJgg1UMHDzQA8T');
+    let password: string | undefined = undefined;
+
+    switch (process.env.CAB) {
+        case "4bs": {
+            const obj: OBS_Config = JSON.parse(readFileSync('configs/kqsea-streaming/4bs.json', 'utf8'));
+            password = obj.password;
+            break;
+        }
+        case "toshi": {
+            const obj: OBS_Config = JSON.parse(readFileSync('configs/kqsea-streaming/toshi.json', 'utf8'));
+            password = obj.password;
+            break;
+        }
+        case "toshi2": {
+            const obj: OBS_Config = JSON.parse(readFileSync('configs/kqsea-streaming/toshi2.json', 'utf8'));
+            password = obj.password;
+            break;
+        }
+    }
+    await obs.connect('ws://127.0.0.1:4455', password);
 }
 
 const createEventHandlerServer = () => {
