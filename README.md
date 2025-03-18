@@ -221,6 +221,12 @@ Import profiles and standard scene in OBS and remove untitled entries
 
 Go into WebSocket Server Settings and Enable WebSocket server
 
-## Running the hivemind client
+### Running the kq-streaming and the hivemind client
 
-> `[stream@kq-stream-1]$ npm run toshi`
+Valid values for `cab` are `4bs`, `toshi`, `toshi2`
+
+Ensure IP is correct in `./configs/hivemind/config-<cab>.json`
+
+Get Websocket server password from OBS and paste into corresponding config in `./configs/kq-streaming/<cab>.json`
+
+> `[stream@kq-stream-1]$ npm run <cab>`
