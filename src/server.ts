@@ -29,23 +29,9 @@ export const obs = new OBSWebSocket();
 const connectToObs = async () => {
     let password: string | undefined = undefined;
 
-    switch (process.env.CAB) {
-        case "4bs": {
-            const obj: OBS_Config = JSON.parse(readFileSync('configs/kqsea-streaming/4bs.json', 'utf8'));
-            password = obj.password;
-            break;
-        }
-        case "toshi": {
-            const obj: OBS_Config = JSON.parse(readFileSync('configs/kqsea-streaming/toshi.json', 'utf8'));
-            password = obj.password;
-            break;
-        }
-        case "toshi2": {
-            const obj: OBS_Config = JSON.parse(readFileSync('configs/kqsea-streaming/toshi2.json', 'utf8'));
-            password = obj.password;
-            break;
-        }
-    }
+    const obj: OBS_Config = JSON.parse(readFileSync('configs/kqsea-streaming/obs-config.json', 'utf8'));
+    password = obj.password;
+
     await obs.connect('ws://127.0.0.1:4455', password);
 }
 
