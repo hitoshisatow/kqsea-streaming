@@ -957,7 +957,7 @@
                     {
                         "name": "Tournament Subtitle",
                         "source_uuid": "098e53f9-cf7b-4470-a2b0-04371c2e79f8",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -2379,15 +2379,15 @@
             "id": "pulse_input_capture",
             "versioned_id": "pulse_input_capture",
             "settings": {
-                "device_id": "default"
+                "device_id": "alsa_input.usb-Elgato_Elgato_HD60_X_A00XB337210E1F-02.analog-stereo"
             },
             "mixers": 255,
             "sync": 0,
             "flags": 0,
-            "volume": 3.1622776985168457,
+            "volume": 0.84270179271697998,
             "balance": 0.5,
             "enabled": true,
-            "muted": false,
+            "muted": true,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2413,7 +2413,7 @@
                         "source": "Game Feed",
                         "internal_frames": true,
                         "source_audio": "Game Audio",
-                        "duration": 6000,
+                        "duration": 3000,
                         "visibility_action": 0,
                         "end_action": 5
                     },
@@ -2471,7 +2471,7 @@
                     "id": "replay_filter",
                     "versioned_id": "replay_filter",
                     "settings": {
-                        "duration": 6000
+                        "duration": 3000
                     },
                     "mixers": 0,
                     "sync": 0,
@@ -2502,7 +2502,7 @@
                 "source": "Game Feed",
                 "internal_frames": true,
                 "source_audio": "Game Audio",
-                "duration": 6000,
+                "duration": 3000,
                 "visibility_action": 0,
                 "end_action": 5
             },
@@ -2573,15 +2573,15 @@
             "versioned_id": "v4l2_input",
             "settings": {
                 "device_id": "/dev/video4",
-                "Exposure, Dynamic Framerate": true,
+                "Focus, Automatic Continuous": true,
                 "Brightness": 1,
                 "White Balance, Automatic": true,
                 "White Balance Temperature": 4600,
                 "Auto Exposure": 3,
-                "Focus, Automatic Continuous": true,
+                "Exposure, Dynamic Framerate": true,
                 "input": 0,
                 "pixelformat": 1196444237,
-                "resolution": 8246337209400,
+                "resolution": 4398046511872,
                 "framerate": -1,
                 "buffering": false,
                 "auto_reset": true
@@ -3202,7 +3202,7 @@
                     {
                         "name": "Tournament Subtitle",
                         "source_uuid": "098e53f9-cf7b-4470-a2b0-04371c2e79f8",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -4145,7 +4145,7 @@
                     {
                         "name": "HiveMind Toshi",
                         "source_uuid": "c095ac79-c388-4952-995e-313ea3c2a50d",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -4312,7 +4312,7 @@
                     {
                         "name": "HiveMind 4Bs",
                         "source_uuid": "f8660fe1-e220-41e7-8272-e003023a1d3b",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -4387,10 +4387,10 @@
                 "libobs.hide_scene_item.18": [],
                 "libobs.show_scene_item.7": [],
                 "libobs.hide_scene_item.7": [],
-                "libobs.show_scene_item.13": [],
-                "libobs.hide_scene_item.13": [],
                 "libobs.show_scene_item.22": [],
                 "libobs.hide_scene_item.22": [],
+                "libobs.show_scene_item.13": [],
+                "libobs.hide_scene_item.13": [],
                 "libobs.show_scene_item.30": [],
                 "libobs.hide_scene_item.30": [],
                 "libobs.show_scene_item.29": [],
@@ -4860,7 +4860,7 @@
                     {
                         "name": "Tournament Subtitle",
                         "source_uuid": "098e53f9-cf7b-4470-a2b0-04371c2e79f8",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -5520,7 +5520,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     },
                     {
@@ -5693,7 +5693,7 @@
                     {
                         "name": "HiveMind Toshi Replay",
                         "source_uuid": "80e7d25e-2685-4008-bef2-aa8d5669fb99",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -5805,7 +5805,7 @@
                     {
                         "name": "HiveMind 4Bs Replay",
                         "source_uuid": "7e181c23-d81a-4387-a31b-8e1e3daf0733",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -5874,12 +5874,6 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.16": [],
-                "libobs.hide_scene_item.16": [],
-                "libobs.show_scene_item.17": [],
-                "libobs.hide_scene_item.17": [],
-                "libobs.show_scene_item.18": [],
-                "libobs.hide_scene_item.18": [],
                 "libobs.show_scene_item.19": [],
                 "libobs.hide_scene_item.19": [],
                 "libobs.show_scene_item.20": [],
@@ -5889,7 +5883,13 @@
                 "libobs.show_scene_item.22": [],
                 "libobs.hide_scene_item.22": [],
                 "libobs.show_scene_item.23": [],
-                "libobs.hide_scene_item.23": []
+                "libobs.hide_scene_item.23": [],
+                "libobs.show_scene_item.18": [],
+                "libobs.hide_scene_item.18": [],
+                "libobs.show_scene_item.16": [],
+                "libobs.hide_scene_item.16": [],
+                "libobs.show_scene_item.17": [],
+                "libobs.hide_scene_item.17": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -6082,7 +6082,7 @@
             "id": "text_ft2_source",
             "versioned_id": "text_ft2_source_v2",
             "settings": {
-                "text": "Friday Trash - Cab 1",
+                "text": "",
                 "font": {
                     "face": "Sans Serif",
                     "flags": 0,

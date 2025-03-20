@@ -11,13 +11,13 @@ export class InstantReplayHandler implements HivemindEventHandler {
                 obs.call('SetCurrentProgramScene', {
                     sceneName: "Replay",
                 });
-            }, 6000);
+            }, 4000);
 
             setTimeout(() => {
                 obs.call('SetCurrentProgramScene', {
                     sceneName: "Main",
                 });
-            }, 12500);
-        }
+            }, 8000);
+        } 
     }
 }
