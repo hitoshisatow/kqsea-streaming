@@ -1,75 +1,12 @@
 {
-    "DesktopAudioDevice1": {
-        "prev_ver": 520093698,
-        "name": "Desktop Audio",
-        "uuid": "2c13f50f-e6ae-40c2-b600-abca922b86f4",
-        "id": "pulse_output_capture",
-        "versioned_id": "pulse_output_capture",
-        "settings": {
-            "device_id": "default"
-        },
-        "mixers": 255,
-        "sync": 0,
-        "flags": 0,
-        "volume": 1.0,
-        "balance": 0.5,
-        "enabled": true,
-        "muted": true,
-        "push-to-mute": false,
-        "push-to-mute-delay": 0,
-        "push-to-talk": false,
-        "push-to-talk-delay": 0,
-        "hotkeys": {
-            "libobs.mute": [],
-            "libobs.unmute": [],
-            "libobs.push-to-mute": [],
-            "libobs.push-to-talk": []
-        },
-        "deinterlace_mode": 0,
-        "deinterlace_field_order": 0,
-        "monitoring_type": 0,
-        "private_settings": {
-            "mixer_hidden": true
-        }
-    },
-    "AuxAudioDevice1": {
-        "prev_ver": 520093698,
-        "name": "Mic/Aux",
-        "uuid": "bb06033a-34e2-461d-b0f2-c126d1441d47",
-        "id": "pulse_input_capture",
-        "versioned_id": "pulse_input_capture",
-        "settings": {
-            "device_id": "default"
-        },
-        "mixers": 255,
-        "sync": 0,
-        "flags": 0,
-        "volume": 1.0,
-        "balance": 0.5,
-        "enabled": true,
-        "muted": true,
-        "push-to-mute": false,
-        "push-to-mute-delay": 0,
-        "push-to-talk": false,
-        "push-to-talk-delay": 0,
-        "hotkeys": {
-            "libobs.mute": [],
-            "libobs.unmute": [],
-            "libobs.push-to-mute": [],
-            "libobs.push-to-talk": []
-        },
-        "deinterlace_mode": 0,
-        "deinterlace_field_order": 0,
-        "monitoring_type": 0,
-        "private_settings": {
-            "mixer_hidden": true
-        }
-    },
     "current_scene": "Main",
     "current_program_scene": "Main",
     "scene_order": [
         {
             "name": "Main"
+        },
+        {
+            "name": "Stats"
         },
         {
             "name": "Replay"
@@ -291,11 +228,11 @@
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 1550.0,
+                            "x": 1520.0,
                             "y": 855.0
                         },
                         "bounds_rel": {
-                            "x": 2.8703703880310059,
+                            "x": 2.8148148059844971,
                             "y": 1.5833333730697632
                         },
                         "scale_filter": "disable",
@@ -1158,61 +1095,6 @@
                             "duration": 0
                         },
                         "private_settings": {}
-                    },
-                    {
-                        "name": "Toshi Auto",
-                        "source_uuid": "43614a8a-dfd1-43a7-ba6b-8f7db7f78d86",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 26,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 224.99996948242188
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.58333337306976318
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 1520.0,
-                            "y": 855.0
-                        },
-                        "bounds_rel": {
-                            "x": 2.8148148059844971,
-                            "y": 1.5833333730697632
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
                     }
                 ]
             },
@@ -1229,9 +1111,7 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "libobs.show_scene_item.25": [],
-                "libobs.hide_scene_item.25": [],
-                "libobs.show_scene_item.26": [],
-                "libobs.hide_scene_item.26": []
+                "libobs.hide_scene_item.25": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1250,61 +1130,6 @@
                 "cy": 1080,
                 "id_counter": 0,
                 "items": [
-                    {
-                        "name": "4Bs Auto",
-                        "source_uuid": "d8e80809-2929-46ac-9b99-5ce18aa5c80c",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 224.99996948242188
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.58333337306976318
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 1520.0,
-                            "y": 855.0
-                        },
-                        "bounds_rel": {
-                            "x": 2.8148148059844971,
-                            "y": 1.5833333730697632
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
                     {
                         "name": "4Bs In-Game",
                         "source_uuid": "695e34a2-298f-4ebe-b61e-b481c4265bc6",
@@ -1374,8 +1199,6 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": []
             },
@@ -1396,61 +1219,6 @@
                 "cy": 1080,
                 "id_counter": 0,
                 "items": [
-                    {
-                        "name": "Toshi2 Auto",
-                        "source_uuid": "a11673e6-4200-4f47-95c9-3efc96d13f05",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 28,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 224.99996948242188
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.58333337306976318
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 1520.0,
-                            "y": 855.0
-                        },
-                        "bounds_rel": {
-                            "x": 2.8148148059844971,
-                            "y": 1.5833333730697632
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
                     {
                         "name": "Toshi2 In-Game",
                         "source_uuid": "f65dbdcf-0645-4acd-bb34-e79af4a723aa",
@@ -1520,277 +1288,8 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.28": [],
-                "libobs.hide_scene_item.28": [],
                 "libobs.show_scene_item.27": [],
                 "libobs.hide_scene_item.27": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093698,
-            "name": "HiveMind 4Bs Replay",
-            "uuid": "7e181c23-d81a-4387-a31b-8e1e3daf0733",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 2,
-                "custom_size": true,
-                "cx": 1920,
-                "cy": 1080,
-                "items": [
-                    {
-                        "name": "4Bs In-Game",
-                        "source_uuid": "695e34a2-298f-4ebe-b61e-b481c4265bc6",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093698,
-            "name": "HiveMind Toshi Replay",
-            "uuid": "80e7d25e-2685-4008-bef2-aa8d5669fb99",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 2,
-                "custom_size": true,
-                "cx": 1920,
-                "cy": 1080,
-                "items": [
-                    {
-                        "name": "Toshi In-Game",
-                        "source_uuid": "6abcda61-9b21-4d20-9627-ddd80f072f45",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093698,
-            "name": "HiveMind Toshi2 Replay",
-            "uuid": "5863161b-2d50-41c9-93da-5118360c1663",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "id_counter": 2,
-                "custom_size": true,
-                "cx": 1920,
-                "cy": 1080,
-                "items": [
-                    {
-                        "name": "Toshi2 In-Game",
-                        "source_uuid": "f65dbdcf-0645-4acd-bb34-e79af4a723aa",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -2011,11 +1510,11 @@
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 1550.0,
+                            "x": 1520.0,
                             "y": 855.0
                         },
                         "bounds_rel": {
-                            "x": 2.8703703880310059,
+                            "x": 2.8148148059844971,
                             "y": 1.5833333730697632
                         },
                         "scale_filter": "disable",
@@ -2051,6 +1550,444 @@
                 "libobs.hide_scene_item.3": [],
                 "libobs.show_scene_item.24": [],
                 "libobs.hide_scene_item.24": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093698,
+            "name": "HiveMind Toshi Stats",
+            "uuid": "a64ddbed-f268-4ca9-acb2-cefdf12f91b4",
+            "id": "group",
+            "versioned_id": "group",
+            "settings": {
+                "id_counter": 2,
+                "custom_size": true,
+                "cx": 1920,
+                "cy": 1080,
+                "items": [
+                    {
+                        "name": "Toshi In-Game",
+                        "source_uuid": "6abcda61-9b21-4d20-9627-ddd80f072f45",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Toshi Post Game",
+                        "source_uuid": "43614a8a-dfd1-43a7-ba6b-8f7db7f78d86",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 224.99996948242188
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -0.58333337306976318
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 1520.0,
+                            "y": 855.0
+                        },
+                        "bounds_rel": {
+                            "x": 2.8148148059844971,
+                            "y": 1.5833333730697632
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093698,
+            "name": "HiveMind 4Bs Stats",
+            "uuid": "60044993-a9fa-4cea-ae3b-798ad873acb7",
+            "id": "group",
+            "versioned_id": "group",
+            "settings": {
+                "id_counter": 2,
+                "custom_size": true,
+                "cx": 1920,
+                "cy": 1080,
+                "items": [
+                    {
+                        "name": "4Bs In-Game",
+                        "source_uuid": "695e34a2-298f-4ebe-b61e-b481c4265bc6",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "4Bs Post Game",
+                        "source_uuid": "d8e80809-2929-46ac-9b99-5ce18aa5c80c",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 224.99996948242188
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -0.58333337306976318
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 1520.0,
+                            "y": 855.0
+                        },
+                        "bounds_rel": {
+                            "x": 2.8148148059844971,
+                            "y": 1.5833333730697632
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093698,
+            "name": "HiveMind Toshi2 Stats",
+            "uuid": "3dc8d16f-99d3-4288-8604-5d2f2e9dc890",
+            "id": "group",
+            "versioned_id": "group",
+            "settings": {
+                "id_counter": 2,
+                "custom_size": true,
+                "cx": 1920,
+                "cy": 1080,
+                "items": [
+                    {
+                        "name": "Toshi2 In-Game",
+                        "source_uuid": "f65dbdcf-0645-4acd-bb34-e79af4a723aa",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Toshi2 Post Game",
+                        "source_uuid": "a11673e6-4200-4f47-95c9-3efc96d13f05",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 224.99996948242188
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -0.58333337306976318
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 1520.0,
+                            "y": 855.0
+                        },
+                        "bounds_rel": {
+                            "x": 2.8148148059844971,
+                            "y": 1.5833333730697632
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -2123,17 +2060,16 @@
     "sources": [
         {
             "prev_ver": 520093698,
-            "name": "4Bs Auto",
-            "uuid": "d8e80809-2929-46ac-9b99-5ce18aa5c80c",
+            "name": "4Bs In-Game",
+            "uuid": "695e34a2-298f-4ebe-b61e-b481c4265bc6",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://kqhivemind.com/overlay/58/auto",
+                "url": "https://kqhivemind.com/overlay/58/ingame",
                 "width": 1920,
                 "height": 1080,
-                "fps": 30,
-                "restart_when_active": true,
-                "css": ".event-name {\n    background: rgba(0,199,13,0.5);\n}\n\n.rounded-\\[65px\\] {\n    border-radius: 5px!important;\n}\n\n.rounded-full {\n    border-radius: 5px!important;\n}\n\n.jss44 {\n    background: #99ccff;\n}\n\n.jss45 {\n    background: #ffb330;\n}\n\n.jss125 {\n    background: #99ccff;\n}\n\n.jss126 {\n    background: #ffb330;\n}"
+                "restart_when_active": false,
+                "css": "body {\n    color: white;\n    font-size: 16px;\n    text-shadow: 1px 2px 2px #000000;\n}\n\n.team-name {\n    border-radius: 5px;\n    position: absolute;\n    width: 760px;\n    height: 33px;\n    font-size: 24px;\n}\n\n.team-name-left {\n    top: 0px;\n    left: 0px;\n    background: rgb(83, 145, 87);\n    background: linear-gradient(90deg, rgba(83, 145, 87, 0.510329131652661) 0%, rgba(83, 145, 87, 1) 76%, rgba(83, 145, 87, 0.23021708683473385) 100%);\n    text-align: right;\n    padding-right: 220px;\n}\n\n.team-name-right {\n    top: 0px;\n    left: 760px;\n    background: rgba(83, 145, 87, 1);\n    background: linear-gradient(270deg, rgba(83, 145, 87, 0.510329131652661) 0%, rgba(83, 145, 87, 1) 76%, rgba(83, 145, 87, 0.23021708683473385) 100%);\n    text-align: left;\n    padding-left: 220px;\n}\n\n.team-score {\n    position: absolute;\n    top: -5px;\n    width: 160px;\n    height: 40px;\n    display: flex;\n}\n\n.team-score-left {\n    left: 0px;\n    flex-flow: row-reverse;\n    left: 600px;\n    margin-left: -40px;\n}\n\n.team-score-right {\n    left: 760px;\n    margin-left: 40px;\n}\n\n.team-score-graphic {\n    width: 40px;\n    height: 40px;\n    background-image: url('https://kqassets.s3.us-west-2.amazonaws.com/emerald.gif');\n    background-position: center;\n    background-size: contain;\n}\n\n.player {\n    position: absolute;\n    top: 175px;\n    width: 152px;\n    height: 50px;\n    background-color: rgba(0, 0, 0, .8);\n}\n\n.player > .graphic {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    background-position: center;\n    background-repeat: no-repeat;\n    z-index: 1;\n}\n\n.warrior-graphic {\n    position: absolute;\n    top: 30px;\n    left: 44px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.speed-graphic {\n    position: absolute;\n    top: 30px;\n    left: 88px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.player > .stat-container {\n    width: 76px;\n    height: 20px;\n    text-align: center;\n    z-index: 2;\n}\n\n.queen-kill-graphic {\n    height: 10px;\n    width: 20px;\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: contain;\n}\n\n.blue-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n\n.gold-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n\n.player > .queen-kill-container {\n    position: absolute;\n    top: 20px;\n    left: 0px;\n    width: 152px;\n    height: 10px;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n}\n\n.player > .kills {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n}\n\n.player > .deaths {\n    position: absolute;\n    top: 30px;\n    left: 76px;\n}\n\n.player > .berries {\n    display: none;\n}\n\n.snail-distance {\n    display: none;\n}\n\n.player > .snail-distance-meters {\n    display: none;\n}\n\n.player > .signed-in-name {\n    position: absolute;\n    top: 0px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    text-align: center;\n    overflow: hidden;\n    text-overflow: ellipsis;\n}\n\n.blue-checks {\n    left: 0px;\n}\n\n.blue-skulls {\n    left: 152px;\n}\n\n.blue-queen {\n    left: 304px;\n}\n\n.blue-abs {\n    left: 456px;\n}\n\n.blue-stripes {\n    left: 608px;\n}\n\n\n.gold-checks {\n    left: 760px;\n}\n\n.gold-skulls {\n    left: 912px;\n}\n\n.gold-queen {\n    left: 1064px;\n}\n\n.gold-abs {\n    left: 1216px;\n}\n\n.gold-stripes {\n    left: 1368px;\n}\n\n\n.blue-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-stripes.svg');\n}\n\n.blue-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-abs.svg');\n}\n\n.blue-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-queen.svg');\n}\n\n.blue-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-skulls.svg');\n}\n\n.blue-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-checks.svg');\n}\n\n\n.gold-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-stripes.svg');\n}\n\n.gold-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-abs.svg');\n}\n\n.gold-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-queen.svg');\n}\n\n.gold-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-skulls.svg');\n}\n\n.gold-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-checks.svg');\n}\n\n.panel-bottom {\n    display: none;\n}\n\n.panel-left {\n    display: none;\n}\n\n.panel-right {\n    display: none;\n}\n\n.team-score-numerical-left {\n    display: none;\n}\n\n.team-score-numerical-right {\n    display: none;\n}\n\n.hivemind-logo {\n    display: none;\n}\n\n.game-duration {\n    display: none;\n}\n\n.game-berries-remaining {\n    display: none;\n}\n\n.round-name {\n    display: none;\n}\n\n.cabinet-name {\n    display: none;\n}\n\n.scene-name {\n    display: none;\n}\n\n.current-date {\n    display: none;\n}\n\n.current-time {\n    display: none;\n}\n"
             },
             "mixers": 255,
             "sync": 0,
@@ -2160,16 +2096,17 @@
         },
         {
             "prev_ver": 520093698,
-            "name": "4Bs In-Game",
-            "uuid": "695e34a2-298f-4ebe-b61e-b481c4265bc6",
+            "name": "4Bs Post Game",
+            "uuid": "d8e80809-2929-46ac-9b99-5ce18aa5c80c",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://kqhivemind.com/overlay/58/ingame",
+                "url": "https://kqhivemind.com/overlay/58/postgame",
                 "width": 1920,
                 "height": 1080,
-                "restart_when_active": true,
-                "css": "body {\n    color: white;\n    font-size: 16px;\n    text-shadow: 1px 2px 2px #000000;\n}\n\n.team-name {\n    border-radius: 5px;\n    position: absolute;\n    width: 760px;\n    height: 33px;\n    font-size: 24px;\n}\n\n.team-name-left {\n    top: 0px;\n    left: 0px;\n    background: rgb(83, 145, 87);\n    background: linear-gradient(90deg, rgba(83, 145, 87, 0.510329131652661) 0%, rgba(83, 145, 87, 1) 76%, rgba(83, 145, 87, 0.23021708683473385) 100%);\n    text-align: right;\n    padding-right: 220px;\n}\n\n.team-name-right {\n    top: 0px;\n    left: 760px;\n    background: rgba(83, 145, 87, 1);\n    background: linear-gradient(270deg, rgba(83, 145, 87, 0.510329131652661) 0%, rgba(83, 145, 87, 1) 76%, rgba(83, 145, 87, 0.23021708683473385) 100%);\n    text-align: left;\n    padding-left: 220px;\n}\n\n.team-score {\n    position: absolute;\n    top: -5px;\n    width: 160px;\n    height: 40px;\n    display: flex;\n}\n\n.team-score-left {\n    left: 0px;\n    flex-flow: row-reverse;\n    left: 600px;\n    margin-left: -40px;\n}\n\n.team-score-right {\n    left: 760px;\n    margin-left: 40px;\n}\n\n.team-score-graphic {\n    width: 40px;\n    height: 40px;\n    background-image: url('https://kqassets.s3.us-west-2.amazonaws.com/emerald.gif');\n    background-position: center;\n    background-size: contain;\n}\n\n.player {\n    position: absolute;\n    top: 175px;\n    width: 152px;\n    height: 50px;\n    background-color: rgba(0, 0, 0, .8);\n}\n\n.player > .graphic {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    background-position: center;\n    background-repeat: no-repeat;\n    z-index: 1;\n}\n\n.warrior-graphic {\n    position: absolute;\n    top: 30px;\n    left: 44px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.speed-graphic {\n    position: absolute;\n    top: 30px;\n    left: 88px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.player > .stat-container {\n    width: 76px;\n    height: 20px;\n    text-align: center;\n    z-index: 2;\n}\n\n.queen-kill-graphic {\n    height: 10px;\n    width: 20px;\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: contain;\n}\n\n.blue-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n\n.gold-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n\n.player > .queen-kill-container {\n    position: absolute;\n    top: 20px;\n    left: 0px;\n    width: 152px;\n    height: 10px;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n}\n\n.player > .kills {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n}\n\n.player > .deaths {\n    position: absolute;\n    top: 30px;\n    left: 76px;\n}\n\n.player > .berries {\n    display: none;\n}\n\n.snail-distance {\n    display: none;\n}\n\n.player > .snail-distance-meters {\n    display: none;\n}\n\n.player > .signed-in-name {\n    position: absolute;\n    top: 0px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    text-align: center;\n    overflow: hidden;\n    text-overflow: ellipsis;\n}\n\n.blue-checks {\n    left: 0px;\n}\n\n.blue-skulls {\n    left: 152px;\n}\n\n.blue-queen {\n    left: 304px;\n}\n\n.blue-abs {\n    left: 456px;\n}\n\n.blue-stripes {\n    left: 608px;\n}\n\n\n.gold-checks {\n    left: 760px;\n}\n\n.gold-skulls {\n    left: 912px;\n}\n\n.gold-queen {\n    left: 1064px;\n}\n\n.gold-abs {\n    left: 1216px;\n}\n\n.gold-stripes {\n    left: 1368px;\n}\n\n\n.blue-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-stripes.svg');\n}\n\n.blue-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-abs.svg');\n}\n\n.blue-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-queen.svg');\n}\n\n.blue-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-skulls.svg');\n}\n\n.blue-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-checks.svg');\n}\n\n\n.gold-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-stripes.svg');\n}\n\n.gold-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-abs.svg');\n}\n\n.gold-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-queen.svg');\n}\n\n.gold-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-skulls.svg');\n}\n\n.gold-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-checks.svg');\n}\n\n.panel-bottom {\n    display: none;\n}\n\n.panel-left {\n    display: none;\n}\n\n.panel-right {\n    display: none;\n}\n\n.team-score-numerical-left {\n    display: none;\n}\n\n.team-score-numerical-right {\n    display: none;\n}\n\n.hivemind-logo {\n    display: none;\n}\n\n.game-duration {\n    display: none;\n}\n\n.game-berries-remaining {\n    display: none;\n}\n\n.round-name {\n    display: none;\n}\n\n.cabinet-name {\n    display: none;\n}\n\n.scene-name {\n    display: none;\n}\n\n.current-date {\n    display: none;\n}\n\n.current-time {\n    display: none;\n}\n"
+                "fps": 30,
+                "restart_when_active": false,
+                "css": ".event-name {\n    background: rgba(0,199,13,0.5);\n}\n\n.rounded-\\[65px\\] {\n    border-radius: 5px!important;\n}\n\n.rounded-full {\n    border-radius: 5px!important;\n}\n\n.jss44 {\n    background: #99ccff;\n}\n\n.jss45 {\n    background: #ffb330;\n}\n\n.jss125 {\n    background: #99ccff;\n}\n\n.jss126 {\n    background: #ffb330;\n}"
             },
             "mixers": 255,
             "sync": 0,
@@ -2264,10 +2201,10 @@
             "id": "v4l2_input",
             "versioned_id": "v4l2_input",
             "settings": {
-                "device_id": "/dev/video0",
+                "device_id": "/dev/video2",
                 "Exposure, Dynamic Framerate": true,
                 "input": 0,
-                "pixelformat": 1196444237,
+                "pixelformat": 1448695129,
                 "resolution": -1,
                 "buffering": false,
                 "auto_reset": true
@@ -2379,15 +2316,15 @@
             "id": "pulse_input_capture",
             "versioned_id": "pulse_input_capture",
             "settings": {
-                "device_id": "alsa_input.usb-Elgato_Elgato_HD60_X_A00XB337210E1F-02.analog-stereo"
+                "device_id": "alsa_input.usb-Elgato_Elgato_HD60_X_A00XB337210GXO-02.analog-stereo"
             },
             "mixers": 255,
             "sync": 0,
             "flags": 0,
-            "volume": 0.84270179271697998,
+            "volume": 7.0794582366943359,
             "balance": 0.5,
             "enabled": true,
-            "muted": true,
+            "muted": false,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2400,7 +2337,7 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 2,
+            "monitoring_type": 0,
             "private_settings": {},
             "filters": [
                 {
@@ -2443,9 +2380,9 @@
             "id": "v4l2_input",
             "versioned_id": "v4l2_input",
             "settings": {
-                "device_id": "/dev/video2",
+                "device_id": "/dev/video0",
                 "input": 0,
-                "pixelformat": 1448695129
+                "pixelformat": 842094158
             },
             "mixers": 0,
             "sync": 0,
@@ -2504,7 +2441,8 @@
                 "source_audio": "Game Audio",
                 "duration": 3000,
                 "visibility_action": 0,
-                "end_action": 5
+                "end_action": 5,
+                "retrieve_delay": 0
             },
             "mixers": 255,
             "sync": 0,
@@ -2573,15 +2511,15 @@
             "versioned_id": "v4l2_input",
             "settings": {
                 "device_id": "/dev/video4",
-                "Focus, Automatic Continuous": true,
+                "Exposure, Dynamic Framerate": true,
                 "Brightness": 1,
                 "White Balance, Automatic": true,
                 "White Balance Temperature": 4600,
                 "Auto Exposure": 3,
-                "Exposure, Dynamic Framerate": true,
+                "Focus, Automatic Continuous": true,
                 "input": 0,
                 "pixelformat": 1196444237,
-                "resolution": 4398046511872,
+                "resolution": -1,
                 "framerate": -1,
                 "buffering": false,
                 "auto_reset": true
@@ -3790,11 +3728,11 @@
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 1550.0,
+                            "x": 1520.0,
                             "y": 855.0
                         },
                         "bounds_rel": {
-                            "x": 2.8703703880310059,
+                            "x": 2.8148148059844971,
                             "y": 1.5833333730697632
                         },
                         "scale_filter": "disable",
@@ -3864,61 +3802,6 @@
                         "private_settings": {
                             "collapsed": true
                         }
-                    },
-                    {
-                        "name": "Toshi2 Auto",
-                        "source_uuid": "a11673e6-4200-4f47-95c9-3efc96d13f05",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 28,
-                        "group_item_backup": true,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 224.99996948242188
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.58333337306976318
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 1520.0,
-                            "y": 855.0
-                        },
-                        "bounds_rel": {
-                            "x": 2.8148148059844971,
-                            "y": 1.5833333730697632
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
                     },
                     {
                         "name": "Toshi2 In-Game",
@@ -4088,64 +3971,9 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Toshi Auto",
-                        "source_uuid": "43614a8a-dfd1-43a7-ba6b-8f7db7f78d86",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 26,
-                        "group_item_backup": true,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 224.99996948242188
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.58333337306976318
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 1520.0,
-                            "y": 855.0
-                        },
-                        "bounds_rel": {
-                            "x": 2.8148148059844971,
-                            "y": 1.5833333730697632
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "HiveMind Toshi",
                         "source_uuid": "c095ac79-c388-4952-995e-313ea3c2a50d",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -4198,61 +4026,6 @@
                         "private_settings": {
                             "collapsed": true
                         }
-                    },
-                    {
-                        "name": "4Bs Auto",
-                        "source_uuid": "d8e80809-2929-46ac-9b99-5ce18aa5c80c",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 2,
-                        "group_item_backup": true,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 224.99996948242188
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.58333337306976318
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 1520.0,
-                            "y": 855.0
-                        },
-                        "bounds_rel": {
-                            "x": 2.8148148059844971,
-                            "y": 1.5833333730697632
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
                     },
                     {
                         "name": "4Bs In-Game",
@@ -4312,7 +4085,7 @@
                     {
                         "name": "HiveMind 4Bs",
                         "source_uuid": "f8660fe1-e220-41e7-8272-e003023a1d3b",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -4410,7 +4183,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 24,
+                "id_counter": 27,
                 "custom_size": false,
                 "items": [
                     {
@@ -4527,7 +4300,7 @@
                         "name": "Audio",
                         "source_uuid": "f1c74853-b74e-4b8f-a981-9ea48b1b3a13",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -4694,7 +4467,7 @@
                         "name": "ECC2024",
                         "source_uuid": "ea9340a6-d33e-402e-a453-84ed7646f15f",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -4971,7 +4744,7 @@
                         "name": "Header",
                         "source_uuid": "3490f323-95e7-4f1e-b4f3-215b78f8f961",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -5193,7 +4966,7 @@
                         "name": "Twitch Chat",
                         "source_uuid": "716efba8-e9b7-4aaa-9331-313f24bab2b5",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -5448,11 +5221,11 @@
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 1550.0,
+                            "x": 1520.0,
                             "y": 855.0
                         },
                         "bounds_rel": {
-                            "x": 2.8703703880310059,
+                            "x": 2.8148148059844971,
                             "y": 1.5833333730697632
                         },
                         "scale_filter": "disable",
@@ -5520,7 +5293,1500 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
+                        }
+                    },
+                    {
+                        "name": "Toshi2 In-Game",
+                        "source_uuid": "f65dbdcf-0645-4acd-bb34-e79af4a723aa",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 27,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "HiveMind Toshi2",
+                        "source_uuid": "02ea010a-b5a2-4d64-a602-0786f13fcff3",
+                        "visible": false,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 25,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        }
+                    },
+                    {
+                        "name": "Toshi In-Game",
+                        "source_uuid": "6abcda61-9b21-4d20-9627-ddd80f072f45",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 25,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "HiveMind Toshi",
+                        "source_uuid": "c095ac79-c388-4952-995e-313ea3c2a50d",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 26,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        }
+                    },
+                    {
+                        "name": "4Bs In-Game",
+                        "source_uuid": "695e34a2-298f-4ebe-b61e-b481c4265bc6",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "HiveMind 4Bs",
+                        "source_uuid": "f8660fe1-e220-41e7-8272-e003023a1d3b",
+                        "visible": false,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 27,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        }
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.19": [],
+                "libobs.hide_scene_item.19": [],
+                "libobs.show_scene_item.20": [],
+                "libobs.hide_scene_item.20": [],
+                "libobs.show_scene_item.21": [],
+                "libobs.hide_scene_item.21": [],
+                "libobs.show_scene_item.22": [],
+                "libobs.hide_scene_item.22": [],
+                "libobs.show_scene_item.23": [],
+                "libobs.hide_scene_item.23": [],
+                "libobs.show_scene_item.25": [],
+                "libobs.hide_scene_item.25": [],
+                "libobs.show_scene_item.26": [],
+                "libobs.hide_scene_item.26": [],
+                "libobs.show_scene_item.27": [],
+                "libobs.hide_scene_item.27": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093698,
+            "name": "Stats",
+            "uuid": "ad0bda69-7c1a-4eab-93d4-adc6b70c6392",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 11,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Announcer Mics",
+                        "source_uuid": "db9e3c38-8f04-4734-9ebf-d82a23bc5a59",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 15,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Game Audio",
+                        "source_uuid": "2c36d28d-2476-4cba-bf4b-c88483d1cebe",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 17,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Audio",
+                        "source_uuid": "f1c74853-b74e-4b8f-a981-9ea48b1b3a13",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        }
+                    },
+                    {
+                        "name": "ECC Title",
+                        "source_uuid": "b14033dd-fd56-42ab-b1e2-56a51e61b2a7",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 19,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 1520.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": 1.0370370149612427,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 0.29985007643699646,
+                            "y": 0.34375
+                        },
+                        "scale_rel": {
+                            "x": 0.29985007643699646,
+                            "y": 0.34375
+                        },
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0018518518190830946,
+                            "y": 0.0018518518190830946
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "ECC Twitch Background",
+                        "source_uuid": "eb8555f1-4ffb-4a76-8c10-2939415d31ca",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 20,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 1520.0,
+                            "y": 480.0
+                        },
+                        "pos_rel": {
+                            "x": 1.0370370149612427,
+                            "y": -0.1111111044883728
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 400.0,
+                            "y": 600.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.74074071645736694,
+                            "y": 1.1111111640930176
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "ECC2024",
+                        "source_uuid": "ea9340a6-d33e-402e-a453-84ed7646f15f",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 1520.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": 1.0370370149612427,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        }
+                    },
+                    {
+                        "name": "Killer Queen Seattle Text",
+                        "source_uuid": "a27f9c5e-8b50-4eb2-b9d7-f1a8e3a525cb",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 4,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 12,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 1617.0,
+                            "y": 186.0
+                        },
+                        "pos_rel": {
+                            "x": 1.2166666984558105,
+                            "y": -0.65555554628372192
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 200.0,
+                            "y": 32.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.37037035822868347,
+                            "y": 0.059259258210659027
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Time",
+                        "source_uuid": "2e745fc8-43cf-46b5-9554-8200685e3d0b",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 9,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 1520.0,
+                            "y": 114.0
+                        },
+                        "pos_rel": {
+                            "x": 1.0370370149612427,
+                            "y": -0.78888887166976929
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0018518518190830946,
+                            "y": 0.0018518518190830946
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Tournament Subtitle",
+                        "source_uuid": "098e53f9-cf7b-4470-a2b0-04371c2e79f8",
+                        "visible": false,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 11,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 1520.0,
+                            "y": 84.0
+                        },
+                        "pos_rel": {
+                            "x": 1.0370370149612427,
+                            "y": -0.84444445371627808
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 400.0,
+                            "y": 32.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.74074071645736694,
+                            "y": 0.059259258210659027
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Tournament Title",
+                        "source_uuid": "fd2f7d65-b977-47e5-aa3e-3e44bf04271e",
+                        "visible": false,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 10,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 1517.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": 1.0314815044403076,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 400.0,
+                            "y": 64.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.74074071645736694,
+                            "y": 0.11851851642131805
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Header",
+                        "source_uuid": "3490f323-95e7-4f1e-b4f3-215b78f8f961",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 1517.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": 1.0314815044403076,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        }
+                    },
+                    {
+                        "name": "kq_sea3",
+                        "source_uuid": "e7b57685-75c5-4c00-a63f-5e6f00035492",
+                        "visible": false,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 23,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 1520.0,
+                            "y": 450.0
+                        },
+                        "pos_rel": {
+                            "x": 1.0370370149612427,
+                            "y": -0.16666668653488159
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "kq_sea2",
+                        "source_uuid": "6b819c6b-5592-407a-becd-5649c7ae9744",
+                        "visible": false,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 21,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 1520.0,
+                            "y": 450.0
+                        },
+                        "pos_rel": {
+                            "x": 1.0370370149612427,
+                            "y": -0.16666668653488159
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "kq_sea",
+                        "source_uuid": "417da25b-53a9-45a1-9382-d4c020a654d8",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 8,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 1517.0,
+                            "y": 450.0
+                        },
+                        "pos_rel": {
+                            "x": 1.0314815044403076,
+                            "y": -0.16666668653488159
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Twitch Chat",
+                        "source_uuid": "716efba8-e9b7-4aaa-9331-313f24bab2b5",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 4,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 1517.0,
+                            "y": 450.0
+                        },
+                        "pos_rel": {
+                            "x": 1.0314815044403076,
+                            "y": -0.16666668653488159
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "collapsed": true
+                        }
+                    },
+                    {
+                        "name": "Announcer Webcam",
+                        "source_uuid": "a9b55463-07e7-4079-bc2a-7319b1ff349a",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 1520.0,
+                            "y": 224.99996948242188
+                        },
+                        "pos_rel": {
+                            "x": 1.0370370149612427,
+                            "y": -0.58333337306976318
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 400.0,
+                            "y": 225.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.74074071645736694,
+                            "y": 0.4166666567325592
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Gold Webcam",
+                        "source_uuid": "6b089859-76bb-418c-b62e-8365d137340c",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 6,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 757.00042724609375,
+                            "y": -202.0
+                        },
+                        "pos_rel": {
+                            "x": -0.37592512369155884,
+                            "y": -1.3740741014480591
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 760.0,
+                            "y": 570.0
+                        },
+                        "bounds_rel": {
+                            "x": 1.4074074029922485,
+                            "y": 1.0555555820465088
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Blue Webcam",
+                        "source_uuid": "93222da9-a3bb-410e-ba10-0b7bc440b2dd",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 5,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 0.0,
+                            "y": -201.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.3722221851348877
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 760.0,
+                            "y": 570.0
+                        },
+                        "bounds_rel": {
+                            "x": 1.4074074029922485,
+                            "y": 1.0555555820465088
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Game Feed",
+                        "source_uuid": "8e81e04b-1b73-497c-8a63-96fe44a485df",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 35,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 224.99996948242188
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -0.58333337306976318
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 1520.0,
+                            "y": 855.0
+                        },
+                        "bounds_rel": {
+                            "x": 2.8148148059844971,
+                            "y": 1.5833333730697632
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Video",
+                        "source_uuid": "5a5a828f-68c9-4588-a7de-f6323990fb60",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 5,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": -202.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.3740741014480591
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {
+                            "collapsed": true
                         }
                     },
                     {
@@ -5579,8 +6845,63 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "HiveMind Toshi2 Replay",
-                        "source_uuid": "5863161b-2d50-41c9-93da-5118360c1663",
+                        "name": "Toshi2 Post Game",
+                        "source_uuid": "a11673e6-4200-4f47-95c9-3efc96d13f05",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 224.99996948242188
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -0.58333337306976318
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 1520.0,
+                            "y": 855.0
+                        },
+                        "bounds_rel": {
+                            "x": 2.8148148059844971,
+                            "y": 1.5833333730697632
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "HiveMind Toshi2 Stats",
+                        "source_uuid": "3dc8d16f-99d3-4288-8604-5d2f2e9dc890",
                         "visible": false,
                         "locked": true,
                         "rot": 0.0,
@@ -5596,7 +6917,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 18,
+                        "id": 11,
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
@@ -5691,9 +7012,64 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "HiveMind Toshi Replay",
-                        "source_uuid": "80e7d25e-2685-4008-bef2-aa8d5669fb99",
-                        "visible": false,
+                        "name": "Toshi Post Game",
+                        "source_uuid": "43614a8a-dfd1-43a7-ba6b-8f7db7f78d86",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 224.99996948242188
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -0.58333337306976318
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 1520.0,
+                            "y": 855.0
+                        },
+                        "bounds_rel": {
+                            "x": 2.8148148059844971,
+                            "y": 1.5833333730697632
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "HiveMind Toshi Stats",
+                        "source_uuid": "a64ddbed-f268-4ca9-acb2-cefdf12f91b4",
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -5708,7 +7084,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 16,
+                        "id": 9,
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
@@ -5803,9 +7179,64 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "HiveMind 4Bs Replay",
-                        "source_uuid": "7e181c23-d81a-4387-a31b-8e1e3daf0733",
+                        "name": "4Bs Post Game",
+                        "source_uuid": "d8e80809-2929-46ac-9b99-5ce18aa5c80c",
                         "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 2,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 224.99996948242188
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -0.58333337306976318
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 1520.0,
+                            "y": 855.0
+                        },
+                        "bounds_rel": {
+                            "x": 2.8148148059844971,
+                            "y": 1.5833333730697632
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "HiveMind 4Bs Stats",
+                        "source_uuid": "60044993-a9fa-4cea-ae3b-798ad873acb7",
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -5820,7 +7251,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 17,
+                        "id": 10,
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
@@ -5874,22 +7305,22 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.19": [],
-                "libobs.hide_scene_item.19": [],
-                "libobs.show_scene_item.20": [],
-                "libobs.hide_scene_item.20": [],
-                "libobs.show_scene_item.21": [],
-                "libobs.hide_scene_item.21": [],
-                "libobs.show_scene_item.22": [],
-                "libobs.hide_scene_item.22": [],
-                "libobs.show_scene_item.23": [],
-                "libobs.hide_scene_item.23": [],
-                "libobs.show_scene_item.18": [],
-                "libobs.hide_scene_item.18": [],
-                "libobs.show_scene_item.16": [],
-                "libobs.hide_scene_item.16": [],
-                "libobs.show_scene_item.17": [],
-                "libobs.hide_scene_item.17": []
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": [],
+                "libobs.show_scene_item.4": [],
+                "libobs.hide_scene_item.4": [],
+                "libobs.show_scene_item.5": [],
+                "libobs.hide_scene_item.5": [],
+                "libobs.show_scene_item.9": [],
+                "libobs.hide_scene_item.9": [],
+                "libobs.show_scene_item.10": [],
+                "libobs.hide_scene_item.10": [],
+                "libobs.show_scene_item.11": [],
+                "libobs.hide_scene_item.11": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -5935,41 +7366,6 @@
         },
         {
             "prev_ver": 520093698,
-            "name": "Toshi Auto",
-            "uuid": "43614a8a-dfd1-43a7-ba6b-8f7db7f78d86",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "url": "https://kqhivemind.com/overlay/57/auto",
-                "width": 1920,
-                "height": 1080,
-                "restart_when_active": true
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093698,
             "name": "Toshi In-Game",
             "uuid": "6abcda61-9b21-4d20-9627-ddd80f072f45",
             "id": "browser_source",
@@ -5978,7 +7374,7 @@
                 "url": "https://kqhivemind.com/overlay/57/ingame",
                 "width": 1920,
                 "height": 1080,
-                "restart_when_active": true,
+                "restart_when_active": false,
                 "css": "body {\n    color: white;\n    font-size: 16px;\n    text-shadow: 1px 2px 2px #000000;\n}\n\n.team-name {\n    border-radius: 5px;\n    position: absolute;\n    width: 760px;\n    height: 33px;\n    font-size: 24px;\n}\n\n.team-name-left {\n    top: 0px;\n    left: 0px;\n    background: rgb(83, 145, 87);\n    background: linear-gradient(90deg, rgba(83, 145, 87, 0.510329131652661) 0%, rgba(83, 145, 87, 1) 76%, rgba(83, 145, 87, 0.23021708683473385) 100%);\n    text-align: right;\n    padding-right: 220px;\n}\n\n.team-name-right {\n    top: 0px;\n    left: 760px;\n    background: rgba(83, 145, 87, 1);\n    background: linear-gradient(270deg, rgba(83, 145, 87, 0.510329131652661) 0%, rgba(83, 145, 87, 1) 76%, rgba(83, 145, 87, 0.23021708683473385) 100%);\n    text-align: left;\n    padding-left: 220px;\n}\n\n.team-score {\n    position: absolute;\n    top: -5px;\n    width: 160px;\n    height: 40px;\n    display: flex;\n}\n\n.team-score-left {\n    left: 0px;\n    flex-flow: row-reverse;\n    left: 600px;\n    margin-left: -40px;\n}\n\n.team-score-right {\n    left: 760px;\n    margin-left: 40px;\n}\n\n.team-score-graphic {\n    width: 40px;\n    height: 40px;\n    background-image: url('https://kqassets.s3.us-west-2.amazonaws.com/emerald.gif');\n    background-position: center;\n    background-size: contain;\n}\n\n.player {\n    position: absolute;\n    top: 175px;\n    width: 152px;\n    height: 50px;\n    background-color: rgba(0, 0, 0, .8);\n}\n\n.player > .graphic {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    background-position: center;\n    background-repeat: no-repeat;\n    z-index: 1;\n}\n\n.warrior-graphic {\n    position: absolute;\n    top: 30px;\n    left: 44px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.speed-graphic {\n    position: absolute;\n    top: 30px;\n    left: 88px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.player > .stat-container {\n    width: 76px;\n    height: 20px;\n    text-align: center;\n    z-index: 2;\n}\n\n.queen-kill-graphic {\n    height: 10px;\n    width: 20px;\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: contain;\n}\n\n.blue-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n\n.gold-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n\n.player > .queen-kill-container {\n    position: absolute;\n    top: 20px;\n    left: 0px;\n    width: 152px;\n    height: 10px;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n}\n\n.player > .kills {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n}\n\n.player > .deaths {\n    position: absolute;\n    top: 30px;\n    left: 76px;\n}\n\n.player > .berries {\n    display: none;\n}\n\n.snail-distance {\n    display: none;\n}\n\n.player > .snail-distance-meters {\n    display: none;\n}\n\n.player > .signed-in-name {\n    position: absolute;\n    top: 0px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    text-align: center;\n    overflow: hidden;\n    text-overflow: ellipsis;\n}\n\n.blue-checks {\n    left: 0px;\n}\n\n.blue-skulls {\n    left: 152px;\n}\n\n.blue-queen {\n    left: 304px;\n}\n\n.blue-abs {\n    left: 456px;\n}\n\n.blue-stripes {\n    left: 608px;\n}\n\n\n.gold-checks {\n    left: 760px;\n}\n\n.gold-skulls {\n    left: 912px;\n}\n\n.gold-queen {\n    left: 1064px;\n}\n\n.gold-abs {\n    left: 1216px;\n}\n\n.gold-stripes {\n    left: 1368px;\n}\n\n\n.blue-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-stripes.svg');\n}\n\n.blue-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-abs.svg');\n}\n\n.blue-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-queen.svg');\n}\n\n.blue-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-skulls.svg');\n}\n\n.blue-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-checks.svg');\n}\n\n\n.gold-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-stripes.svg');\n}\n\n.gold-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-abs.svg');\n}\n\n.gold-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-queen.svg');\n}\n\n.gold-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-skulls.svg');\n}\n\n.gold-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-checks.svg');\n}\n\n.panel-bottom {\n    display: none;\n}\n\n.panel-left {\n    display: none;\n}\n\n.panel-right {\n    display: none;\n}\n\n.team-score-numerical-left {\n    display: none;\n}\n\n.team-score-numerical-right {\n    display: none;\n}\n\n.hivemind-logo {\n    display: none;\n}\n\n.game-duration {\n    display: none;\n}\n\n.game-berries-remaining {\n    display: none;\n}\n\n.round-name {\n    display: none;\n}\n\n.cabinet-name {\n    display: none;\n}\n\n.scene-name {\n    display: none;\n}\n\n.current-date {\n    display: none;\n}\n\n.current-time {\n    display: none;\n}\n"
             },
             "mixers": 255,
@@ -6006,15 +7402,15 @@
         },
         {
             "prev_ver": 520093698,
-            "name": "Toshi2 Auto",
-            "uuid": "a11673e6-4200-4f47-95c9-3efc96d13f05",
+            "name": "Toshi Post Game",
+            "uuid": "43614a8a-dfd1-43a7-ba6b-8f7db7f78d86",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://kqhivemind.com/overlay/60/auto",
+                "url": "https://kqhivemind.com/overlay/57/postgame",
                 "width": 1920,
                 "height": 1080,
-                "restart_when_active": true
+                "restart_when_active": false
             },
             "mixers": 255,
             "sync": 0,
@@ -6049,8 +7445,43 @@
                 "url": "https://kqhivemind.com/overlay/60/ingame",
                 "width": 1920,
                 "height": 1080,
-                "restart_when_active": true,
+                "restart_when_active": false,
                 "css": "body {\n    color: white;\n    font-size: 16px;\n    text-shadow: 1px 2px 2px #000000;\n}\n\n.team-name {\n    border-radius: 5px;\n    position: absolute;\n    width: 760px;\n    height: 33px;\n    font-size: 24px;\n}\n\n.team-name-left {\n    top: 0px;\n    left: 0px;\n    background: rgb(83, 145, 87);\n    background: linear-gradient(90deg, rgba(83, 145, 87, 0.510329131652661) 0%, rgba(83, 145, 87, 1) 76%, rgba(83, 145, 87, 0.23021708683473385) 100%);\n    text-align: right;\n    padding-right: 220px;\n}\n\n.team-name-right {\n    top: 0px;\n    left: 760px;\n    background: rgba(83, 145, 87, 1);\n    background: linear-gradient(270deg, rgba(83, 145, 87, 0.510329131652661) 0%, rgba(83, 145, 87, 1) 76%, rgba(83, 145, 87, 0.23021708683473385) 100%);\n    text-align: left;\n    padding-left: 220px;\n}\n\n.team-score {\n    position: absolute;\n    top: -5px;\n    width: 160px;\n    height: 40px;\n    display: flex;\n}\n\n.team-score-left {\n    left: 0px;\n    flex-flow: row-reverse;\n    left: 600px;\n    margin-left: -40px;\n}\n\n.team-score-right {\n    left: 760px;\n    margin-left: 40px;\n}\n\n.team-score-graphic {\n    width: 40px;\n    height: 40px;\n    background-image: url('https://kqassets.s3.us-west-2.amazonaws.com/emerald.gif');\n    background-position: center;\n    background-size: contain;\n}\n\n.player {\n    position: absolute;\n    top: 175px;\n    width: 152px;\n    height: 50px;\n    background-color: rgba(0, 0, 0, .8);\n}\n\n.player > .graphic {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    background-position: center;\n    background-repeat: no-repeat;\n    z-index: 1;\n}\n\n.warrior-graphic {\n    position: absolute;\n    top: 30px;\n    left: 44px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.speed-graphic {\n    position: absolute;\n    top: 30px;\n    left: 88px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.player > .stat-container {\n    width: 76px;\n    height: 20px;\n    text-align: center;\n    z-index: 2;\n}\n\n.queen-kill-graphic {\n    height: 10px;\n    width: 20px;\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: contain;\n}\n\n.blue-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n\n.gold-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n\n.player > .queen-kill-container {\n    position: absolute;\n    top: 20px;\n    left: 0px;\n    width: 152px;\n    height: 10px;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n}\n\n.player > .kills {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n}\n\n.player > .deaths {\n    position: absolute;\n    top: 30px;\n    left: 76px;\n}\n\n.player > .berries {\n    display: none;\n}\n\n.snail-distance {\n    display: none;\n}\n\n.player > .snail-distance-meters {\n    display: none;\n}\n\n.player > .signed-in-name {\n    position: absolute;\n    top: 0px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    text-align: center;\n    overflow: hidden;\n    text-overflow: ellipsis;\n}\n\n.blue-checks {\n    left: 0px;\n}\n\n.blue-skulls {\n    left: 152px;\n}\n\n.blue-queen {\n    left: 304px;\n}\n\n.blue-abs {\n    left: 456px;\n}\n\n.blue-stripes {\n    left: 608px;\n}\n\n\n.gold-checks {\n    left: 760px;\n}\n\n.gold-skulls {\n    left: 912px;\n}\n\n.gold-queen {\n    left: 1064px;\n}\n\n.gold-abs {\n    left: 1216px;\n}\n\n.gold-stripes {\n    left: 1368px;\n}\n\n\n.blue-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-stripes.svg');\n}\n\n.blue-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-abs.svg');\n}\n\n.blue-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-queen.svg');\n}\n\n.blue-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-skulls.svg');\n}\n\n.blue-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-checks.svg');\n}\n\n\n.gold-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-stripes.svg');\n}\n\n.gold-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-abs.svg');\n}\n\n.gold-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-queen.svg');\n}\n\n.gold-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-skulls.svg');\n}\n\n.gold-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-checks.svg');\n}\n\n.panel-bottom {\n    display: none;\n}\n\n.panel-left {\n    display: none;\n}\n\n.panel-right {\n    display: none;\n}\n\n.team-score-numerical-left {\n    display: none;\n}\n\n.team-score-numerical-right {\n    display: none;\n}\n\n.hivemind-logo {\n    display: none;\n}\n\n.game-duration {\n    display: none;\n}\n\n.game-berries-remaining {\n    display: none;\n}\n\n.round-name {\n    display: none;\n}\n\n.cabinet-name {\n    display: none;\n}\n\n.scene-name {\n    display: none;\n}\n\n.current-date {\n    display: none;\n}\n\n.current-time {\n    display: none;\n}\n"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093698,
+            "name": "Toshi2 Post Game",
+            "uuid": "a11673e6-4200-4f47-95c9-3efc96d13f05",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "https://kqhivemind.com/overlay/60/postgame",
+                "width": 1920,
+                "height": 1080,
+                "restart_when_active": false
             },
             "mixers": 255,
             "sync": 0,

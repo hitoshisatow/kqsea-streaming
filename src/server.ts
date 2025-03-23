@@ -3,6 +3,7 @@ import WebSocketServer from 'ws';
 import { default as OBSWebSocket } from 'obs-websocket-js';
 import { InstantReplayHandler } from './hivemind-event-handlers/instant-replay-handler.js';
 import { readFileSync } from 'fs';
+import { MainStartSwitchHandler } from './hivemind-event-handlers/main-start-switch-handler.js';
 
 type OBS_Config = {
     password: string;
@@ -21,7 +22,8 @@ export interface HivemindEventHandler {
 }
 
 export const handlers = [
-    new InstantReplayHandler()
+    new InstantReplayHandler(),
+    new MainStartSwitchHandler()
 ];
 
 export const obs = new OBSWebSocket();
