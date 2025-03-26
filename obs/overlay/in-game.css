@@ -15,8 +15,8 @@ body {
 .team-name-left {
     top: 0px;
     left: 0px;
-    background: rgb(83, 145, 87);
-    background: linear-gradient(90deg, rgba(83, 145, 87, 0.510329131652661) 0%, rgba(83, 145, 87, 1) 76%, rgba(83, 145, 87, 0.23021708683473385) 100%);
+    background: rgb(110,59,109);
+    background: linear-gradient(90deg, rgba(110,59,109, 0.510329131652661) 0%, rgba(110,59,109, 1) 76%, rgba(110,59,109, 0.23021708683473385) 100%);
     text-align: right;
     padding-right: 220px;
 }
@@ -24,8 +24,8 @@ body {
 .team-name-right {
     top: 0px;
     left: 760px;
-    background: rgba(83, 145, 87, 1);
-    background: linear-gradient(270deg, rgba(83, 145, 87, 0.510329131652661) 0%, rgba(83, 145, 87, 1) 76%, rgba(83, 145, 87, 0.23021708683473385) 100%);
+    background: rgba(110,59,109);
+    background: linear-gradient(270deg, rgba(110,59,109, 0.510329131652661) 0%, rgba(110,59,109, 1) 76%, rgba(110,59,109, 0.23021708683473385) 100%);
     text-align: left;
     padding-left: 220px;
 }
