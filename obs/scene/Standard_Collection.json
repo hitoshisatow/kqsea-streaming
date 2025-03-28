@@ -422,152 +422,6 @@
         },
         {
             "prev_ver": 520093698,
-            "name": "ECC2024",
-            "uuid": "ea9340a6-d33e-402e-a453-84ed7646f15f",
-            "id": "group",
-            "versioned_id": "group",
-            "settings": {
-                "custom_size": true,
-                "cx": 400,
-                "cy": 1080,
-                "id_counter": 0,
-                "items": [
-                    {
-                        "name": "ECC Title",
-                        "source_uuid": "b14033dd-fd56-42ab-b1e2-56a51e61b2a7",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 19,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.29985007643699646,
-                            "y": 0.34375
-                        },
-                        "scale_rel": {
-                            "x": 0.29985007643699646,
-                            "y": 0.34375
-                        },
-                        "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0018518518190830946,
-                            "y": 0.0018518518190830946
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "ECC Twitch Background",
-                        "source_uuid": "eb8555f1-4ffb-4a76-8c10-2939415d31ca",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 20,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 480.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.1111111044883728
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 400.0,
-                            "y": 600.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.74074071645736694,
-                            "y": 1.1111111640930176
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.show_scene_item.19": [],
-                "libobs.hide_scene_item.19": [],
-                "libobs.show_scene_item.20": [],
-                "libobs.hide_scene_item.20": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093698,
             "name": "Twitch Chat",
             "uuid": "716efba8-e9b7-4aaa-9331-313f24bab2b5",
             "id": "group",
@@ -894,7 +748,7 @@
                     {
                         "name": "Tournament Subtitle",
                         "source_uuid": "098e53f9-cf7b-4470-a2b0-04371c2e79f8",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -1495,11 +1349,11 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
-                            "y": 427.0
+                            "y": 426.99996948242188
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
-                            "y": -0.2092592716217041
+                            "y": -0.20925933122634888
                         },
                         "scale": {
                             "x": 1.0,
@@ -1993,6 +1847,266 @@
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
             "private_settings": {}
+        },
+        {
+            "prev_ver": 520093698,
+            "name": "ECC2025_art",
+            "uuid": "0fd61fb7-7333-4aa8-9c3e-e3a4ec58f469",
+            "id": "group",
+            "versioned_id": "group",
+            "settings": {
+                "id_counter": 0,
+                "custom_size": true,
+                "cx": 501,
+                "cy": 1135,
+                "items": [
+                    {
+                        "name": "Backdrop.jpg",
+                        "source_uuid": "c9db2818-7d2a-4bfb-99e1-3f3f7ff06191",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 37,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 3.115966796875,
+                            "y": 181.0003662109375
+                        },
+                        "pos_rel": {
+                            "x": -1.7720074653625488,
+                            "y": -0.66481411457061768
+                        },
+                        "scale": {
+                            "x": 1.906000018119812,
+                            "y": 1.906000018119812
+                        },
+                        "scale_rel": {
+                            "x": 1.906000018119812,
+                            "y": 1.906000018119812
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "ECC2025_Title.png",
+                        "source_uuid": "727ece4b-df4d-4b72-addd-6717f3641281",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 38,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 64.999755859375,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.6574078798294067,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "ECC_2025_Drone.png",
+                        "source_uuid": "9462e8ab-d465-4866-aeb9-874087841829",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 39,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 178.0,
+                            "y": 876.0
+                        },
+                        "pos_rel": {
+                            "x": -1.4481481313705444,
+                            "y": 0.6222221851348877
+                        },
+                        "scale": {
+                            "x": -0.060139860957860947,
+                            "y": 0.060280222445726395
+                        },
+                        "scale_rel": {
+                            "x": -0.060139860957860947,
+                            "y": 0.060280222445726395
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "ECC_2025_Queen.png",
+                        "source_uuid": "e744e17d-d58d-400a-b584-45d9ad739815",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 40,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 392.00006103515625
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -0.27407395839691162
+                        },
+                        "scale": {
+                            "x": 0.19448757171630859,
+                            "y": 0.19453641772270203
+                        },
+                        "scale_rel": {
+                            "x": 0.19448757171630859,
+                            "y": 0.19453641772270203
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.show_scene_item.37": [],
+                "libobs.hide_scene_item.37": [],
+                "libobs.show_scene_item.38": [],
+                "libobs.hide_scene_item.38": [],
+                "libobs.show_scene_item.39": [],
+                "libobs.hide_scene_item.39": [],
+                "libobs.show_scene_item.40": [],
+                "libobs.hide_scene_item.40": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
         }
     ],
     "quick_transitions": [
@@ -2196,73 +2310,12 @@
         },
         {
             "prev_ver": 520093698,
-            "name": "Blue Webcam",
-            "uuid": "93222da9-a3bb-410e-ba10-0b7bc440b2dd",
-            "id": "v4l2_input",
-            "versioned_id": "v4l2_input",
-            "settings": {
-                "device_id": "/dev/video2",
-                "Exposure, Dynamic Framerate": true,
-                "input": 0,
-                "pixelformat": 1448695129,
-                "resolution": -1,
-                "buffering": false,
-                "auto_reset": true
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093698,
-            "name": "ECC Title",
-            "uuid": "b14033dd-fd56-42ab-b1e2-56a51e61b2a7",
+            "name": "Backdrop.jpg",
+            "uuid": "c9db2818-7d2a-4bfb-99e1-3f3f7ff06191",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "/home/stream/kqsea-streaming/obs/ecc2024/ECC poster 2024 - lettering.png",
-                "linear_alpha": false
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093698,
-            "name": "ECC Twitch Background",
-            "uuid": "eb8555f1-4ffb-4a76-8c10-2939415d31ca",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "/home/stream/kqsea-streaming/obs/ecc2024/ECC poster 2024 - egg.png",
-                "unload": false,
-                "linear_alpha": true
+                "file": "/home/stream/kqsea-streaming/obs/ECC2025_Art/Backdrop.jpg"
             },
             "mixers": 0,
             "sync": 0,
@@ -2283,8 +2336,35 @@
             "filters": [
                 {
                     "prev_ver": 520093698,
+                    "name": "Crop/Pad",
+                    "uuid": "98d28648-ff4d-493a-9191-2fcff8edc396",
+                    "id": "crop_filter",
+                    "versioned_id": "crop_filter",
+                    "settings": {
+                        "left": 190,
+                        "right": 95
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                },
+                {
+                    "prev_ver": 520093698,
                     "name": "Color Correction",
-                    "uuid": "06ffecea-fcc3-4417-bbaa-da15a2eb6cbc",
+                    "uuid": "569851fe-4996-448d-9c68-5288e28b8fad",
                     "id": "color_filter",
                     "versioned_id": "color_filter_v2",
                     "settings": {
@@ -2308,6 +2388,116 @@
                     "private_settings": {}
                 }
             ]
+        },
+        {
+            "prev_ver": 520093698,
+            "name": "Blue Webcam",
+            "uuid": "93222da9-a3bb-410e-ba10-0b7bc440b2dd",
+            "id": "v4l2_input",
+            "versioned_id": "v4l2_input",
+            "settings": {
+                "device_id": "/dev/video0",
+                "Exposure, Dynamic Framerate": true,
+                "input": 0,
+                "pixelformat": 1448695129,
+                "resolution": 3435973837400,
+                "buffering": false,
+                "auto_reset": true
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093698,
+            "name": "ECC2025_Title.png",
+            "uuid": "727ece4b-df4d-4b72-addd-6717f3641281",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "/home/stream/kqsea-streaming/obs/ECC2025_Art/ECC2025_Title.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093698,
+            "name": "ECC_2025_Drone.png",
+            "uuid": "9462e8ab-d465-4866-aeb9-874087841829",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "/home/stream/kqsea-streaming/obs/ECC2025_Art/ECC_2025_Drone.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093698,
+            "name": "ECC_2025_Queen.png",
+            "uuid": "e744e17d-d58d-400a-b584-45d9ad739815",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "/home/stream/kqsea-streaming/obs/ECC2025_Art/ECC_2025_Queen.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
         },
         {
             "prev_ver": 520093698,
@@ -2380,9 +2570,14 @@
             "id": "v4l2_input",
             "versioned_id": "v4l2_input",
             "settings": {
-                "device_id": "/dev/video0",
+                "device_id": "/dev/video2",
                 "input": 0,
-                "pixelformat": 842094158
+                "pixelformat": 1448695129,
+                "resolution": 5497558139600,
+                "framerate": -1,
+                "color_range": 0,
+                "buffering": false,
+                "auto_reset": false
             },
             "mixers": 0,
             "sync": 0,
@@ -2439,10 +2634,10 @@
                 "source": "Game Feed",
                 "internal_frames": true,
                 "source_audio": "Game Audio",
+                "retrieve_delay": 0,
                 "duration": 3000,
                 "visibility_action": 0,
-                "end_action": 5,
-                "retrieve_delay": 0
+                "end_action": 5
             },
             "mixers": 255,
             "sync": 0,
@@ -2511,14 +2706,14 @@
             "versioned_id": "v4l2_input",
             "settings": {
                 "device_id": "/dev/video4",
-                "Exposure, Dynamic Framerate": true,
                 "Brightness": 1,
                 "White Balance, Automatic": true,
                 "White Balance Temperature": 4600,
                 "Auto Exposure": 3,
+                "Exposure, Dynamic Framerate": true,
                 "Focus, Automatic Continuous": true,
                 "input": 0,
-                "pixelformat": 1196444237,
+                "pixelformat": 1448695129,
                 "resolution": -1,
                 "framerate": -1,
                 "buffering": false,
@@ -2691,7 +2886,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 35,
+                "id_counter": 40,
                 "items": [
                     {
                         "name": "Announcer Mics",
@@ -2861,8 +3056,8 @@
                         }
                     },
                     {
-                        "name": "ECC Title",
-                        "source_uuid": "b14033dd-fd56-42ab-b1e2-56a51e61b2a7",
+                        "name": "Backdrop.jpg",
+                        "source_uuid": "c9db2818-7d2a-4bfb-99e1-3f3f7ff06191",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -2878,31 +3073,31 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 19,
+                        "id": 37,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 1520.0,
+                            "x": 1512.115966796875,
+                            "y": 200.00042724609375
+                        },
+                        "pos_rel": {
+                            "x": 1.0224369764328003,
+                            "y": -0.62962883710861206
+                        },
+                        "scale": {
+                            "x": 1.906000018119812,
+                            "y": 1.906000018119812
+                        },
+                        "scale_rel": {
+                            "x": 1.906000018119812,
+                            "y": 1.906000018119812
+                        },
+                        "bounds": {
+                            "x": 0.0,
                             "y": 0.0
                         },
-                        "pos_rel": {
-                            "x": 1.0370370149612427,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.29985007643699646,
-                            "y": 0.34375
-                        },
-                        "scale_rel": {
-                            "x": 0.29985007643699646,
-                            "y": 0.34375
-                        },
-                        "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
                         "bounds_rel": {
-                            "x": 0.0018518518190830946,
-                            "y": 0.0018518518190830946
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -2916,63 +3111,8 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "ECC Twitch Background",
-                        "source_uuid": "eb8555f1-4ffb-4a76-8c10-2939415d31ca",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 20,
-                        "group_item_backup": true,
-                        "pos": {
-                            "x": 1520.0,
-                            "y": 480.0
-                        },
-                        "pos_rel": {
-                            "x": 1.0370370149612427,
-                            "y": -0.1111111044883728
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 400.0,
-                            "y": 600.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.74074071645736694,
-                            "y": 1.1111111640930176
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "ECC2024",
-                        "source_uuid": "ea9340a6-d33e-402e-a453-84ed7646f15f",
+                        "name": "ECC2025_Title.png",
+                        "source_uuid": "727ece4b-df4d-4b72-addd-6717f3641281",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -2988,15 +3128,180 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 18,
+                        "id": 38,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 1573.999755859375,
+                            "y": 19.00006103515625
+                        },
+                        "pos_rel": {
+                            "x": 1.1370365619659424,
+                            "y": -0.96481472253799438
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "ECC_2025_Drone.png",
+                        "source_uuid": "9462e8ab-d465-4866-aeb9-874087841829",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 39,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 1687.0,
+                            "y": 895.00006103515625
+                        },
+                        "pos_rel": {
+                            "x": 1.3462963104248047,
+                            "y": 0.65740752220153809
+                        },
+                        "scale": {
+                            "x": -0.060139860957860947,
+                            "y": 0.060280222445726395
+                        },
+                        "scale_rel": {
+                            "x": -0.060139860957860947,
+                            "y": 0.060280222445726395
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "ECC_2025_Queen.png",
+                        "source_uuid": "e744e17d-d58d-400a-b584-45d9ad739815",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 40,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 1509.0,
+                            "y": 411.0001220703125
+                        },
+                        "pos_rel": {
+                            "x": 1.0166666507720947,
+                            "y": -0.23888868093490601
+                        },
+                        "scale": {
+                            "x": 0.19448757171630859,
+                            "y": 0.19453641772270203
+                        },
+                        "scale_rel": {
+                            "x": 0.19448757171630859,
+                            "y": 0.19453641772270203
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "ECC2025_art",
+                        "source_uuid": "0fd61fb7-7333-4aa8-9c3e-e3a4ec58f469",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 36,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1520.0,
-                            "y": 0.0
+                            "x": 1509.0,
+                            "y": 19.00006103515625
                         },
                         "pos_rel": {
-                            "x": 1.0370370149612427,
-                            "y": -1.0
+                            "x": 1.0166666507720947,
+                            "y": -0.96481472253799438
                         },
                         "scale": {
                             "x": 1.0,
@@ -3140,7 +3445,7 @@
                     {
                         "name": "Tournament Subtitle",
                         "source_uuid": "098e53f9-cf7b-4470-a2b0-04371c2e79f8",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -4156,8 +4461,6 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.14": [],
                 "libobs.hide_scene_item.14": [],
-                "libobs.show_scene_item.18": [],
-                "libobs.hide_scene_item.18": [],
                 "libobs.show_scene_item.7": [],
                 "libobs.hide_scene_item.7": [],
                 "libobs.show_scene_item.22": [],
@@ -4169,7 +4472,9 @@
                 "libobs.show_scene_item.29": [],
                 "libobs.hide_scene_item.29": [],
                 "libobs.show_scene_item.24": [],
-                "libobs.hide_scene_item.24": []
+                "libobs.hide_scene_item.24": [],
+                "libobs.show_scene_item.36": [],
+                "libobs.hide_scene_item.36": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -4183,7 +4488,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 27,
+                "id_counter": 28,
                 "custom_size": false,
                 "items": [
                     {
@@ -4354,8 +4659,8 @@
                         }
                     },
                     {
-                        "name": "ECC Title",
-                        "source_uuid": "b14033dd-fd56-42ab-b1e2-56a51e61b2a7",
+                        "name": "Backdrop.jpg",
+                        "source_uuid": "c9db2818-7d2a-4bfb-99e1-3f3f7ff06191",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -4371,31 +4676,31 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 19,
+                        "id": 37,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 1520.0,
+                            "x": 1512.115966796875,
+                            "y": 200.00042724609375
+                        },
+                        "pos_rel": {
+                            "x": 1.0224369764328003,
+                            "y": -0.62962883710861206
+                        },
+                        "scale": {
+                            "x": 1.906000018119812,
+                            "y": 1.906000018119812
+                        },
+                        "scale_rel": {
+                            "x": 1.906000018119812,
+                            "y": 1.906000018119812
+                        },
+                        "bounds": {
+                            "x": 0.0,
                             "y": 0.0
                         },
-                        "pos_rel": {
-                            "x": 1.0370370149612427,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.29985007643699646,
-                            "y": 0.34375
-                        },
-                        "scale_rel": {
-                            "x": 0.29985007643699646,
-                            "y": 0.34375
-                        },
-                        "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
                         "bounds_rel": {
-                            "x": 0.0018518518190830946,
-                            "y": 0.0018518518190830946
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -4409,63 +4714,8 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "ECC Twitch Background",
-                        "source_uuid": "eb8555f1-4ffb-4a76-8c10-2939415d31ca",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 20,
-                        "group_item_backup": true,
-                        "pos": {
-                            "x": 1520.0,
-                            "y": 480.0
-                        },
-                        "pos_rel": {
-                            "x": 1.0370370149612427,
-                            "y": -0.1111111044883728
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 400.0,
-                            "y": 600.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.74074071645736694,
-                            "y": 1.1111111640930176
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "ECC2024",
-                        "source_uuid": "ea9340a6-d33e-402e-a453-84ed7646f15f",
+                        "name": "ECC2025_Title.png",
+                        "source_uuid": "727ece4b-df4d-4b72-addd-6717f3641281",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -4481,15 +4731,180 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 20,
+                        "id": 38,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 1573.999755859375,
+                            "y": 19.00006103515625
+                        },
+                        "pos_rel": {
+                            "x": 1.1370365619659424,
+                            "y": -0.96481472253799438
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "ECC_2025_Drone.png",
+                        "source_uuid": "9462e8ab-d465-4866-aeb9-874087841829",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 39,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 1687.0,
+                            "y": 895.00006103515625
+                        },
+                        "pos_rel": {
+                            "x": 1.3462963104248047,
+                            "y": 0.65740752220153809
+                        },
+                        "scale": {
+                            "x": -0.060139860957860947,
+                            "y": 0.060280222445726395
+                        },
+                        "scale_rel": {
+                            "x": -0.060139860957860947,
+                            "y": 0.060280222445726395
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "ECC_2025_Queen.png",
+                        "source_uuid": "e744e17d-d58d-400a-b584-45d9ad739815",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 40,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 1509.0,
+                            "y": 411.0001220703125
+                        },
+                        "pos_rel": {
+                            "x": 1.0166666507720947,
+                            "y": -0.23888868093490601
+                        },
+                        "scale": {
+                            "x": 0.19448757171630859,
+                            "y": 0.19453641772270203
+                        },
+                        "scale_rel": {
+                            "x": 0.19448757171630859,
+                            "y": 0.19453641772270203
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "ECC2025_art",
+                        "source_uuid": "0fd61fb7-7333-4aa8-9c3e-e3a4ec58f469",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 28,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1520.0,
-                            "y": 0.0
+                            "x": 1509.0,
+                            "y": 19.00006103515625
                         },
                         "pos_rel": {
-                            "x": 1.0370370149612427,
-                            "y": -1.0
+                            "x": 1.0166666507720947,
+                            "y": -0.96481472253799438
                         },
                         "scale": {
                             "x": 1.0,
@@ -4633,7 +5048,7 @@
                     {
                         "name": "Tournament Subtitle",
                         "source_uuid": "098e53f9-cf7b-4470-a2b0-04371c2e79f8",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -5649,8 +6064,6 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.19": [],
                 "libobs.hide_scene_item.19": [],
-                "libobs.show_scene_item.20": [],
-                "libobs.hide_scene_item.20": [],
                 "libobs.show_scene_item.21": [],
                 "libobs.hide_scene_item.21": [],
                 "libobs.show_scene_item.22": [],
@@ -5662,7 +6075,9 @@
                 "libobs.show_scene_item.26": [],
                 "libobs.hide_scene_item.26": [],
                 "libobs.show_scene_item.27": [],
-                "libobs.hide_scene_item.27": []
+                "libobs.hide_scene_item.27": [],
+                "libobs.show_scene_item.28": [],
+                "libobs.hide_scene_item.28": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -5676,7 +6091,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 11,
+                "id_counter": 12,
                 "custom_size": false,
                 "items": [
                     {
@@ -5847,8 +6262,8 @@
                         }
                     },
                     {
-                        "name": "ECC Title",
-                        "source_uuid": "b14033dd-fd56-42ab-b1e2-56a51e61b2a7",
+                        "name": "Backdrop.jpg",
+                        "source_uuid": "c9db2818-7d2a-4bfb-99e1-3f3f7ff06191",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -5864,31 +6279,31 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 19,
+                        "id": 37,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 1520.0,
+                            "x": 1512.115966796875,
+                            "y": 200.00042724609375
+                        },
+                        "pos_rel": {
+                            "x": 1.0224369764328003,
+                            "y": -0.62962883710861206
+                        },
+                        "scale": {
+                            "x": 1.906000018119812,
+                            "y": 1.906000018119812
+                        },
+                        "scale_rel": {
+                            "x": 1.906000018119812,
+                            "y": 1.906000018119812
+                        },
+                        "bounds": {
+                            "x": 0.0,
                             "y": 0.0
                         },
-                        "pos_rel": {
-                            "x": 1.0370370149612427,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 0.29985007643699646,
-                            "y": 0.34375
-                        },
-                        "scale_rel": {
-                            "x": 0.29985007643699646,
-                            "y": 0.34375
-                        },
-                        "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
                         "bounds_rel": {
-                            "x": 0.0018518518190830946,
-                            "y": 0.0018518518190830946
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -5902,63 +6317,8 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "ECC Twitch Background",
-                        "source_uuid": "eb8555f1-4ffb-4a76-8c10-2939415d31ca",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 2,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 20,
-                        "group_item_backup": true,
-                        "pos": {
-                            "x": 1520.0,
-                            "y": 480.0
-                        },
-                        "pos_rel": {
-                            "x": 1.0370370149612427,
-                            "y": -0.1111111044883728
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 400.0,
-                            "y": 600.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.74074071645736694,
-                            "y": 1.1111111640930176
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "ECC2024",
-                        "source_uuid": "ea9340a6-d33e-402e-a453-84ed7646f15f",
+                        "name": "ECC2025_Title.png",
+                        "source_uuid": "727ece4b-df4d-4b72-addd-6717f3641281",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -5974,15 +6334,180 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 2,
+                        "id": 38,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 1573.999755859375,
+                            "y": 19.00006103515625
+                        },
+                        "pos_rel": {
+                            "x": 1.1370365619659424,
+                            "y": -0.96481472253799438
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "ECC_2025_Drone.png",
+                        "source_uuid": "9462e8ab-d465-4866-aeb9-874087841829",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 39,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 1687.0,
+                            "y": 895.00006103515625
+                        },
+                        "pos_rel": {
+                            "x": 1.3462963104248047,
+                            "y": 0.65740752220153809
+                        },
+                        "scale": {
+                            "x": -0.060139860957860947,
+                            "y": 0.060280222445726395
+                        },
+                        "scale_rel": {
+                            "x": -0.060139860957860947,
+                            "y": 0.060280222445726395
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "ECC_2025_Queen.png",
+                        "source_uuid": "e744e17d-d58d-400a-b584-45d9ad739815",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 40,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 1509.0,
+                            "y": 411.0001220703125
+                        },
+                        "pos_rel": {
+                            "x": 1.0166666507720947,
+                            "y": -0.23888868093490601
+                        },
+                        "scale": {
+                            "x": 0.19448757171630859,
+                            "y": 0.19453641772270203
+                        },
+                        "scale_rel": {
+                            "x": 0.19448757171630859,
+                            "y": 0.19453641772270203
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "ECC2025_art",
+                        "source_uuid": "0fd61fb7-7333-4aa8-9c3e-e3a4ec58f469",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 12,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1520.0,
-                            "y": 0.0
+                            "x": 1509.0,
+                            "y": 19.00006103515625
                         },
                         "pos_rel": {
-                            "x": 1.0370370149612427,
-                            "y": -1.0
+                            "x": 1.0166666507720947,
+                            "y": -0.96481472253799438
                         },
                         "scale": {
                             "x": 1.0,
@@ -6126,7 +6651,7 @@
                     {
                         "name": "Tournament Subtitle",
                         "source_uuid": "098e53f9-cf7b-4470-a2b0-04371c2e79f8",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -7307,20 +7832,20 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
-                "libobs.show_scene_item.2": [],
-                "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
                 "libobs.show_scene_item.4": [],
                 "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
+                "libobs.show_scene_item.11": [],
+                "libobs.hide_scene_item.11": [],
                 "libobs.show_scene_item.9": [],
                 "libobs.hide_scene_item.9": [],
                 "libobs.show_scene_item.10": [],
                 "libobs.hide_scene_item.10": [],
-                "libobs.show_scene_item.11": [],
-                "libobs.hide_scene_item.11": []
+                "libobs.show_scene_item.12": [],
+                "libobs.hide_scene_item.12": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -7375,7 +7900,7 @@
                 "width": 1920,
                 "height": 1080,
                 "restart_when_active": false,
-                "css": "body {\n    color: white;\n    font-size: 16px;\n    text-shadow: 1px 2px 2px #000000;\n}\n\n.team-name {\n    border-radius: 5px;\n    position: absolute;\n    width: 760px;\n    height: 33px;\n    font-size: 24px;\n}\n\n.team-name-left {\n    top: 0px;\n    left: 0px;\n    background: rgb(83, 145, 87);\n    background: linear-gradient(90deg, rgba(83, 145, 87, 0.510329131652661) 0%, rgba(83, 145, 87, 1) 76%, rgba(83, 145, 87, 0.23021708683473385) 100%);\n    text-align: right;\n    padding-right: 220px;\n}\n\n.team-name-right {\n    top: 0px;\n    left: 760px;\n    background: rgba(83, 145, 87, 1);\n    background: linear-gradient(270deg, rgba(83, 145, 87, 0.510329131652661) 0%, rgba(83, 145, 87, 1) 76%, rgba(83, 145, 87, 0.23021708683473385) 100%);\n    text-align: left;\n    padding-left: 220px;\n}\n\n.team-score {\n    position: absolute;\n    top: -5px;\n    width: 160px;\n    height: 40px;\n    display: flex;\n}\n\n.team-score-left {\n    left: 0px;\n    flex-flow: row-reverse;\n    left: 600px;\n    margin-left: -40px;\n}\n\n.team-score-right {\n    left: 760px;\n    margin-left: 40px;\n}\n\n.team-score-graphic {\n    width: 40px;\n    height: 40px;\n    background-image: url('https://kqassets.s3.us-west-2.amazonaws.com/emerald.gif');\n    background-position: center;\n    background-size: contain;\n}\n\n.player {\n    position: absolute;\n    top: 175px;\n    width: 152px;\n    height: 50px;\n    background-color: rgba(0, 0, 0, .8);\n}\n\n.player > .graphic {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    background-position: center;\n    background-repeat: no-repeat;\n    z-index: 1;\n}\n\n.warrior-graphic {\n    position: absolute;\n    top: 30px;\n    left: 44px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.speed-graphic {\n    position: absolute;\n    top: 30px;\n    left: 88px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.player > .stat-container {\n    width: 76px;\n    height: 20px;\n    text-align: center;\n    z-index: 2;\n}\n\n.queen-kill-graphic {\n    height: 10px;\n    width: 20px;\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: contain;\n}\n\n.blue-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n\n.gold-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n\n.player > .queen-kill-container {\n    position: absolute;\n    top: 20px;\n    left: 0px;\n    width: 152px;\n    height: 10px;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n}\n\n.player > .kills {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n}\n\n.player > .deaths {\n    position: absolute;\n    top: 30px;\n    left: 76px;\n}\n\n.player > .berries {\n    display: none;\n}\n\n.snail-distance {\n    display: none;\n}\n\n.player > .snail-distance-meters {\n    display: none;\n}\n\n.player > .signed-in-name {\n    position: absolute;\n    top: 0px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    text-align: center;\n    overflow: hidden;\n    text-overflow: ellipsis;\n}\n\n.blue-checks {\n    left: 0px;\n}\n\n.blue-skulls {\n    left: 152px;\n}\n\n.blue-queen {\n    left: 304px;\n}\n\n.blue-abs {\n    left: 456px;\n}\n\n.blue-stripes {\n    left: 608px;\n}\n\n\n.gold-checks {\n    left: 760px;\n}\n\n.gold-skulls {\n    left: 912px;\n}\n\n.gold-queen {\n    left: 1064px;\n}\n\n.gold-abs {\n    left: 1216px;\n}\n\n.gold-stripes {\n    left: 1368px;\n}\n\n\n.blue-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-stripes.svg');\n}\n\n.blue-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-abs.svg');\n}\n\n.blue-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-queen.svg');\n}\n\n.blue-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-skulls.svg');\n}\n\n.blue-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-checks.svg');\n}\n\n\n.gold-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-stripes.svg');\n}\n\n.gold-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-abs.svg');\n}\n\n.gold-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-queen.svg');\n}\n\n.gold-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-skulls.svg');\n}\n\n.gold-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-checks.svg');\n}\n\n.panel-bottom {\n    display: none;\n}\n\n.panel-left {\n    display: none;\n}\n\n.panel-right {\n    display: none;\n}\n\n.team-score-numerical-left {\n    display: none;\n}\n\n.team-score-numerical-right {\n    display: none;\n}\n\n.hivemind-logo {\n    display: none;\n}\n\n.game-duration {\n    display: none;\n}\n\n.game-berries-remaining {\n    display: none;\n}\n\n.round-name {\n    display: none;\n}\n\n.cabinet-name {\n    display: none;\n}\n\n.scene-name {\n    display: none;\n}\n\n.current-date {\n    display: none;\n}\n\n.current-time {\n    display: none;\n}\n"
+                "css": "body {\n    color: white;\n    font-size: 16px;\n    text-shadow: 1px 2px 2px #000000;\n}\n\n.team-name {\n    border-radius: 5px;\n    position: absolute;\n    width: 760px;\n    height: 33px;\n    font-size: 24px;\n}\n\n.team-name-left {\n    top: 0px;\n    left: 0px;\n    background: rgb(110,59,109);\n    background: linear-gradient(90deg, rgba(110,59,109, 0.510329131652661) 0%, rgba(110,59,109, 1) 76%, rgba(110,59,109, 0.23021708683473385) 100%);\n    text-align: right;\n    padding-right: 220px;\n}\n\n.team-name-right {\n    top: 0px;\n    left: 760px;\n    background: rgba(110,59,109);\n    background: linear-gradient(270deg, rgba(110,59,109, 0.510329131652661) 0%, rgba(110,59,109, 1) 76%, rgba(110,59,109, 0.23021708683473385) 100%);\n    text-align: left;\n    padding-left: 220px;\n}\n\n.team-score {\n    position: absolute;\n    top: -5px;\n    width: 160px;\n    height: 40px;\n    display: flex;\n}\n\n.team-score-left {\n    left: 0px;\n    flex-flow: row-reverse;\n    left: 600px;\n    margin-left: -40px;\n}\n\n.team-score-right {\n    left: 760px;\n    margin-left: 40px;\n}\n\n.team-score-graphic {\n    width: 40px;\n    height: 40px;\n    background-image: url('https://kqassets.s3.us-west-2.amazonaws.com/emerald.gif');\n    background-position: center;\n    background-size: contain;\n}\n\n.player {\n    position: absolute;\n    top: 175px;\n    width: 152px;\n    height: 50px;\n    background-color: rgba(0, 0, 0, .8);\n}\n\n.player > .graphic {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    background-position: center;\n    background-repeat: no-repeat;\n    z-index: 1;\n}\n\n.warrior-graphic {\n    position: absolute;\n    top: 30px;\n    left: 44px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.speed-graphic {\n    position: absolute;\n    top: 30px;\n    left: 88px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.player > .stat-container {\n    width: 76px;\n    height: 20px;\n    text-align: center;\n    z-index: 2;\n}\n\n.queen-kill-graphic {\n    height: 10px;\n    width: 20px;\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: contain;\n}\n\n.blue-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n\n.gold-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n\n.player > .queen-kill-container {\n    position: absolute;\n    top: 20px;\n    left: 0px;\n    width: 152px;\n    height: 10px;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n}\n\n.player > .kills {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n}\n\n.player > .deaths {\n    position: absolute;\n    top: 30px;\n    left: 76px;\n}\n\n.player > .berries {\n    display: none;\n}\n\n.snail-distance {\n    display: none;\n}\n\n.player > .snail-distance-meters {\n    display: none;\n}\n\n.player > .signed-in-name {\n    position: absolute;\n    top: 0px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    text-align: center;\n    overflow: hidden;\n    text-overflow: ellipsis;\n}\n\n.blue-checks {\n    left: 0px;\n}\n\n.blue-skulls {\n    left: 152px;\n}\n\n.blue-queen {\n    left: 304px;\n}\n\n.blue-abs {\n    left: 456px;\n}\n\n.blue-stripes {\n    left: 608px;\n}\n\n\n.gold-checks {\n    left: 760px;\n}\n\n.gold-skulls {\n    left: 912px;\n}\n\n.gold-queen {\n    left: 1064px;\n}\n\n.gold-abs {\n    left: 1216px;\n}\n\n.gold-stripes {\n    left: 1368px;\n}\n\n\n.blue-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-stripes.svg');\n}\n\n.blue-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-abs.svg');\n}\n\n.blue-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-queen.svg');\n}\n\n.blue-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-skulls.svg');\n}\n\n.blue-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-checks.svg');\n}\n\n\n.gold-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-stripes.svg');\n}\n\n.gold-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-abs.svg');\n}\n\n.gold-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-queen.svg');\n}\n\n.gold-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-skulls.svg');\n}\n\n.gold-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-checks.svg');\n}\n\n.panel-bottom {\n    display: none;\n}\n\n.panel-left {\n    display: none;\n}\n\n.panel-right {\n    display: none;\n}\n\n.team-score-numerical-left {\n    display: none;\n}\n\n.team-score-numerical-right {\n    display: none;\n}\n\n.hivemind-logo {\n    display: none;\n}\n\n.game-duration {\n    display: none;\n}\n\n.game-berries-remaining {\n    display: none;\n}\n\n.round-name {\n    display: none;\n}\n\n.cabinet-name {\n    display: none;\n}\n\n.scene-name {\n    display: none;\n}\n\n.current-date {\n    display: none;\n}\n\n.current-time {\n    display: none;\n}\n"
             },
             "mixers": 255,
             "sync": 0,
@@ -7513,7 +8038,7 @@
             "id": "text_ft2_source",
             "versioned_id": "text_ft2_source_v2",
             "settings": {
-                "text": "",
+                "text": "Sunday Practice",
                 "font": {
                     "face": "Sans Serif",
                     "flags": 0,
