@@ -47,12 +47,12 @@
                         "id": 3,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1520.0,
-                            "y": 426.99996948242188
+                            "x": 1510.0,
+                            "y": 420.0
                         },
                         "pos_rel": {
-                            "x": 1.0370370149612427,
-                            "y": -0.20925933122634888
+                            "x": 1.0185185670852661,
+                            "y": -0.22222220897674561
                         },
                         "scale": {
                             "x": 1.0,
@@ -63,11 +63,11 @@
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 400.0,
+                            "x": 410.0,
                             "y": 225.0
                         },
                         "bounds_rel": {
-                            "x": 0.74074071645736694,
+                            "x": 0.75925928354263306,
                             "y": 0.4166666567325592
                         },
                         "scale_filter": "disable",
@@ -803,7 +803,7 @@
                     {
                         "name": "Tournament Title",
                         "source_uuid": "fd2f7d65-b977-47e5-aa3e-3e44bf04271e",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -985,6 +985,61 @@
                 "id_counter": 0,
                 "items": [
                     {
+                        "name": "4Bs Auto",
+                        "source_uuid": "b9bc54d2-3cc9-4619-8de0-cac96d866cde",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 41,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 224.99993896484375
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -0.58333343267440796
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "4Bs In-Game",
                         "source_uuid": "695e34a2-298f-4ebe-b61e-b481c4265bc6",
                         "visible": true,
@@ -1053,6 +1108,8 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
+                "libobs.show_scene_item.41": [],
+                "libobs.hide_scene_item.41": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": []
             },
@@ -1076,7 +1133,7 @@
                     {
                         "name": "Toshi2 In-Game",
                         "source_uuid": "f65dbdcf-0645-4acd-bb34-e79af4a723aa",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -1918,7 +1975,7 @@
                     {
                         "name": "ECC2025_Title.png",
                         "source_uuid": "727ece4b-df4d-4b72-addd-6717f3641281",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -2174,6 +2231,40 @@
     "sources": [
         {
             "prev_ver": 520093698,
+            "name": "4Bs Auto",
+            "uuid": "b9bc54d2-3cc9-4619-8de0-cac96d866cde",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "https://kqhivemind.com/overlay/58/auto",
+                "width": 1520,
+                "height": 855
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520093698,
             "name": "4Bs In-Game",
             "uuid": "695e34a2-298f-4ebe-b61e-b481c4265bc6",
             "id": "browser_source",
@@ -2183,7 +2274,7 @@
                 "width": 1920,
                 "height": 1080,
                 "restart_when_active": false,
-                "css": "body {\n    color: white;\n    font-size: 16px;\n    text-shadow: 1px 2px 2px #000000;\n}\n\n.team-name {\n    border-radius: 5px;\n    position: absolute;\n    width: 760px;\n    height: 33px;\n    font-size: 24px;\n}\n\n.team-name-left {\n    top: 0px;\n    left: 0px;\n    background: rgb(83, 145, 87);\n    background: linear-gradient(90deg, rgba(83, 145, 87, 0.510329131652661) 0%, rgba(83, 145, 87, 1) 76%, rgba(83, 145, 87, 0.23021708683473385) 100%);\n    text-align: right;\n    padding-right: 220px;\n}\n\n.team-name-right {\n    top: 0px;\n    left: 760px;\n    background: rgba(83, 145, 87, 1);\n    background: linear-gradient(270deg, rgba(83, 145, 87, 0.510329131652661) 0%, rgba(83, 145, 87, 1) 76%, rgba(83, 145, 87, 0.23021708683473385) 100%);\n    text-align: left;\n    padding-left: 220px;\n}\n\n.team-score {\n    position: absolute;\n    top: -5px;\n    width: 160px;\n    height: 40px;\n    display: flex;\n}\n\n.team-score-left {\n    left: 0px;\n    flex-flow: row-reverse;\n    left: 600px;\n    margin-left: -40px;\n}\n\n.team-score-right {\n    left: 760px;\n    margin-left: 40px;\n}\n\n.team-score-graphic {\n    width: 40px;\n    height: 40px;\n    background-image: url('https://kqassets.s3.us-west-2.amazonaws.com/emerald.gif');\n    background-position: center;\n    background-size: contain;\n}\n\n.player {\n    position: absolute;\n    top: 175px;\n    width: 152px;\n    height: 50px;\n    background-color: rgba(0, 0, 0, .8);\n}\n\n.player > .graphic {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    background-position: center;\n    background-repeat: no-repeat;\n    z-index: 1;\n}\n\n.warrior-graphic {\n    position: absolute;\n    top: 30px;\n    left: 44px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.speed-graphic {\n    position: absolute;\n    top: 30px;\n    left: 88px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.player > .stat-container {\n    width: 76px;\n    height: 20px;\n    text-align: center;\n    z-index: 2;\n}\n\n.queen-kill-graphic {\n    height: 10px;\n    width: 20px;\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: contain;\n}\n\n.blue-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n\n.gold-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n\n.player > .queen-kill-container {\n    position: absolute;\n    top: 20px;\n    left: 0px;\n    width: 152px;\n    height: 10px;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n}\n\n.player > .kills {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n}\n\n.player > .deaths {\n    position: absolute;\n    top: 30px;\n    left: 76px;\n}\n\n.player > .berries {\n    display: none;\n}\n\n.snail-distance {\n    display: none;\n}\n\n.player > .snail-distance-meters {\n    display: none;\n}\n\n.player > .signed-in-name {\n    position: absolute;\n    top: 0px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    text-align: center;\n    overflow: hidden;\n    text-overflow: ellipsis;\n}\n\n.blue-checks {\n    left: 0px;\n}\n\n.blue-skulls {\n    left: 152px;\n}\n\n.blue-queen {\n    left: 304px;\n}\n\n.blue-abs {\n    left: 456px;\n}\n\n.blue-stripes {\n    left: 608px;\n}\n\n\n.gold-checks {\n    left: 760px;\n}\n\n.gold-skulls {\n    left: 912px;\n}\n\n.gold-queen {\n    left: 1064px;\n}\n\n.gold-abs {\n    left: 1216px;\n}\n\n.gold-stripes {\n    left: 1368px;\n}\n\n\n.blue-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-stripes.svg');\n}\n\n.blue-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-abs.svg');\n}\n\n.blue-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-queen.svg');\n}\n\n.blue-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-skulls.svg');\n}\n\n.blue-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-checks.svg');\n}\n\n\n.gold-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-stripes.svg');\n}\n\n.gold-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-abs.svg');\n}\n\n.gold-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-queen.svg');\n}\n\n.gold-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-skulls.svg');\n}\n\n.gold-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-checks.svg');\n}\n\n.panel-bottom {\n    display: none;\n}\n\n.panel-left {\n    display: none;\n}\n\n.panel-right {\n    display: none;\n}\n\n.team-score-numerical-left {\n    display: none;\n}\n\n.team-score-numerical-right {\n    display: none;\n}\n\n.hivemind-logo {\n    display: none;\n}\n\n.game-duration {\n    display: none;\n}\n\n.game-berries-remaining {\n    display: none;\n}\n\n.round-name {\n    display: none;\n}\n\n.cabinet-name {\n    display: none;\n}\n\n.scene-name {\n    display: none;\n}\n\n.current-date {\n    display: none;\n}\n\n.current-time {\n    display: none;\n}\n"
+                "css": "body {\n    color: white;\n    font-size: 16px;\n    text-shadow: 1px 2px 2px #000000;\n}\n\n.team-name {\n    border-radius: 5px;\n    position: absolute;\n    width: 760px;\n    height: 33px;\n    font-size: 24px;\n}\n\n.team-name-left {\n    top: 0px;\n    left: 0px;\n    background: rgb(110,59,109);\n    background: linear-gradient(90deg, rgba(110,59,109, 0.510329131652661) 0%, rgba(110,59,109, 1) 76%, rgba(110,59,109, 0.23021708683473385) 100%);\n    text-align: right;\n    padding-right: 220px;\n}\n\n.team-name-right {\n    top: 0px;\n    left: 760px;\n    background: rgba(110,59,109);\n    background: linear-gradient(270deg, rgba(110,59,109, 0.510329131652661) 0%, rgba(110,59,109, 1) 76%, rgba(110,59,109, 0.23021708683473385) 100%);\n    text-align: left;\n    padding-left: 220px;\n}\n\n.team-score {\n    position: absolute;\n    top: -5px;\n    width: 160px;\n    height: 40px;\n    display: flex;\n}\n\n.team-score-left {\n    left: 0px;\n    flex-flow: row-reverse;\n    left: 600px;\n    margin-left: -40px;\n}\n\n.team-score-right {\n    left: 760px;\n    margin-left: 40px;\n}\n\n.team-score-graphic {\n    width: 40px;\n    height: 40px;\n    background-image: url('https://kqassets.s3.us-west-2.amazonaws.com/emerald.gif');\n    background-position: center;\n    background-size: contain;\n}\n\n.player {\n    position: absolute;\n    top: 175px;\n    width: 152px;\n    height: 50px;\n    background-color: rgba(0, 0, 0, .8);\n}\n\n.player > .graphic {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    background-position: center;\n    background-repeat: no-repeat;\n    z-index: 1;\n}\n\n.warrior-graphic {\n    position: absolute;\n    top: 30px;\n    left: 44px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.speed-graphic {\n    position: absolute;\n    top: 30px;\n    left: 88px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.player > .stat-container {\n    width: 76px;\n    height: 20px;\n    text-align: center;\n    z-index: 2;\n}\n\n.queen-kill-graphic {\n    height: 10px;\n    width: 20px;\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: contain;\n}\n\n.blue-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n\n.gold-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n\n.player > .queen-kill-container {\n    position: absolute;\n    top: 20px;\n    left: 0px;\n    width: 152px;\n    height: 10px;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n}\n\n.player > .kills {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n}\n\n.player > .deaths {\n    position: absolute;\n    top: 30px;\n    left: 76px;\n}\n\n.player > .berries {\n    display: none;\n}\n\n.snail-distance {\n    display: none;\n}\n\n.player > .snail-distance-meters {\n    display: none;\n}\n\n.player > .signed-in-name {\n    position: absolute;\n    top: 0px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    text-align: center;\n    overflow: hidden;\n    text-overflow: ellipsis;\n}\n\n.blue-checks {\n    left: 0px;\n}\n\n.blue-skulls {\n    left: 152px;\n}\n\n.blue-queen {\n    left: 304px;\n}\n\n.blue-abs {\n    left: 456px;\n}\n\n.blue-stripes {\n    left: 608px;\n}\n\n\n.gold-checks {\n    left: 760px;\n}\n\n.gold-skulls {\n    left: 912px;\n}\n\n.gold-queen {\n    left: 1064px;\n}\n\n.gold-abs {\n    left: 1216px;\n}\n\n.gold-stripes {\n    left: 1368px;\n}\n\n\n.blue-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-stripes.svg');\n}\n\n.blue-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-abs.svg');\n}\n\n.blue-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-queen.svg');\n}\n\n.blue-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-skulls.svg');\n}\n\n.blue-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-checks.svg');\n}\n\n\n.gold-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-stripes.svg');\n}\n\n.gold-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-abs.svg');\n}\n\n.gold-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-queen.svg');\n}\n\n.gold-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-skulls.svg');\n}\n\n.gold-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-checks.svg');\n}\n\n.panel-bottom {\n    display: none;\n}\n\n.panel-left {\n    display: none;\n}\n\n.panel-right {\n    display: none;\n}\n\n.team-score-numerical-left {\n    display: none;\n}\n\n.team-score-numerical-right {\n    display: none;\n}\n\n.hivemind-logo {\n    display: none;\n}\n\n.game-duration {\n    display: none;\n}\n\n.game-berries-remaining {\n    display: none;\n}\n\n.round-name {\n    display: none;\n}\n\n.cabinet-name {\n    display: none;\n}\n\n.scene-name {\n    display: none;\n}\n\n.current-date {\n    display: none;\n}\n\n.current-time {\n    display: none;\n}\n"
             },
             "mixers": 255,
             "sync": 0,
@@ -2283,8 +2374,8 @@
             "id": "v4l2_input",
             "versioned_id": "v4l2_input",
             "settings": {
-                "Exposure, Dynamic Framerate": true,
                 "device_id": "/dev/video6",
+                "Exposure, Dynamic Framerate": true,
                 "input": 0,
                 "pixelformat": 1196444237,
                 "resolution": 8246337209400,
@@ -2399,8 +2490,8 @@
                 "device_id": "/dev/video0",
                 "Exposure, Dynamic Framerate": true,
                 "input": 0,
-                "pixelformat": 1448695129,
-                "resolution": 3435973837400,
+                "pixelformat": 1196444237,
+                "resolution": 4398046511872,
                 "buffering": false,
                 "auto_reset": true
             },
@@ -2511,7 +2602,7 @@
             "mixers": 255,
             "sync": 0,
             "flags": 0,
-            "volume": 7.0794582366943359,
+            "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -2573,7 +2664,7 @@
                 "device_id": "/dev/video2",
                 "input": 0,
                 "pixelformat": 1448695129,
-                "resolution": 5497558139600,
+                "resolution": 8246337209400,
                 "framerate": -1,
                 "color_range": 0,
                 "buffering": false,
@@ -2645,7 +2736,7 @@
             "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
-            "muted": false,
+            "muted": true,
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2706,15 +2797,15 @@
             "versioned_id": "v4l2_input",
             "settings": {
                 "device_id": "/dev/video4",
+                "Focus, Automatic Continuous": true,
                 "Brightness": 1,
                 "White Balance, Automatic": true,
                 "White Balance Temperature": 4600,
                 "Auto Exposure": 3,
                 "Exposure, Dynamic Framerate": true,
-                "Focus, Automatic Continuous": true,
                 "input": 0,
-                "pixelformat": 1448695129,
-                "resolution": -1,
+                "pixelformat": 1196444237,
+                "resolution": 4398046511872,
                 "framerate": -1,
                 "buffering": false,
                 "auto_reset": true
@@ -2735,6 +2826,60 @@
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
             "private_settings": {}
+        },
+        {
+            "prev_ver": 520093698,
+            "name": "Instant Replay!",
+            "uuid": "dee27a2a-b36b-46fb-9ea8-7a22c70b8374",
+            "id": "text_ft2_source",
+            "versioned_id": "text_ft2_source_v2",
+            "settings": {
+                "text": "Instant Replay"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 520093698,
+                    "name": "Color Correction",
+                    "uuid": "69c97192-b659-4378-930e-1c1379ca1101",
+                    "id": "color_filter",
+                    "versioned_id": "color_filter_v2",
+                    "settings": {
+                        "opacity": 0.11509999999999999
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
         },
         {
             "prev_ver": 520093698,
@@ -2886,7 +3031,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 40,
+                "id_counter": 41,
                 "items": [
                     {
                         "name": "Announcer Mics",
@@ -3113,7 +3258,7 @@
                     {
                         "name": "ECC2025_Title.png",
                         "source_uuid": "727ece4b-df4d-4b72-addd-6717f3641281",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3500,7 +3645,7 @@
                     {
                         "name": "Tournament Title",
                         "source_uuid": "fd2f7d65-b977-47e5-aa3e-3e44bf04271e",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3852,12 +3997,12 @@
                         "id": 3,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 1520.0,
-                            "y": 224.99996948242188
+                            "x": 1510.0,
+                            "y": 218.0
                         },
                         "pos_rel": {
-                            "x": 1.0370370149612427,
-                            "y": -0.58333337306976318
+                            "x": 1.0185185670852661,
+                            "y": -0.59629631042480469
                         },
                         "scale": {
                             "x": 1.0,
@@ -3868,11 +4013,11 @@
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 400.0,
+                            "x": 410.0,
                             "y": 225.0
                         },
                         "bounds_rel": {
-                            "x": 0.74074071645736694,
+                            "x": 0.75925928354263306,
                             "y": 0.4166666567325592
                         },
                         "scale_filter": "disable",
@@ -4111,7 +4256,7 @@
                     {
                         "name": "Toshi2 In-Game",
                         "source_uuid": "f65dbdcf-0645-4acd-bb34-e79af4a723aa",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -4278,7 +4423,7 @@
                     {
                         "name": "HiveMind Toshi",
                         "source_uuid": "c095ac79-c388-4952-995e-313ea3c2a50d",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -4331,6 +4476,61 @@
                         "private_settings": {
                             "collapsed": true
                         }
+                    },
+                    {
+                        "name": "4Bs Auto",
+                        "source_uuid": "b9bc54d2-3cc9-4619-8de0-cac96d866cde",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 41,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 224.99993896484375
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -0.58333343267440796
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
                     },
                     {
                         "name": "4Bs In-Game",
@@ -4390,7 +4590,7 @@
                     {
                         "name": "HiveMind 4Bs",
                         "source_uuid": "f8660fe1-e220-41e7-8272-e003023a1d3b",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -4461,6 +4661,8 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.14": [],
                 "libobs.hide_scene_item.14": [],
+                "libobs.show_scene_item.36": [],
+                "libobs.hide_scene_item.36": [],
                 "libobs.show_scene_item.7": [],
                 "libobs.hide_scene_item.7": [],
                 "libobs.show_scene_item.22": [],
@@ -4472,9 +4674,7 @@
                 "libobs.show_scene_item.29": [],
                 "libobs.hide_scene_item.29": [],
                 "libobs.show_scene_item.24": [],
-                "libobs.hide_scene_item.24": [],
-                "libobs.show_scene_item.36": [],
-                "libobs.hide_scene_item.36": []
+                "libobs.hide_scene_item.24": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -4488,7 +4688,7 @@
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 28,
+                "id_counter": 29,
                 "custom_size": false,
                 "items": [
                     {
@@ -4716,7 +4916,7 @@
                     {
                         "name": "ECC2025_Title.png",
                         "source_uuid": "727ece4b-df4d-4b72-addd-6717f3641281",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -5103,7 +5303,7 @@
                     {
                         "name": "Tournament Title",
                         "source_uuid": "fd2f7d65-b977-47e5-aa3e-3e44bf04271e",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -5714,7 +5914,7 @@
                     {
                         "name": "Toshi2 In-Game",
                         "source_uuid": "f65dbdcf-0645-4acd-bb34-e79af4a723aa",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -5881,7 +6081,7 @@
                     {
                         "name": "HiveMind Toshi",
                         "source_uuid": "c095ac79-c388-4952-995e-313ea3c2a50d",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -5934,6 +6134,61 @@
                         "private_settings": {
                             "collapsed": true
                         }
+                    },
+                    {
+                        "name": "4Bs Auto",
+                        "source_uuid": "b9bc54d2-3cc9-4619-8de0-cac96d866cde",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 41,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 224.99993896484375
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -0.58333343267440796
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
                     },
                     {
                         "name": "4Bs In-Game",
@@ -5993,7 +6248,7 @@
                     {
                         "name": "HiveMind 4Bs",
                         "source_uuid": "f8660fe1-e220-41e7-8272-e003023a1d3b",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -6046,6 +6301,61 @@
                         "private_settings": {
                             "collapsed": true
                         }
+                    },
+                    {
+                        "name": "Instant Replay!",
+                        "source_uuid": "dee27a2a-b36b-46fb-9ea8-7a22c70b8374",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 29,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 385.0,
+                            "y": 238.0
+                        },
+                        "pos_rel": {
+                            "x": -1.0648148059844971,
+                            "y": -0.55925929546356201
+                        },
+                        "scale": {
+                            "x": 0.43225806951522827,
+                            "y": 0.43143811821937561
+                        },
+                        "scale_rel": {
+                            "x": 0.43225806951522827,
+                            "y": 0.43143811821937561
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
                     }
                 ]
             },
@@ -6064,6 +6374,8 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.19": [],
                 "libobs.hide_scene_item.19": [],
+                "libobs.show_scene_item.28": [],
+                "libobs.hide_scene_item.28": [],
                 "libobs.show_scene_item.21": [],
                 "libobs.hide_scene_item.21": [],
                 "libobs.show_scene_item.22": [],
@@ -6076,8 +6388,8 @@
                 "libobs.hide_scene_item.26": [],
                 "libobs.show_scene_item.27": [],
                 "libobs.hide_scene_item.27": [],
-                "libobs.show_scene_item.28": [],
-                "libobs.hide_scene_item.28": []
+                "libobs.show_scene_item.29": [],
+                "libobs.hide_scene_item.29": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -6319,7 +6631,7 @@
                     {
                         "name": "ECC2025_Title.png",
                         "source_uuid": "727ece4b-df4d-4b72-addd-6717f3641281",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -6706,7 +7018,7 @@
                     {
                         "name": "Tournament Title",
                         "source_uuid": "fd2f7d65-b977-47e5-aa3e-3e44bf04271e",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -7058,12 +7370,12 @@
                         "id": 3,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 1520.0,
-                            "y": 224.99996948242188
+                            "x": 1510.0,
+                            "y": 218.0
                         },
                         "pos_rel": {
-                            "x": 1.0370370149612427,
-                            "y": -0.58333337306976318
+                            "x": 1.0185185670852661,
+                            "y": -0.59629631042480469
                         },
                         "scale": {
                             "x": 1.0,
@@ -7074,11 +7386,11 @@
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 400.0,
+                            "x": 410.0,
                             "y": 225.0
                         },
                         "bounds_rel": {
-                            "x": 0.74074071645736694,
+                            "x": 0.75925928354263306,
                             "y": 0.4166666567325592
                         },
                         "scale_filter": "disable",
@@ -7594,7 +7906,7 @@
                     {
                         "name": "HiveMind Toshi Stats",
                         "source_uuid": "a64ddbed-f268-4ca9-acb2-cefdf12f91b4",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -7761,7 +8073,7 @@
                     {
                         "name": "HiveMind 4Bs Stats",
                         "source_uuid": "60044993-a9fa-4cea-ae3b-798ad873acb7",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -7812,7 +8124,7 @@
                             "duration": 0
                         },
                         "private_settings": {
-                            "collapsed": true
+                            "collapsed": false
                         }
                     }
                 ]
@@ -7832,6 +8144,8 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.12": [],
+                "libobs.hide_scene_item.12": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
                 "libobs.show_scene_item.4": [],
@@ -7843,9 +8157,7 @@
                 "libobs.show_scene_item.9": [],
                 "libobs.hide_scene_item.9": [],
                 "libobs.show_scene_item.10": [],
-                "libobs.hide_scene_item.10": [],
-                "libobs.show_scene_item.12": [],
-                "libobs.hide_scene_item.12": []
+                "libobs.hide_scene_item.10": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -7971,7 +8283,7 @@
                 "width": 1920,
                 "height": 1080,
                 "restart_when_active": false,
-                "css": "body {\n    color: white;\n    font-size: 16px;\n    text-shadow: 1px 2px 2px #000000;\n}\n\n.team-name {\n    border-radius: 5px;\n    position: absolute;\n    width: 760px;\n    height: 33px;\n    font-size: 24px;\n}\n\n.team-name-left {\n    top: 0px;\n    left: 0px;\n    background: rgb(83, 145, 87);\n    background: linear-gradient(90deg, rgba(83, 145, 87, 0.510329131652661) 0%, rgba(83, 145, 87, 1) 76%, rgba(83, 145, 87, 0.23021708683473385) 100%);\n    text-align: right;\n    padding-right: 220px;\n}\n\n.team-name-right {\n    top: 0px;\n    left: 760px;\n    background: rgba(83, 145, 87, 1);\n    background: linear-gradient(270deg, rgba(83, 145, 87, 0.510329131652661) 0%, rgba(83, 145, 87, 1) 76%, rgba(83, 145, 87, 0.23021708683473385) 100%);\n    text-align: left;\n    padding-left: 220px;\n}\n\n.team-score {\n    position: absolute;\n    top: -5px;\n    width: 160px;\n    height: 40px;\n    display: flex;\n}\n\n.team-score-left {\n    left: 0px;\n    flex-flow: row-reverse;\n    left: 600px;\n    margin-left: -40px;\n}\n\n.team-score-right {\n    left: 760px;\n    margin-left: 40px;\n}\n\n.team-score-graphic {\n    width: 40px;\n    height: 40px;\n    background-image: url('https://kqassets.s3.us-west-2.amazonaws.com/emerald.gif');\n    background-position: center;\n    background-size: contain;\n}\n\n.player {\n    position: absolute;\n    top: 175px;\n    width: 152px;\n    height: 50px;\n    background-color: rgba(0, 0, 0, .8);\n}\n\n.player > .graphic {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    background-position: center;\n    background-repeat: no-repeat;\n    z-index: 1;\n}\n\n.warrior-graphic {\n    position: absolute;\n    top: 30px;\n    left: 44px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.speed-graphic {\n    position: absolute;\n    top: 30px;\n    left: 88px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.player > .stat-container {\n    width: 76px;\n    height: 20px;\n    text-align: center;\n    z-index: 2;\n}\n\n.queen-kill-graphic {\n    height: 10px;\n    width: 20px;\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: contain;\n}\n\n.blue-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n\n.gold-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n\n.player > .queen-kill-container {\n    position: absolute;\n    top: 20px;\n    left: 0px;\n    width: 152px;\n    height: 10px;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n}\n\n.player > .kills {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n}\n\n.player > .deaths {\n    position: absolute;\n    top: 30px;\n    left: 76px;\n}\n\n.player > .berries {\n    display: none;\n}\n\n.snail-distance {\n    display: none;\n}\n\n.player > .snail-distance-meters {\n    display: none;\n}\n\n.player > .signed-in-name {\n    position: absolute;\n    top: 0px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    text-align: center;\n    overflow: hidden;\n    text-overflow: ellipsis;\n}\n\n.blue-checks {\n    left: 0px;\n}\n\n.blue-skulls {\n    left: 152px;\n}\n\n.blue-queen {\n    left: 304px;\n}\n\n.blue-abs {\n    left: 456px;\n}\n\n.blue-stripes {\n    left: 608px;\n}\n\n\n.gold-checks {\n    left: 760px;\n}\n\n.gold-skulls {\n    left: 912px;\n}\n\n.gold-queen {\n    left: 1064px;\n}\n\n.gold-abs {\n    left: 1216px;\n}\n\n.gold-stripes {\n    left: 1368px;\n}\n\n\n.blue-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-stripes.svg');\n}\n\n.blue-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-abs.svg');\n}\n\n.blue-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-queen.svg');\n}\n\n.blue-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-skulls.svg');\n}\n\n.blue-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-checks.svg');\n}\n\n\n.gold-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-stripes.svg');\n}\n\n.gold-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-abs.svg');\n}\n\n.gold-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-queen.svg');\n}\n\n.gold-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-skulls.svg');\n}\n\n.gold-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-checks.svg');\n}\n\n.panel-bottom {\n    display: none;\n}\n\n.panel-left {\n    display: none;\n}\n\n.panel-right {\n    display: none;\n}\n\n.team-score-numerical-left {\n    display: none;\n}\n\n.team-score-numerical-right {\n    display: none;\n}\n\n.hivemind-logo {\n    display: none;\n}\n\n.game-duration {\n    display: none;\n}\n\n.game-berries-remaining {\n    display: none;\n}\n\n.round-name {\n    display: none;\n}\n\n.cabinet-name {\n    display: none;\n}\n\n.scene-name {\n    display: none;\n}\n\n.current-date {\n    display: none;\n}\n\n.current-time {\n    display: none;\n}\n"
+                "css": "body {\n    color: white;\n    font-size: 16px;\n    text-shadow: 1px 2px 2px #000000;\n}\n\n.team-name {\n    border-radius: 5px;\n    position: absolute;\n    width: 760px;\n    height: 33px;\n    font-size: 24px;\n}\n\n.team-name-left {\n    top: 0px;\n    left: 0px;\n    background: rgb(110,59,109);\n    background: linear-gradient(90deg, rgba(110,59,109, 0.510329131652661) 0%, rgba(110,59,109, 1) 76%, rgba(110,59,109, 0.23021708683473385) 100%);\n    text-align: right;\n    padding-right: 220px;\n}\n\n.team-name-right {\n    top: 0px;\n    left: 760px;\n    background: rgba(110,59,109);\n    background: linear-gradient(270deg, rgba(110,59,109, 0.510329131652661) 0%, rgba(110,59,109, 1) 76%, rgba(110,59,109, 0.23021708683473385) 100%);\n    text-align: left;\n    padding-left: 220px;\n}\n\n.team-score {\n    position: absolute;\n    top: -5px;\n    width: 160px;\n    height: 40px;\n    display: flex;\n}\n\n.team-score-left {\n    left: 0px;\n    flex-flow: row-reverse;\n    left: 600px;\n    margin-left: -40px;\n}\n\n.team-score-right {\n    left: 760px;\n    margin-left: 40px;\n}\n\n.team-score-graphic {\n    width: 40px;\n    height: 40px;\n    background-image: url('https://kqassets.s3.us-west-2.amazonaws.com/emerald.gif');\n    background-position: center;\n    background-size: contain;\n}\n\n.player {\n    position: absolute;\n    top: 175px;\n    width: 152px;\n    height: 50px;\n    background-color: rgba(0, 0, 0, .8);\n}\n\n.player > .graphic {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    background-position: center;\n    background-repeat: no-repeat;\n    z-index: 1;\n}\n\n.warrior-graphic {\n    position: absolute;\n    top: 30px;\n    left: 44px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/sword.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.speed-graphic {\n    position: absolute;\n    top: 30px;\n    left: 88px;\n    height: 20px;\n    width: 20px;\n    background-color: white;\n    -webkit-mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    mask: url(https://api.iconify.design/mdi/run-fast.svg) no-repeat 50% 50%;\n    z-index: 2;\n}\n\n.player > .stat-container {\n    width: 76px;\n    height: 20px;\n    text-align: center;\n    z-index: 2;\n}\n\n.queen-kill-graphic {\n    height: 10px;\n    width: 20px;\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: contain;\n}\n\n.blue-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n.blue-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/gold_queen_head.png);\n}\n\n\n.gold-queen-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-stripes-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-abs-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-skulls-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n.gold-checks-queen-kill-container > [class*=\"-queen-kill-graphic-\"] {\n    background-image: url(https://kqassets.s3.us-west-2.amazonaws.com/blue_queen_head.png);\n}\n\n\n.player > .queen-kill-container {\n    position: absolute;\n    top: 20px;\n    left: 0px;\n    width: 152px;\n    height: 10px;\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n}\n\n.player > .kills {\n    position: absolute;\n    top: 30px;\n    left: 0px;\n}\n\n.player > .deaths {\n    position: absolute;\n    top: 30px;\n    left: 76px;\n}\n\n.player > .berries {\n    display: none;\n}\n\n.snail-distance {\n    display: none;\n}\n\n.player > .snail-distance-meters {\n    display: none;\n}\n\n.player > .signed-in-name {\n    position: absolute;\n    top: 0px;\n    left: 0px;\n    width: 152px;\n    height: 20px;\n    text-align: center;\n    overflow: hidden;\n    text-overflow: ellipsis;\n}\n\n.blue-checks {\n    left: 0px;\n}\n\n.blue-skulls {\n    left: 152px;\n}\n\n.blue-queen {\n    left: 304px;\n}\n\n.blue-abs {\n    left: 456px;\n}\n\n.blue-stripes {\n    left: 608px;\n}\n\n\n.gold-checks {\n    left: 760px;\n}\n\n.gold-skulls {\n    left: 912px;\n}\n\n.gold-queen {\n    left: 1064px;\n}\n\n.gold-abs {\n    left: 1216px;\n}\n\n.gold-stripes {\n    left: 1368px;\n}\n\n\n.blue-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-stripes.svg');\n}\n\n.blue-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-abs.svg');\n}\n\n.blue-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-queen.svg');\n}\n\n.blue-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-skulls.svg');\n}\n\n.blue-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/blue-icon-checks.svg');\n}\n\n\n.gold-stripes-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-stripes.svg');\n}\n\n.gold-abs-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-abs.svg');\n}\n\n.gold-queen-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-queen.svg');\n}\n\n.gold-skulls-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-skulls.svg');\n}\n\n.gold-checks-graphic {\n    background-image: url('https://kqhivemind.com/static/players/gold-icon-checks.svg');\n}\n\n.panel-bottom {\n    display: none;\n}\n\n.panel-left {\n    display: none;\n}\n\n.panel-right {\n    display: none;\n}\n\n.team-score-numerical-left {\n    display: none;\n}\n\n.team-score-numerical-right {\n    display: none;\n}\n\n.hivemind-logo {\n    display: none;\n}\n\n.game-duration {\n    display: none;\n}\n\n.game-berries-remaining {\n    display: none;\n}\n\n.round-name {\n    display: none;\n}\n\n.cabinet-name {\n    display: none;\n}\n\n.scene-name {\n    display: none;\n}\n\n.current-date {\n    display: none;\n}\n\n.current-time {\n    display: none;\n}\n"
             },
             "mixers": 255,
             "sync": 0,
@@ -8038,7 +8350,7 @@
             "id": "text_ft2_source",
             "versioned_id": "text_ft2_source_v2",
             "settings": {
-                "text": "Sunday Practice",
+                "text": "",
                 "font": {
                     "face": "Sans Serif",
                     "flags": 0,
@@ -8070,7 +8382,7 @@
             "id": "text_ft2_source",
             "versioned_id": "text_ft2_source_v2",
             "settings": {
-                "text": "Hardware Stream Test",
+                "text": "Thursday Mixer",
                 "font": {
                     "face": "Sans Serif",
                     "flags": 0,
