@@ -15,7 +15,7 @@
     "name": "Standard Collection",
     "groups": [
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Video",
             "uuid": "5a5a828f-68c9-4588-a7de-f6323990fb60",
             "id": "group",
@@ -275,7 +275,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Audio",
             "uuid": "f1c74853-b74e-4b8f-a981-9ea48b1b3a13",
             "id": "group",
@@ -421,7 +421,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Twitch Chat",
             "uuid": "716efba8-e9b7-4aaa-9331-313f24bab2b5",
             "id": "group",
@@ -490,7 +490,7 @@
                     {
                         "name": "kq_sea2",
                         "source_uuid": "6b819c6b-5592-407a-becd-5649c7ae9744",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -545,7 +545,7 @@
                     {
                         "name": "kq_sea",
                         "source_uuid": "417da25b-53a9-45a1-9382-d4c020a654d8",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -624,15 +624,15 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Header",
             "uuid": "3490f323-95e7-4f1e-b4f3-215b78f8f961",
             "id": "group",
             "versioned_id": "group",
             "settings": {
                 "custom_size": true,
-                "cx": 400,
-                "cy": 215,
+                "cx": 403,
+                "cy": 218,
                 "id_counter": 0,
                 "items": [
                     {
@@ -656,12 +656,12 @@
                         "id": 12,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 97.0,
-                            "y": 182.99996948242188
+                            "x": 100.0,
+                            "y": 186.0
                         },
                         "pos_rel": {
-                            "x": -1.5981481075286865,
-                            "y": -0.66111117601394653
+                            "x": -1.5925925970077515,
+                            "y": -0.65555554628372192
                         },
                         "scale": {
                             "x": 1.0,
@@ -711,12 +711,12 @@
                         "id": 9,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 110.99996948242188
+                            "x": 2.99993896484375,
+                            "y": 114.0
                         },
                         "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.7944445013999939
+                            "x": -1.7722222805023193,
+                            "y": -0.78888887166976929
                         },
                         "scale": {
                             "x": 1.0,
@@ -766,12 +766,12 @@
                         "id": 11,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 0.0,
-                            "y": 80.999969482421875
+                            "x": 2.99993896484375,
+                            "y": 84.0
                         },
                         "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.85000008344650269
+                            "x": -1.7722222805023193,
+                            "y": -0.84444445371627808
                         },
                         "scale": {
                             "x": 1.0,
@@ -821,11 +821,11 @@
                         "id": 10,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 5.00006103515625,
+                            "x": 0.0,
                             "y": 0.0
                         },
                         "pos_rel": {
-                            "x": -1.7685184478759766,
+                            "x": -1.7777777910232544,
                             "y": -1.0
                         },
                         "scale": {
@@ -837,11 +837,11 @@
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 390.0,
+                            "x": 400.0,
                             "y": 64.0
                         },
                         "bounds_rel": {
-                            "x": 0.72222220897674561,
+                            "x": 0.74074071645736694,
                             "y": 0.11851851642131805
                         },
                         "scale_filter": "disable",
@@ -884,7 +884,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "HiveMind Toshi",
             "uuid": "c095ac79-c388-4952-995e-313ea3c2a50d",
             "id": "group",
@@ -949,61 +949,6 @@
                             "duration": 0
                         },
                         "private_settings": {}
-                    },
-                    {
-                        "name": "Toshi Auto",
-                        "source_uuid": "61309b6d-d2df-4bc9-b5a6-b4696479e610",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 43,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 224.99996948242188
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.58333337306976318
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
                     }
                 ]
             },
@@ -1020,9 +965,7 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "libobs.show_scene_item.25": [],
-                "libobs.hide_scene_item.25": [],
-                "libobs.show_scene_item.43": [],
-                "libobs.hide_scene_item.43": []
+                "libobs.hide_scene_item.25": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1030,7 +973,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "HiveMind 4Bs",
             "uuid": "f8660fe1-e220-41e7-8272-e003023a1d3b",
             "id": "group",
@@ -1041,61 +984,6 @@
                 "cy": 1080,
                 "id_counter": 0,
                 "items": [
-                    {
-                        "name": "4Bs In-Game",
-                        "source_uuid": "695e34a2-298f-4ebe-b61e-b481c4265bc6",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
                     {
                         "name": "4Bs Auto",
                         "source_uuid": "b9bc54d2-3cc9-4619-8de0-cac96d866cde",
@@ -1150,6 +1038,61 @@
                             "duration": 0
                         },
                         "private_settings": {}
+                    },
+                    {
+                        "name": "4Bs In-Game",
+                        "source_uuid": "695e34a2-298f-4ebe-b61e-b481c4265bc6",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
                     }
                 ]
             },
@@ -1165,10 +1108,10 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "libobs.show_scene_item.1": [],
-                "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.41": [],
-                "libobs.hide_scene_item.41": []
+                "libobs.hide_scene_item.41": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1176,7 +1119,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "HiveMind Toshi2",
             "uuid": "02ea010a-b5a2-4d64-a602-0786f13fcff3",
             "id": "group",
@@ -1190,7 +1133,7 @@
                     {
                         "name": "Toshi2 In-Game",
                         "source_uuid": "f65dbdcf-0645-4acd-bb34-e79af4a723aa",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -1241,61 +1184,6 @@
                             "duration": 0
                         },
                         "private_settings": {}
-                    },
-                    {
-                        "name": "Toshi2 Auto",
-                        "source_uuid": "52c48297-c90f-4975-85d8-ef1ff50148fd",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 42,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 224.99996948242188
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.58333337306976318
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
                     }
                 ]
             },
@@ -1312,9 +1200,7 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "libobs.show_scene_item.27": [],
-                "libobs.hide_scene_item.27": [],
-                "libobs.show_scene_item.42": [],
-                "libobs.hide_scene_item.42": []
+                "libobs.hide_scene_item.27": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1322,16 +1208,16 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Video Replay",
             "uuid": "aa29197b-5a34-423e-baf6-10b1ead198c5",
             "id": "group",
             "versioned_id": "group",
             "settings": {
+                "id_counter": 4,
                 "custom_size": true,
                 "cx": 1920,
                 "cy": 1282,
-                "id_counter": 4,
                 "items": [
                     {
                         "name": "Announcer Webcam",
@@ -1582,16 +1468,16 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "HiveMind Toshi Stats",
             "uuid": "a64ddbed-f268-4ca9-acb2-cefdf12f91b4",
             "id": "group",
             "versioned_id": "group",
             "settings": {
+                "id_counter": 2,
                 "custom_size": true,
                 "cx": 1920,
                 "cy": 1080,
-                "id_counter": 2,
                 "items": [
                     {
                         "name": "Toshi In-Game",
@@ -1728,16 +1614,16 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "HiveMind 4Bs Stats",
             "uuid": "60044993-a9fa-4cea-ae3b-798ad873acb7",
             "id": "group",
             "versioned_id": "group",
             "settings": {
+                "id_counter": 2,
                 "custom_size": true,
                 "cx": 1920,
                 "cy": 1080,
-                "id_counter": 2,
                 "items": [
                     {
                         "name": "4Bs In-Game",
@@ -1874,16 +1760,16 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "HiveMind Toshi2 Stats",
             "uuid": "3dc8d16f-99d3-4288-8604-5d2f2e9dc890",
             "id": "group",
             "versioned_id": "group",
             "settings": {
+                "id_counter": 2,
                 "custom_size": true,
                 "cx": 1920,
                 "cy": 1080,
-                "id_counter": 2,
                 "items": [
                     {
                         "name": "Toshi2 In-Game",
@@ -2020,16 +1906,16 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "ECC2025_art",
             "uuid": "0fd61fb7-7333-4aa8-9c3e-e3a4ec58f469",
             "id": "group",
             "versioned_id": "group",
             "settings": {
+                "id_counter": 0,
                 "custom_size": true,
                 "cx": 501,
                 "cy": 1135,
-                "id_counter": 0,
                 "items": [
                     {
                         "name": "Backdrop.jpg",
@@ -2344,7 +2230,7 @@
     },
     "sources": [
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "4Bs Auto",
             "uuid": "b9bc54d2-3cc9-4619-8de0-cac96d866cde",
             "id": "browser_source",
@@ -2378,7 +2264,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "4Bs In-Game",
             "uuid": "695e34a2-298f-4ebe-b61e-b481c4265bc6",
             "id": "browser_source",
@@ -2414,7 +2300,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "4Bs Post Game",
             "uuid": "d8e80809-2929-46ac-9b99-5ce18aa5c80c",
             "id": "browser_source",
@@ -2451,7 +2337,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Announcer Mics",
             "uuid": "db9e3c38-8f04-4734-9ebf-d82a23bc5a59",
             "id": "pulse_input_capture",
@@ -2462,7 +2348,7 @@
             "mixers": 255,
             "sync": 0,
             "flags": 2,
-            "volume": 3.1622776985168457,
+            "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -2479,98 +2365,17 @@
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
             "monitoring_type": 0,
-            "private_settings": {},
-            "filters": [
-                {
-                    "prev_ver": 520093699,
-                    "name": "Expander",
-                    "uuid": "880c5143-6847-490d-863b-777af7b02649",
-                    "id": "expander_filter",
-                    "versioned_id": "expander_filter",
-                    "settings": {
-                        "threshold": -37.100000000000001,
-                        "output_gain": 15.199999999999999
-                    },
-                    "mixers": 255,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                },
-                {
-                    "prev_ver": 520093699,
-                    "name": "Compressor",
-                    "uuid": "c6633aef-04c6-4e83-b1c2-f55b99a04c61",
-                    "id": "compressor_filter",
-                    "versioned_id": "compressor_filter",
-                    "settings": {
-                        "output_gain": 8.9000000000000004
-                    },
-                    "mixers": 255,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                },
-                {
-                    "prev_ver": 520093699,
-                    "name": "Limiter",
-                    "uuid": "c61ff741-0563-4c25-ad4c-4fdd569c5ec2",
-                    "id": "limiter_filter",
-                    "versioned_id": "limiter_filter",
-                    "settings": {
-                        "threshold": -20.800000000000001
-                    },
-                    "mixers": 255,
-                    "sync": 0,
-                    "flags": 0,
-                    "volume": 1.0,
-                    "balance": 0.5,
-                    "enabled": true,
-                    "muted": false,
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "hotkeys": {},
-                    "deinterlace_mode": 0,
-                    "deinterlace_field_order": 0,
-                    "monitoring_type": 0,
-                    "private_settings": {}
-                }
-            ]
+            "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Announcer Webcam",
             "uuid": "a9b55463-07e7-4079-bc2a-7319b1ff349a",
             "id": "v4l2_input",
             "versioned_id": "v4l2_input",
             "settings": {
-                "Exposure, Dynamic Framerate": true,
                 "device_id": "/dev/video6",
+                "Exposure, Dynamic Framerate": true,
                 "input": 0,
                 "pixelformat": 1196444237,
                 "resolution": 8246337209400,
@@ -2595,7 +2400,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Backdrop.jpg",
             "uuid": "c9db2818-7d2a-4bfb-99e1-3f3f7ff06191",
             "id": "image_source",
@@ -2621,7 +2426,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520093699,
+                    "prev_ver": 520093698,
                     "name": "Crop/Pad",
                     "uuid": "98d28648-ff4d-493a-9191-2fcff8edc396",
                     "id": "crop_filter",
@@ -2648,7 +2453,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 520093699,
+                    "prev_ver": 520093698,
                     "name": "Color Correction",
                     "uuid": "569851fe-4996-448d-9c68-5288e28b8fad",
                     "id": "color_filter",
@@ -2676,19 +2481,17 @@
             ]
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Blue Webcam",
             "uuid": "93222da9-a3bb-410e-ba10-0b7bc440b2dd",
             "id": "v4l2_input",
             "versioned_id": "v4l2_input",
             "settings": {
-                "device_id": "/dev/video4",
+                "device_id": "/dev/video0",
                 "Exposure, Dynamic Framerate": true,
                 "input": 0,
                 "pixelformat": 1196444237,
                 "resolution": 4398046511872,
-                "framerate": -1,
-                "color_range": 0,
                 "buffering": false,
                 "auto_reset": true
             },
@@ -2710,7 +2513,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "ECC2025_Title.png",
             "uuid": "727ece4b-df4d-4b72-addd-6717f3641281",
             "id": "image_source",
@@ -2736,7 +2539,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "ECC_2025_Drone.png",
             "uuid": "9462e8ab-d465-4866-aeb9-874087841829",
             "id": "image_source",
@@ -2762,7 +2565,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "ECC_2025_Queen.png",
             "uuid": "e744e17d-d58d-400a-b584-45d9ad739815",
             "id": "image_source",
@@ -2788,18 +2591,18 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Game Audio",
             "uuid": "2c36d28d-2476-4cba-bf4b-c88483d1cebe",
             "id": "pulse_input_capture",
             "versioned_id": "pulse_input_capture",
             "settings": {
-                "device_id": "alsa_input.usb-Elgato_Elgato_HD60_X_A00XB337210E1F-02.analog-stereo"
+                "device_id": "alsa_input.usb-Elgato_Elgato_HD60_X_A00XB337210GXO-02.analog-stereo"
             },
             "mixers": 255,
             "sync": 0,
             "flags": 0,
-            "volume": 0.79883319139480591,
+            "volume": 1.0,
             "balance": 0.5,
             "enabled": true,
             "muted": false,
@@ -2815,22 +2618,22 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 2,
+            "monitoring_type": 0,
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520093699,
+                    "prev_ver": 520093698,
                     "name": "Game Feed Replay",
                     "uuid": "49d6930b-844e-439b-b5c6-f75c0dc95e14",
                     "id": "replay_filter_audio",
                     "versioned_id": "replay_filter_audio",
                     "settings": {
-                        "duration": 3000,
-                        "end_action": 5,
-                        "internal_frames": true,
                         "source": "Game Feed",
+                        "internal_frames": true,
                         "source_audio": "Game Audio",
-                        "visibility_action": 0
+                        "duration": 3000,
+                        "visibility_action": 0,
+                        "end_action": 5
                     },
                     "mixers": 255,
                     "sync": 0,
@@ -2852,7 +2655,7 @@
             ]
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Game Feed",
             "uuid": "8e81e04b-1b73-497c-8a63-96fe44a485df",
             "id": "v4l2_input",
@@ -2885,7 +2688,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520093699,
+                    "prev_ver": 520093698,
                     "name": "Game Feed Replay",
                     "uuid": "08826275-7324-41a1-b919-64dab9c53553",
                     "id": "replay_filter",
@@ -2913,16 +2716,16 @@
             ]
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Game Feed Replay",
             "uuid": "02aa3c5e-958d-4185-9ae5-a4fae55e580e",
             "id": "replay_source",
             "versioned_id": "replay_source",
             "settings": {
-                "internal_frames": true,
-                "retrieve_delay": 0,
                 "source": "Game Feed",
+                "internal_frames": true,
                 "source_audio": "Game Audio",
+                "retrieve_delay": 0,
                 "duration": 3000,
                 "visibility_action": 0,
                 "end_action": 5
@@ -2987,14 +2790,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Gold Webcam",
             "uuid": "6b089859-76bb-418c-b62e-8365d137340c",
             "id": "v4l2_input",
             "versioned_id": "v4l2_input",
             "settings": {
+                "device_id": "/dev/video4",
                 "Focus, Automatic Continuous": true,
-                "device_id": "/dev/video0",
                 "Brightness": 1,
                 "White Balance, Automatic": true,
                 "White Balance Temperature": 4600,
@@ -3025,7 +2828,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Instant Replay!",
             "uuid": "dee27a2a-b36b-46fb-9ea8-7a22c70b8374",
             "id": "text_ft2_source",
@@ -3051,7 +2854,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520093699,
+                    "prev_ver": 520093698,
                     "name": "Color Correction",
                     "uuid": "69c97192-b659-4378-930e-1c1379ca1101",
                     "id": "color_filter",
@@ -3079,7 +2882,7 @@
             ]
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Killer Queen Seattle Text",
             "uuid": "a27f9c5e-8b50-4eb2-b9d7-f1a8e3a525cb",
             "id": "text_ft2_source",
@@ -3116,7 +2919,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "kq_sea",
             "uuid": "417da25b-53a9-45a1-9382-d4c020a654d8",
             "id": "browser_source",
@@ -3151,7 +2954,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "kq_sea2",
             "uuid": "6b819c6b-5592-407a-becd-5649c7ae9744",
             "id": "browser_source",
@@ -3186,7 +2989,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "kq_sea3",
             "uuid": "e7b57685-75c5-4c00-a63f-5e6f00035492",
             "id": "browser_source",
@@ -3221,14 +3024,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Main",
             "uuid": "b59a975a-f14d-4d42-a0cc-7fa672749a3f",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 43,
+                "id_counter": 41,
                 "items": [
                     {
                         "name": "Announcer Mics",
@@ -3696,11 +3499,11 @@
                         "group_item_backup": true,
                         "pos": {
                             "x": 1617.0,
-                            "y": 186.00003051757812
+                            "y": 186.0
                         },
                         "pos_rel": {
                             "x": 1.2166666984558105,
-                            "y": -0.65555548667907715
+                            "y": -0.65555554628372192
                         },
                         "scale": {
                             "x": 1.0,
@@ -3751,11 +3554,11 @@
                         "group_item_backup": true,
                         "pos": {
                             "x": 1520.0,
-                            "y": 114.00003051757812
+                            "y": 114.0
                         },
                         "pos_rel": {
                             "x": 1.0370370149612427,
-                            "y": -0.78888881206512451
+                            "y": -0.78888887166976929
                         },
                         "scale": {
                             "x": 1.0,
@@ -3806,11 +3609,11 @@
                         "group_item_backup": true,
                         "pos": {
                             "x": 1520.0,
-                            "y": 84.000030517578125
+                            "y": 84.0
                         },
                         "pos_rel": {
                             "x": 1.0370370149612427,
-                            "y": -0.8444443941116333
+                            "y": -0.84444445371627808
                         },
                         "scale": {
                             "x": 1.0,
@@ -3860,12 +3663,12 @@
                         "id": 10,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 1525.0,
-                            "y": 3.00006103515625
+                            "x": 1517.0,
+                            "y": 0.0
                         },
                         "pos_rel": {
-                            "x": 1.046296238899231,
-                            "y": -0.99444431066513062
+                            "x": 1.0314815044403076,
+                            "y": -1.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -3876,11 +3679,11 @@
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 390.0,
+                            "x": 400.0,
                             "y": 64.0
                         },
                         "bounds_rel": {
-                            "x": 0.72222220897674561,
+                            "x": 0.74074071645736694,
                             "y": 0.11851851642131805
                         },
                         "scale_filter": "disable",
@@ -3915,12 +3718,12 @@
                         "id": 7,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1520.0,
-                            "y": 3.00006103515625
+                            "x": 1517.0,
+                            "y": 0.0
                         },
                         "pos_rel": {
-                            "x": 1.0370370149612427,
-                            "y": -0.99444431066513062
+                            "x": 1.0314815044403076,
+                            "y": -1.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -4009,7 +3812,7 @@
                     {
                         "name": "kq_sea2",
                         "source_uuid": "6b819c6b-5592-407a-becd-5649c7ae9744",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -4064,7 +3867,7 @@
                     {
                         "name": "kq_sea",
                         "source_uuid": "417da25b-53a9-45a1-9382-d4c020a654d8",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -4453,7 +4256,7 @@
                     {
                         "name": "Toshi2 In-Game",
                         "source_uuid": "f65dbdcf-0645-4acd-bb34-e79af4a723aa",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -4506,64 +4309,9 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Toshi2 Auto",
-                        "source_uuid": "52c48297-c90f-4975-85d8-ef1ff50148fd",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 42,
-                        "group_item_backup": true,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 224.99996948242188
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.58333337306976318
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "HiveMind Toshi2",
                         "source_uuid": "02ea010a-b5a2-4d64-a602-0786f13fcff3",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -4673,61 +4421,6 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Toshi Auto",
-                        "source_uuid": "61309b6d-d2df-4bc9-b5a6-b4696479e610",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 43,
-                        "group_item_backup": true,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 224.99996948242188
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.58333337306976318
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "HiveMind Toshi",
                         "source_uuid": "c095ac79-c388-4952-995e-313ea3c2a50d",
                         "visible": false,
@@ -4785,61 +4478,6 @@
                         }
                     },
                     {
-                        "name": "4Bs In-Game",
-                        "source_uuid": "695e34a2-298f-4ebe-b61e-b481c4265bc6",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 1,
-                        "group_item_backup": true,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "4Bs Auto",
                         "source_uuid": "b9bc54d2-3cc9-4619-8de0-cac96d866cde",
                         "visible": true,
@@ -4895,9 +4533,64 @@
                         "private_settings": {}
                     },
                     {
+                        "name": "4Bs In-Game",
+                        "source_uuid": "695e34a2-298f-4ebe-b61e-b481c4265bc6",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": true,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
                         "name": "HiveMind 4Bs",
                         "source_uuid": "f8660fe1-e220-41e7-8272-e003023a1d3b",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -4989,14 +4682,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Replay",
             "uuid": "6c7f9907-d790-4365-990e-abbf5387e3d7",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "custom_size": false,
                 "id_counter": 29,
+                "custom_size": false,
                 "items": [
                     {
                         "name": "Announcer Mics",
@@ -5463,12 +5156,12 @@
                         "id": 12,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 1614.0,
-                            "y": 182.99996948242188
+                            "x": 1617.0,
+                            "y": 186.0
                         },
                         "pos_rel": {
-                            "x": 1.2111110687255859,
-                            "y": -0.66111117601394653
+                            "x": 1.2166666984558105,
+                            "y": -0.65555554628372192
                         },
                         "scale": {
                             "x": 1.0,
@@ -5518,12 +5211,12 @@
                         "id": 9,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 1517.0,
-                            "y": 110.99996948242188
+                            "x": 1520.0,
+                            "y": 114.0
                         },
                         "pos_rel": {
-                            "x": 1.0314815044403076,
-                            "y": -0.7944445013999939
+                            "x": 1.0370370149612427,
+                            "y": -0.78888887166976929
                         },
                         "scale": {
                             "x": 1.0,
@@ -5573,12 +5266,12 @@
                         "id": 11,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 1517.0,
-                            "y": 81.0
+                            "x": 1520.0,
+                            "y": 84.0
                         },
                         "pos_rel": {
-                            "x": 1.0314815044403076,
-                            "y": -0.85000002384185791
+                            "x": 1.0370370149612427,
+                            "y": -0.84444445371627808
                         },
                         "scale": {
                             "x": 1.0,
@@ -5628,11 +5321,11 @@
                         "id": 10,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 1522.0,
+                            "x": 1517.0,
                             "y": 0.0
                         },
                         "pos_rel": {
-                            "x": 1.0407407283782959,
+                            "x": 1.0314815044403076,
                             "y": -1.0
                         },
                         "scale": {
@@ -5644,11 +5337,11 @@
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 390.0,
+                            "x": 400.0,
                             "y": 64.0
                         },
                         "bounds_rel": {
-                            "x": 0.72222220897674561,
+                            "x": 0.74074071645736694,
                             "y": 0.11851851642131805
                         },
                         "scale_filter": "disable",
@@ -5777,7 +5470,7 @@
                     {
                         "name": "kq_sea2",
                         "source_uuid": "6b819c6b-5592-407a-becd-5649c7ae9744",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -5832,7 +5525,7 @@
                     {
                         "name": "kq_sea",
                         "source_uuid": "417da25b-53a9-45a1-9382-d4c020a654d8",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -6221,7 +5914,7 @@
                     {
                         "name": "Toshi2 In-Game",
                         "source_uuid": "f65dbdcf-0645-4acd-bb34-e79af4a723aa",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -6245,61 +5938,6 @@
                         "pos_rel": {
                             "x": -1.7777777910232544,
                             "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Toshi2 Auto",
-                        "source_uuid": "52c48297-c90f-4975-85d8-ef1ff50148fd",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 42,
-                        "group_item_backup": true,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 224.99996948242188
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.58333337306976318
                         },
                         "scale": {
                             "x": 1.0,
@@ -6441,61 +6079,6 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Toshi Auto",
-                        "source_uuid": "61309b6d-d2df-4bc9-b5a6-b4696479e610",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 43,
-                        "group_item_backup": true,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 224.99996948242188
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.58333337306976318
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "HiveMind Toshi",
                         "source_uuid": "c095ac79-c388-4952-995e-313ea3c2a50d",
                         "visible": false,
@@ -6553,8 +6136,8 @@
                         }
                     },
                     {
-                        "name": "4Bs In-Game",
-                        "source_uuid": "695e34a2-298f-4ebe-b61e-b481c4265bc6",
+                        "name": "4Bs Auto",
+                        "source_uuid": "b9bc54d2-3cc9-4619-8de0-cac96d866cde",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -6570,15 +6153,15 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 1,
+                        "id": 41,
                         "group_item_backup": true,
                         "pos": {
                             "x": 0.0,
-                            "y": 0.0
+                            "y": 224.99993896484375
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
-                            "y": -1.0
+                            "y": -0.58333343267440796
                         },
                         "scale": {
                             "x": 1.0,
@@ -6608,8 +6191,8 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "4Bs Auto",
-                        "source_uuid": "b9bc54d2-3cc9-4619-8de0-cac96d866cde",
+                        "name": "4Bs In-Game",
+                        "source_uuid": "695e34a2-298f-4ebe-b61e-b481c4265bc6",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -6625,15 +6208,15 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 41,
+                        "id": 1,
                         "group_item_backup": true,
                         "pos": {
                             "x": 0.0,
-                            "y": 224.99993896484375
+                            "y": 0.0
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
-                            "y": -0.58333343267440796
+                            "y": -1.0
                         },
                         "scale": {
                             "x": 1.0,
@@ -6814,14 +6397,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Stats",
             "uuid": "ad0bda69-7c1a-4eab-93d4-adc6b70c6392",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "custom_size": false,
                 "id_counter": 12,
+                "custom_size": false,
                 "items": [
                     {
                         "name": "Announcer Mics",
@@ -7288,12 +6871,12 @@
                         "id": 12,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 1614.0,
-                            "y": 182.99996948242188
+                            "x": 1617.0,
+                            "y": 186.0
                         },
                         "pos_rel": {
-                            "x": 1.2111110687255859,
-                            "y": -0.66111117601394653
+                            "x": 1.2166666984558105,
+                            "y": -0.65555554628372192
                         },
                         "scale": {
                             "x": 1.0,
@@ -7343,12 +6926,12 @@
                         "id": 9,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 1517.0,
-                            "y": 110.99996948242188
+                            "x": 1520.0,
+                            "y": 114.0
                         },
                         "pos_rel": {
-                            "x": 1.0314815044403076,
-                            "y": -0.7944445013999939
+                            "x": 1.0370370149612427,
+                            "y": -0.78888887166976929
                         },
                         "scale": {
                             "x": 1.0,
@@ -7398,12 +6981,12 @@
                         "id": 11,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 1517.0,
-                            "y": 81.0
+                            "x": 1520.0,
+                            "y": 84.0
                         },
                         "pos_rel": {
-                            "x": 1.0314815044403076,
-                            "y": -0.85000002384185791
+                            "x": 1.0370370149612427,
+                            "y": -0.84444445371627808
                         },
                         "scale": {
                             "x": 1.0,
@@ -7453,11 +7036,11 @@
                         "id": 10,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 1522.0,
+                            "x": 1517.0,
                             "y": 0.0
                         },
                         "pos_rel": {
-                            "x": 1.0407407283782959,
+                            "x": 1.0314815044403076,
                             "y": -1.0
                         },
                         "scale": {
@@ -7469,11 +7052,11 @@
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 390.0,
+                            "x": 400.0,
                             "y": 64.0
                         },
                         "bounds_rel": {
-                            "x": 0.72222220897674561,
+                            "x": 0.74074071645736694,
                             "y": 0.11851851642131805
                         },
                         "scale_filter": "disable",
@@ -7602,7 +7185,7 @@
                     {
                         "name": "kq_sea2",
                         "source_uuid": "6b819c6b-5592-407a-becd-5649c7ae9744",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -7657,7 +7240,7 @@
                     {
                         "name": "kq_sea",
                         "source_uuid": "417da25b-53a9-45a1-9382-d4c020a654d8",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -8582,7 +8165,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Time",
             "uuid": "2e745fc8-43cf-46b5-9554-8200685e3d0b",
             "id": "browser_source",
@@ -8619,41 +8202,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
-            "name": "Toshi Auto",
-            "uuid": "61309b6d-d2df-4bc9-b5a6-b4696479e610",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "url": "https://kqhivemind.com/overlay/57/auto",
-                "width": 1520,
-                "height": 855
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Toshi In-Game",
             "uuid": "6abcda61-9b21-4d20-9627-ddd80f072f45",
             "id": "browser_source",
@@ -8689,7 +8238,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Toshi Post Game",
             "uuid": "43614a8a-dfd1-43a7-ba6b-8f7db7f78d86",
             "id": "browser_source",
@@ -8724,41 +8273,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
-            "name": "Toshi2 Auto",
-            "uuid": "52c48297-c90f-4975-85d8-ef1ff50148fd",
-            "id": "browser_source",
-            "versioned_id": "browser_source",
-            "settings": {
-                "url": "https://kqhivemind.com/overlay/60/ingame",
-                "width": 1520,
-                "height": 855
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "ObsBrowser.Refresh": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Toshi2 In-Game",
             "uuid": "f65dbdcf-0645-4acd-bb34-e79af4a723aa",
             "id": "browser_source",
@@ -8794,7 +8309,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Toshi2 Post Game",
             "uuid": "a11673e6-4200-4f47-95c9-3efc96d13f05",
             "id": "browser_source",
@@ -8829,13 +8344,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Tournament Subtitle",
             "uuid": "098e53f9-cf7b-4470-a2b0-04371c2e79f8",
             "id": "text_ft2_source",
             "versioned_id": "text_ft2_source_v2",
             "settings": {
-                "text": "Friday Trash",
+                "text": "",
                 "font": {
                     "face": "Sans Serif",
                     "flags": 0,
@@ -8861,13 +8376,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093699,
+            "prev_ver": 520093698,
             "name": "Tournament Title",
             "uuid": "fd2f7d65-b977-47e5-aa3e-3e44bf04271e",
             "id": "text_ft2_source",
             "versioned_id": "text_ft2_source_v2",
             "settings": {
-                "text": "West Circuit Seattle 2025",
+                "text": "Thursday Mixer",
                 "font": {
                     "face": "Sans Serif",
                     "flags": 0,
