@@ -126,7 +126,7 @@ Set password to 'stream'
 
 #### Install streaming application
 
-> `[root@archiso /]# pacman -S gnome networkmanager libva-mesa-driver vlc nodejs npm base-devel librist cmake qrcodegencpp-cmake qt6-wayland rnnoise ffnvcodec-headers libdatachannel luajit nlohmann-json sndio swig uthash websocketpp chromium`
+> `[root@archiso /]# pacman -S gnome networkmanager libva-mesa-driver vlc nodejs npm base-devel librist cmake qrcodegencpp-cmake qt6-wayland rnnoise ffnvcodec-headers libdatachannel luajit nlohmann-json sndio swig uthash websocketpp chromium extra-cmake-modules simde asio usbutils`
 
 Select all selections for gnome
 
@@ -182,11 +182,7 @@ makepkg in directory to build libajantv2
 >
 > `[stream@kq-stream-1]$ (cd ~/aur/libajantv2 && makepkg)`
 >
-> `[stream@kq-stream-1]$ sudo pacman -U ~/aur/libajantv2/libajantv2-1\:17.1.0-2-x86_64.pkg.tar.zst`
-
-Install downgraded version of asio
-
-> `[stream@kq-stream-1]$ sudo pacman -U https://archive.archlinux.org/packages/a/asio/asio-1.30.2-1-any.pkg.tar.zst`
+> `[stream@kq-stream-1]$ sudo pacman -U ~/aur/libajantv2/libajantv2-1\:17.5.0-1-x86_64.pkg.tar.zst`
 
 Download and untar obs-studio-git to aur directory
 https://aur.archlinux.org/packages/obs-studio-git
@@ -199,7 +195,7 @@ makepkg in directory to build obs-studio-git
 >
 > `[stream@kq-stream-1]$ (cd ~/aur/obs-studio-git && makepkg)`
 >
-> `[stream@kq-stream-1]$ sudo pacman -U ~/aur/obs-studio-git/obs-studio-git-31.0.2.r116.g8db61f2-1-x86_64.pkg.tar.zst`
+> `[stream@kq-stream-1]$ sudo pacman -U ~/aur/obs-studio-git/obs-studio-git-32.0.1.r0.g0b12296-1-x86_64.pkg.tar.zst`
 
 Copy plugins to OBS config directory
 
