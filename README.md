@@ -197,7 +197,15 @@ makepkg in directory to build obs-studio-git
 >
 > `[stream@kq-stream-1]$ sudo pacman -U ~/aur/obs-studio-git/obs-studio-git-32.0.1.r0.g0b12296-1-x86_64.pkg.tar.zst`
 
+### Links to plugin repositories
+
 Copy plugins to OBS config directory
+
+https://github.com/exeldro/obs-move-transition
+
+https://github.com/exeldro/obs-shaderfilter
+
+https://github.com/exeldro/obs-replay-source
 
 > `[stream@kq-stream-1]$ mkdir ~/.config/obs-studio/plugins`
 >

@@ -60,7 +60,7 @@
                         "name": "Killer Queen Seattle Text",
                         "source_uuid": "a27f9c5e-8b50-4eb2-b9d7-f1a8e3a525cb",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -115,7 +115,7 @@
                         "name": "Time",
                         "source_uuid": "2e745fc8-43cf-46b5-9554-8200685e3d0b",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -170,7 +170,7 @@
                         "name": "Tournament Subtitle",
                         "source_uuid": "098e53f9-cf7b-4470-a2b0-04371c2e79f8",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -225,7 +225,7 @@
                         "name": "Tournament Title",
                         "source_uuid": "fd2f7d65-b977-47e5-aa3e-3e44bf04271e",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -674,7 +674,7 @@
         },
         {
             "prev_ver": 536870913,
-            "name": "4Bs Post Game",
+            "name": "4Bs Post-Game",
             "uuid": "d8e80809-2929-46ac-9b99-5ce18aa5c80c",
             "id": "browser_source",
             "versioned_id": "browser_source",
@@ -831,7 +831,7 @@
                 "device_id": "/dev/video6",
                 "Exposure, Dynamic Framerate": true,
                 "input": 0,
-                "pixelformat": 1196444237,
+                "pixelformat": 861030210,
                 "resolution": 8246337209400,
                 "buffering": false,
                 "auto_reset": true
@@ -2444,7 +2444,7 @@
                         "name": "Game Feed",
                         "source_uuid": "8e81e04b-1b73-497c-8a63-96fe44a485df",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -2622,7 +2622,7 @@
                         "name": "Killer Queen Seattle Text",
                         "source_uuid": "a27f9c5e-8b50-4eb2-b9d7-f1a8e3a525cb",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -2677,7 +2677,7 @@
                         "name": "Time",
                         "source_uuid": "2e745fc8-43cf-46b5-9554-8200685e3d0b",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -2732,7 +2732,7 @@
                         "name": "Tournament Subtitle",
                         "source_uuid": "098e53f9-cf7b-4470-a2b0-04371c2e79f8",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -2787,7 +2787,7 @@
                         "name": "Tournament Title",
                         "source_uuid": "fd2f7d65-b977-47e5-aa3e-3e44bf04271e",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -2842,7 +2842,7 @@
                         "name": "Header",
                         "source_uuid": "3490f323-95e7-4f1e-b4f3-215b78f8f961",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -3334,7 +3334,7 @@
                 "custom_size": false,
                 "items": [
                     {
-                        "name": "Toshi2 Post Game",
+                        "name": "Toshi2 Post-Game",
                         "source_uuid": "a11673e6-4200-4f47-95c9-3efc96d13f05",
                         "visible": false,
                         "locked": true,
@@ -3389,10 +3389,10 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "Toshi Post Game",
+                        "name": "Toshi Post-Game",
                         "source_uuid": "43614a8a-dfd1-43a7-ba6b-8f7db7f78d86",
                         "visible": false,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -3444,7 +3444,7 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "4Bs Post Game",
+                        "name": "4Bs Post-Game",
                         "source_uuid": "d8e80809-2929-46ac-9b99-5ce18aa5c80c",
                         "visible": true,
                         "locked": true,
@@ -5017,7 +5017,7 @@
         },
         {
             "prev_ver": 536870913,
-            "name": "Toshi Post Game",
+            "name": "Toshi Post-Game",
             "uuid": "43614a8a-dfd1-43a7-ba6b-8f7db7f78d86",
             "id": "browser_source",
             "versioned_id": "browser_source",
@@ -5122,7 +5122,7 @@
         },
         {
             "prev_ver": 536870913,
-            "name": "Toshi2 Post Game",
+            "name": "Toshi2 Post-Game",
             "uuid": "a11673e6-4200-4f47-95c9-3efc96d13f05",
             "id": "browser_source",
             "versioned_id": "browser_source",

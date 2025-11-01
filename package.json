@@ -7,9 +7,9 @@
   "scripts": {
     "build": "rimraf ./build && tsc",
     "start": "npm run build && node dist/server.js",
-    "4bs": "concurrently \"npm run start\" \"sleep 1 && npx @kqhivemind/hivemind-client ~/kqsea-streaming/configs/hivemind/config-4bs.json\"",
-    "toshi": "concurrently \"npm run start\" \"sleep 1 && npx @kqhivemind/hivemind-client ~/kqsea-streaming/configs/hivemind/config-toshi.json\"",
-    "toshi2": "concurrently \"npm run start\" \"sleep 1 && npx @kqhivemind/hivemind-client ~/kqsea-streaming/configs/hivemind/config-toshi2.json\"",
+    "4bs": "concurrently \"npm run start\" \"sleep 1 && npx @kqhivemind/hivemind-client configs/hivemind/config-4bs.json\"",
+    "toshi": "concurrently \"npm run start\" \"sleep 1 && npx @kqhivemind/hivemind-client configs/hivemind/config-toshi.json\"",
+    "toshi2": "concurrently \"npm run start\" \"sleep 1 && npx @kqhivemind/hivemind-client configs/hivemind/config-toshi2.json\"",
     "start:dev": "npx nodemon"
   },
   "keywords": [],

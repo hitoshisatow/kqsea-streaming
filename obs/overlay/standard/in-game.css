@@ -1,11 +1,9 @@
 body {
     color: white;
     font-size: 16px;
-    /* text-shadow: 1px 2px 2px #000000; */
 }
 
 .team-name {
-    display: none;
     border-radius: 5px;
     position: absolute;
     width: 660px;
@@ -39,16 +37,21 @@ body {
     display: flex;
 }
 
+.team-score-numerical-left {
+    display: none;
+}
+
+.team-score-numerical-right {
+    display: none;
+}
+
 .team-score-left {
-    left: 0px;
     flex-flow: row-reverse;
-    left: 600px;
-    margin-left: -40px;
+    left: 500px;
 }
 
 .team-score-right {
-    left: 760px;
-    margin-left: 40px;
+    left: 844px;
 }
 
 .team-score-graphic {
@@ -332,14 +335,6 @@ body {
 }
 
 .panel-right {
-    display: none;
-}
-
-.team-score-numerical-left {
-    display: none;
-}
-
-.team-score-numerical-right {
     display: none;
 }
 
