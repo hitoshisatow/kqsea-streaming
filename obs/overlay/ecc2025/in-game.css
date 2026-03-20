@@ -1,13 +1,12 @@
 body {
     color: white;
     font-size: 16px;
-    text-shadow: 1px 2px 2px #000000;
 }
 
 .team-name {
     border-radius: 5px;
     position: absolute;
-    width: 760px;
+    width: 660px;
     height: 33px;
     font-size: 24px;
 }
@@ -23,7 +22,7 @@ body {
 
 .team-name-right {
     top: 0px;
-    left: 760px;
+    left: 844px;
     background: rgba(110,59,109);
     background: linear-gradient(270deg, rgba(110,59,109, 0.510329131652661) 0%, rgba(110,59,109, 1) 76%, rgba(110,59,109, 0.23021708683473385) 100%);
     text-align: left;
@@ -38,16 +37,21 @@ body {
     display: flex;
 }
 
+.team-score-numerical-left {
+    display: none;
+}
+
+.team-score-numerical-right {
+    display: none;
+}
+
 .team-score-left {
-    left: 0px;
     flex-flow: row-reverse;
-    left: 600px;
-    margin-left: -40px;
+    left: 500px;
 }
 
 .team-score-right {
-    left: 760px;
-    margin-left: 40px;
+    left: 844px;
 }
 
 .team-score-graphic {
@@ -58,10 +62,45 @@ body {
     background-size: contain;
 }
 
+.game-duration:before {
+    position: relative;
+    content: url(https://kqassets.s3.us-west-2.amazonaws.com/time.png);
+    filter: invert(100%);
+    top: 2px;
+    width: 32px;
+    height: 32px;
+    left: -4px;
+}
+
+.game-duration {
+    position: absolute;
+    font-size: 32px;
+    left: 712px;
+    top: 128px;
+    width: 184px;
+}
+
+.game-berries-remaining::before {
+    position: relative;
+    content:url(https://kqassets.s3.us-west-2.amazonaws.com/berry.png);
+    top: 4px;
+    width: 32px;
+    height: 32px;
+}
+
+.game-berries-remaining {
+    position: absolute;
+    font-size: 28px;
+    left: 716px;
+    top: 176px;
+    width: 184px;
+}
+
+
 .player {
     position: absolute;
-    top: 175px;
-    width: 152px;
+    top: 184px;
+    width: 132px;
     height: 50px;
     background-color: rgba(0, 0, 0, .8);
 }
@@ -70,7 +109,7 @@ body {
     position: absolute;
     top: 30px;
     left: 0px;
-    width: 152px;
+    width: 132px;
     height: 20px;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,7 +119,7 @@ body {
 .warrior-graphic {
     position: absolute;
     top: 30px;
-    left: 44px;
+    left: 38px;
     height: 20px;
     width: 20px;
     background-color: white;
@@ -92,7 +131,7 @@ body {
 .speed-graphic {
     position: absolute;
     top: 30px;
-    left: 88px;
+    left: 76px;
     height: 20px;
     width: 20px;
     background-color: white;
@@ -102,7 +141,7 @@ body {
 }
 
 .player > .stat-container {
-    width: 76px;
+    width: 66px;
     height: 20px;
     text-align: center;
     z-index: 2;
@@ -162,7 +201,7 @@ body {
     position: absolute;
     top: 20px;
     left: 0px;
-    width: 152px;
+    width: 132px;
     height: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -178,7 +217,7 @@ body {
 .player > .deaths {
     position: absolute;
     top: 30px;
-    left: 76px;
+    left: 66px;
 }
 
 .player > .berries {
@@ -197,7 +236,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 152px;
+    width: 132px;
     height: 20px;
     text-align: center;
     overflow: hidden;
@@ -209,40 +248,40 @@ body {
 }
 
 .blue-skulls {
-    left: 152px;
+    left: 132px;
 }
 
 .blue-queen {
-    left: 304px;
+    left: 264px;
 }
 
 .blue-abs {
-    left: 456px;
+    left: 396px;
 }
 
 .blue-stripes {
-    left: 608px;
+    left: 528px;
 }
 
 
 .gold-checks {
-    left: 760px;
+    left: 844px;
 }
 
 .gold-skulls {
-    left: 912px;
+    left: 976px;
 }
 
 .gold-queen {
-    left: 1064px;
+    left: 1108px;
 }
 
 .gold-abs {
-    left: 1216px;
+    left: 1240px;
 }
 
 .gold-stripes {
-    left: 1368px;
+    left: 1372px;
 }
 
 
@@ -299,23 +338,7 @@ body {
     display: none;
 }
 
-.team-score-numerical-left {
-    display: none;
-}
-
-.team-score-numerical-right {
-    display: none;
-}
-
 .hivemind-logo {
-    display: none;
-}
-
-.game-duration {
-    display: none;
-}
-
-.game-berries-remaining {
     display: none;
 }
 

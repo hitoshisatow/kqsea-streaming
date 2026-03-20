@@ -1,51 +1,8 @@
 {
-    "current_scene": "Main",
-    "current_program_scene": "Main",
-    "scene_order": [
-        {
-            "name": "Main"
-        },
-        {
-            "name": "Stats"
-        },
-        {
-            "name": "Replay"
-        },
-        {
-            "name": "NS - Webcams"
-        },
-        {
-            "name": "NS - Game Feed"
-        },
-        {
-            "name": "NS - Game Replay"
-        },
-        {
-            "name": "NS - HiveMind In-Game"
-        },
-        {
-            "name": "NS - HiveMind Post-Game"
-        },
-        {
-            "name": "NS - HiveMind Auto"
-        },
-        {
-            "name": "NS - Twitch Chat"
-        },
-        {
-            "name": "NS - Header"
-        },
-        {
-            "name": "NS - Art"
-        },
-        {
-            "name": "NS - Audio"
-        }
-    ],
     "name": "Standard Collection",
     "groups": [
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Header",
             "uuid": "3490f323-95e7-4f1e-b4f3-215b78f8f961",
             "id": "group",
@@ -53,7 +10,7 @@
             "settings": {
                 "custom_size": true,
                 "cx": 416,
-                "cy": 234,
+                "cy": 222,
                 "id_counter": 0,
                 "items": [
                     {
@@ -67,7 +24,7 @@
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 0,
+                        "bounds_type": 6,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -78,11 +35,11 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
-                            "y": 176.0
+                            "y": 172.0
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
-                            "y": -0.6740740537643433
+                            "y": -0.6814814805984497
                         },
                         "scale": {
                             "x": 1.0,
@@ -93,12 +50,12 @@
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 416.0,
+                            "y": 50.0
                         },
                         "bounds_rel": {
-                            "x": 0.0018518518190830946,
-                            "y": 0.0018518518190830946
+                            "x": 0.770370364189148,
+                            "y": 0.09259258955717087
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -122,7 +79,7 @@
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 0,
+                        "bounds_type": 6,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -133,27 +90,27 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
-                            "y": 118.0
+                            "y": 132.0
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
-                            "y": -0.7814815044403076
+                            "y": -0.7555555701255798
                         },
                         "scale": {
                             "x": 1.0,
-                            "y": 1.0
+                            "y": 0.9655172228813171
                         },
                         "scale_rel": {
                             "x": 1.0,
-                            "y": 1.0
+                            "y": 0.9655172228813171
                         },
                         "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 416.0,
+                            "y": 50.0
                         },
                         "bounds_rel": {
-                            "x": 0.0018518518190830946,
-                            "y": 0.0018518518190830946
+                            "x": 0.770370364189148,
+                            "y": 0.09259258955717087
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -170,14 +127,14 @@
                         "name": "Tournament Subtitle",
                         "source_uuid": "098e53f9-cf7b-4470-a2b0-04371c2e79f8",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 0,
+                        "bounds_type": 6,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -188,11 +145,11 @@
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
-                            "y": 60.0
+                            "y": 82.0
                         },
                         "pos_rel": {
                             "x": -1.7777777910232544,
-                            "y": -0.8888888955116272
+                            "y": -0.8481481671333313
                         },
                         "scale": {
                             "x": 1.0,
@@ -203,12 +160,12 @@
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 416.0,
+                            "y": 50.0
                         },
                         "bounds_rel": {
-                            "x": 0.0018518518190830946,
-                            "y": 0.0018518518190830946
+                            "x": 0.770370364189148,
+                            "y": 0.09259258955717087
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -224,7 +181,7 @@
                     {
                         "name": "Tournament Title",
                         "source_uuid": "fd2f7d65-b977-47e5-aa3e-3e44bf04271e",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -306,15 +263,15 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Twitch Background Art",
             "uuid": "0fd61fb7-7333-4aa8-9c3e-e3a4ec58f469",
             "id": "group",
             "versioned_id": "group",
             "settings": {
                 "custom_size": true,
-                "cx": 501,
-                "cy": 1165,
+                "cx": 493,
+                "cy": 1063,
                 "id_counter": 0,
                 "items": [
                     {
@@ -328,7 +285,7 @@
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 0,
+                        "bounds_type": 3,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -336,6 +293,61 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 37,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.4296875,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.776982069015503,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 492.57000732421875,
+                            "y": 1062.976806640625
+                        },
+                        "bounds_rel": {
+                            "x": 0.9121666550636292,
+                            "y": 1.968475580215454
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "ECC2026 chat background",
+                        "source_uuid": "5b30b14e-c332-44b1-8fd6-609a9ca0f6f9",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 1920.0,
+                            "y": 1080.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 4,
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
@@ -346,12 +358,12 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 2.3302321434020996,
-                            "y": 2.3299999237060547
+                            "x": 1.4195090532302856,
+                            "y": 1.4774049520492554
                         },
                         "scale_rel": {
-                            "x": 2.3302321434020996,
-                            "y": 2.3299999237060547
+                            "x": 1.4195090532302856,
+                            "y": 1.4774049520492554
                         },
                         "bounds": {
                             "x": 0.0,
@@ -365,120 +377,10 @@
                         "blend_method": "default",
                         "blend_type": "normal",
                         "show_transition": {
-                            "duration": 0
+                            "duration": 300
                         },
                         "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "ECC_2025_Drone.png",
-                        "source_uuid": "9462e8ab-d465-4866-aeb9-874087841829",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 39,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 177.99993896484375,
-                            "y": 875.9998779296875
-                        },
-                        "pos_rel": {
-                            "x": -1.448148250579834,
-                            "y": 0.6222220659255981
-                        },
-                        "scale": {
-                            "x": -0.06013986095786095,
-                            "y": 0.060280222445726395
-                        },
-                        "scale_rel": {
-                            "x": -0.06013986095786095,
-                            "y": 0.060280222445726395
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "ECC_2025_Queen.png",
-                        "source_uuid": "e744e17d-d58d-400a-b584-45d9ad739815",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 40,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 404.07452392578125
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -0.2517138719558716
-                        },
-                        "scale": {
-                            "x": 0.1944875419139862,
-                            "y": 0.19453641772270203
-                        },
-                        "scale_rel": {
-                            "x": 0.1944875419139862,
-                            "y": 0.19453641772270203
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
+                            "duration": 300
                         },
                         "private_settings": {}
                     }
@@ -498,10 +400,8 @@
             "hotkeys": {
                 "libobs.show_scene_item.37": [],
                 "libobs.hide_scene_item.37": [],
-                "libobs.show_scene_item.39": [],
-                "libobs.hide_scene_item.39": [],
-                "libobs.show_scene_item.40": [],
-                "libobs.hide_scene_item.40": []
+                "libobs.show_scene_item.4": [],
+                "libobs.hide_scene_item.4": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -510,7 +410,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520159234,
+                    "prev_ver": 536936448,
                     "name": "Color Key",
                     "uuid": "2f9501e2-a071-4f25-82d3-0c374ddd3253",
                     "id": "color_key_filter",
@@ -538,6 +438,53 @@
             ]
         }
     ],
+    "scene_order": [
+        {
+            "name": "Main"
+        },
+        {
+            "name": "Stats"
+        },
+        {
+            "name": "Replay"
+        },
+        {
+            "name": "NS - Webcams"
+        },
+        {
+            "name": "NS - Game Feed"
+        },
+        {
+            "name": "NS - Game Replay"
+        },
+        {
+            "name": "NS - HiveMind In-Game"
+        },
+        {
+            "name": "NS - HiveMind Post-Game"
+        },
+        {
+            "name": "NS - HiveMind Auto"
+        },
+        {
+            "name": "NS - Twitch Chat"
+        },
+        {
+            "name": "NS - Header"
+        },
+        {
+            "name": "NS - Art"
+        },
+        {
+            "name": "NS - Audio"
+        }
+    ],
+    "current_scene": "Main",
+    "current_program_scene": "Main",
+    "canvases": [],
+    "current_transition": "Fade",
+    "transition_duration": 300,
+    "transitions": [],
     "quick_transitions": [
         {
             "name": "Cut",
@@ -561,26 +508,25 @@
             "fade_to_black": true
         }
     ],
-    "transitions": [],
     "saved_projectors": [],
-    "canvases": [],
-    "current_transition": "Fade",
-    "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
-    "scaling_level": -8,
+    "scaling_level": -11,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
-    "virtual-camera": {
-        "type2": 3
-    },
     "modules": {
         "auto-scene-switcher": {
+            "active": false,
             "interval": 300,
             "non_matching_scene": "",
             "switch_if_not_matching": false,
-            "active": false,
             "switches": []
+        },
+        "captions": {
+            "enabled": false,
+            "lang_id": 1033,
+            "provider": "mssapi",
+            "source": ""
         },
         "output-timer": {
             "streamTimerHours": 0,
@@ -593,26 +539,20 @@
             "autoStartRecordTimer": false,
             "pauseRecordTimer": true
         },
-        "scripts-tool": [],
-        "captions": {
-            "source": "",
-            "enabled": false,
-            "lang_id": 1033,
-            "provider": "mssapi"
-        }
+        "scripts-tool": []
     },
     "resolution": {
         "x": 1920,
         "y": 1080
     },
-    "version": 2,
     "migration_resolution": {
         "x": 1920,
         "y": 1080
     },
+    "version": 2,
     "sources": [
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "4Bs Auto",
             "uuid": "5e917719-a662-4605-9d6b-fcf3ba0c6b55",
             "id": "browser_source",
@@ -646,7 +586,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "4Bs In-Game",
             "uuid": "695e34a2-298f-4ebe-b61e-b481c4265bc6",
             "id": "browser_source",
@@ -682,7 +622,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "4Bs Post-Game",
             "uuid": "d8e80809-2929-46ac-9b99-5ce18aa5c80c",
             "id": "browser_source",
@@ -719,11 +659,11 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Announcer Mics",
             "uuid": "db9e3c38-8f04-4734-9ebf-d82a23bc5a59",
-            "id": "wasapi_input_capture",
-            "versioned_id": "wasapi_input_capture",
+            "id": "pulse_input_capture",
+            "versioned_id": "pulse_input_capture",
             "settings": {
                 "device_id": "alsa_input.usb-BurrBrown_from_Texas_Instruments_USB_AUDIO_CODEC-00.analog-stereo"
             },
@@ -750,7 +690,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520159234,
+                    "prev_ver": 536936448,
                     "name": "Expander",
                     "uuid": "880c5143-6847-490d-863b-777af7b02649",
                     "id": "expander_filter",
@@ -777,7 +717,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 520159234,
+                    "prev_ver": 536936448,
                     "name": "Compressor",
                     "uuid": "c6633aef-04c6-4e83-b1c2-f55b99a04c61",
                     "id": "compressor_filter",
@@ -803,7 +743,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 520159234,
+                    "prev_ver": 536936448,
                     "name": "Limiter",
                     "uuid": "c61ff741-0563-4c25-ad4c-4fdd569c5ec2",
                     "id": "limiter_filter",
@@ -831,24 +771,25 @@
             ]
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Announcer Webcam",
             "uuid": "a9b55463-07e7-4079-bc2a-7319b1ff349a",
-            "id": "dshow_input",
-            "versioned_id": "dshow_input",
+            "id": "v4l2_input",
+            "versioned_id": "v4l2_input",
             "settings": {
+                "device_id": "/dev/video0",
+                "frame_interval": 166666,
+                "last_resolution": "1920x1080",
+                "last_video_device_id": "OBS Virtual Camera:",
+                "res_type": 1,
+                "video_device_id": "OBS Virtual Camera:",
                 "Exposure, Dynamic Framerate": true,
-                "auto_reset": true,
-                "buffering": false,
-                "device_id": "/dev/video6",
                 "input": 0,
                 "pixelformat": 1196444237,
-                "resolution": "1920x1080",
-                "video_device_id": "OBS Virtual Camera:",
-                "last_video_device_id": "OBS Virtual Camera:",
-                "last_resolution": "1920x1080",
-                "frame_interval": 166666,
-                "res_type": 1
+                "resolution": 8246337209400,
+                "framerate": -1,
+                "buffering": false,
+                "auto_reset": true
             },
             "mixers": 0,
             "sync": 0,
@@ -863,9 +804,9 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "libobs.mute": [],
-                "libobs.unmute": [],
                 "libobs.push-to-mute": [],
-                "libobs.push-to-talk": []
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -873,13 +814,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Backdrop.jpg",
             "uuid": "c9db2818-7d2a-4bfb-99e1-3f3f7ff06191",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/hitos/src/kqsea-streaming/obs/art/ecc2025/Backdrop.jpg"
+                "file": "/home/stream/kqsea-streaming/obs/art/ecc2026/ecc2026-backdrop.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -899,7 +840,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520159234,
+                    "prev_ver": 536936448,
                     "name": "Crop/Pad",
                     "uuid": "98d28648-ff4d-493a-9191-2fcff8edc396",
                     "id": "crop_filter",
@@ -926,7 +867,7 @@
                     "private_settings": {}
                 },
                 {
-                    "prev_ver": 520159234,
+                    "prev_ver": 536936448,
                     "name": "Color Correction",
                     "uuid": "569851fe-4996-448d-9c68-5288e28b8fad",
                     "id": "color_filter",
@@ -954,22 +895,22 @@
             ]
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Blue Webcam",
             "uuid": "93222da9-a3bb-410e-ba10-0b7bc440b2dd",
-            "id": "dshow_input",
-            "versioned_id": "dshow_input",
+            "id": "v4l2_input",
+            "versioned_id": "v4l2_input",
             "settings": {
+                "undo_uuid": "93222da9-a3bb-410e-ba10-0b7bc440b2dd",
                 "Exposure, Dynamic Framerate": true,
-                "auto_reset": true,
-                "buffering": false,
-                "color_range": 0,
-                "device_id": "/dev/video2",
-                "framerate": -1,
+                "device_id": "/dev/video8",
                 "input": 0,
                 "pixelformat": 1196444237,
-                "resolution": 4398046511872,
-                "undo_uuid": "93222da9-a3bb-410e-ba10-0b7bc440b2dd"
+                "resolution": 5497558139600,
+                "framerate": -1,
+                "color_range": 0,
+                "buffering": false,
+                "auto_reset": true
             },
             "mixers": 0,
             "sync": 0,
@@ -984,9 +925,9 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "libobs.mute": [],
-                "libobs.unmute": [],
                 "libobs.push-to-mute": [],
-                "libobs.push-to-talk": []
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -994,13 +935,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
-            "name": "ECC_2025_Drone.png",
-            "uuid": "9462e8ab-d465-4866-aeb9-874087841829",
+            "prev_ver": 536936448,
+            "name": "ECC2026 chat background",
+            "uuid": "5b30b14e-c332-44b1-8fd6-609a9ca0f6f9",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/hitos/src/kqsea-streaming/obs/art/ecc2025/ECC_2025_Drone.png"
+                "file": "/home/stream/kqsea-streaming/obs/art/ecc2026/ecc2026-characters.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -1020,37 +961,11 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
-            "name": "ECC_2025_Queen.png",
-            "uuid": "e744e17d-d58d-400a-b584-45d9ad739815",
-            "id": "image_source",
-            "versioned_id": "image_source",
-            "settings": {
-                "file": "C:/Users/hitos/src/kqsea-streaming/obs/art/ecc2025/ECC_2025_Queen.png"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Game Audio",
             "uuid": "2c36d28d-2476-4cba-bf4b-c88483d1cebe",
-            "id": "wasapi_input_capture",
-            "versioned_id": "wasapi_input_capture",
+            "id": "pulse_input_capture",
+            "versioned_id": "pulse_input_capture",
             "settings": {
                 "device_id": "alsa_input.usb-Elgato_Elgato_HD60_X_A00XB337210GXO-02.analog-stereo"
             },
@@ -1077,7 +992,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520159234,
+                    "prev_ver": 536936448,
                     "name": "Game Feed Replay",
                     "uuid": "49d6930b-844e-439b-b5c6-f75c0dc95e14",
                     "id": "replay_filter_audio",
@@ -1110,22 +1025,22 @@
             ]
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Game Feed",
             "uuid": "8e81e04b-1b73-497c-8a63-96fe44a485df",
-            "id": "dshow_input",
-            "versioned_id": "dshow_input",
+            "id": "v4l2_input",
+            "versioned_id": "v4l2_input",
             "settings": {
-                "auto_reset": false,
-                "buffering": false,
+                "color_range": "default",
+                "last_video_device_id": "OBS Virtual Camera:",
+                "video_device_id": "OBS Virtual Camera:",
                 "device_id": "/dev/video4",
-                "framerate": -1,
                 "input": 0,
                 "pixelformat": 1448695129,
                 "resolution": 8246337209400,
-                "video_device_id": "OBS Virtual Camera:",
-                "last_video_device_id": "OBS Virtual Camera:",
-                "color_range": "default"
+                "framerate": -1,
+                "buffering": false,
+                "auto_reset": false
             },
             "mixers": 0,
             "sync": 0,
@@ -1140,9 +1055,9 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "libobs.mute": [],
-                "libobs.unmute": [],
                 "libobs.push-to-mute": [],
-                "libobs.push-to-talk": []
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1150,7 +1065,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520159234,
+                    "prev_ver": 536936448,
                     "name": "Game Feed Replay",
                     "uuid": "08826275-7324-41a1-b919-64dab9c53553",
                     "id": "replay_filter",
@@ -1178,19 +1093,19 @@
             ]
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Game Feed Replay",
             "uuid": "02aa3c5e-958d-4185-9ae5-a4fae55e580e",
             "id": "replay_source",
             "versioned_id": "replay_source",
             "settings": {
-                "duration": 3000,
-                "end_action": 5,
                 "internal_frames": true,
                 "retrieve_delay": 0,
                 "source": "Game Feed",
                 "source_audio": "Game Audio",
-                "visibility_action": 0
+                "duration": 3000,
+                "visibility_action": 0,
+                "end_action": 5
             },
             "mixers": 255,
             "sync": 0,
@@ -1204,51 +1119,51 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "ReplaySource.Backward": [],
-                "ReplaySource.BackwardOrFaster": [],
-                "ReplaySource.Clear": [],
-                "ReplaySource.Disable": [],
-                "ReplaySource.DisableNextScene": [],
-                "ReplaySource.DoubleSpeed": [],
-                "ReplaySource.Enable": [],
-                "ReplaySource.EnableNextScene": [],
-                "ReplaySource.Faster": [],
-                "ReplaySource.FasterBy5": [],
-                "ReplaySource.First": [],
-                "ReplaySource.Forward": [],
-                "ReplaySource.ForwardOrFaster": [],
-                "ReplaySource.HalfSpeed": [],
-                "ReplaySource.Last": [],
-                "ReplaySource.Next": [],
-                "ReplaySource.NextFrame": [],
-                "ReplaySource.NextNFrames": [],
-                "ReplaySource.NextScene": [],
-                "ReplaySource.NextSceneCurrent": [],
-                "ReplaySource.NormalOrFaster": [],
-                "ReplaySource.NormalOrSlower": [],
-                "ReplaySource.NormalSpeed": [],
-                "ReplaySource.Pause": [],
-                "ReplaySource.PrevFrame": [],
-                "ReplaySource.PrevNFrames": [],
-                "ReplaySource.Previous": [],
-                "ReplaySource.Remove": [],
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
                 "ReplaySource.Replay": [
                     {
                         "key": "OBS_KEY_INSERT"
                     }
                 ],
-                "ReplaySource.Restart": [],
-                "ReplaySource.Reverse": [],
+                "ReplaySource.Next": [],
+                "ReplaySource.Previous": [],
+                "ReplaySource.First": [],
+                "ReplaySource.Last": [],
+                "ReplaySource.Remove": [],
+                "ReplaySource.Clear": [],
                 "ReplaySource.Save": [],
+                "ReplaySource.Restart": [],
+                "ReplaySource.Pause": [],
+                "ReplaySource.Faster": [],
                 "ReplaySource.Slower": [],
+                "ReplaySource.FasterBy5": [],
                 "ReplaySource.SlowerBy5": [],
-                "ReplaySource.TrimEnd": [],
+                "ReplaySource.NormalOrFaster": [],
+                "ReplaySource.NormalOrSlower": [],
+                "ReplaySource.NormalSpeed": [],
+                "ReplaySource.HalfSpeed": [],
+                "ReplaySource.DoubleSpeed": [],
                 "ReplaySource.TrimFront": [],
+                "ReplaySource.TrimEnd": [],
                 "ReplaySource.TrimReset": [],
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
+                "ReplaySource.Reverse": [],
+                "ReplaySource.Forward": [],
+                "ReplaySource.Backward": [],
+                "ReplaySource.ForwardOrFaster": [],
+                "ReplaySource.BackwardOrFaster": [],
+                "ReplaySource.Disable": [],
+                "ReplaySource.Enable": [],
+                "ReplaySource.DisableNextScene": [],
+                "ReplaySource.EnableNextScene": [],
+                "ReplaySource.NextSceneCurrent": [],
+                "ReplaySource.NextScene": [],
+                "ReplaySource.PrevFrame": [],
+                "ReplaySource.NextFrame": [],
+                "ReplaySource.PrevNFrames": [],
+                "ReplaySource.NextNFrames": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1256,25 +1171,25 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Gold Webcam",
             "uuid": "6b089859-76bb-418c-b62e-8365d137340c",
-            "id": "dshow_input",
-            "versioned_id": "dshow_input",
+            "id": "v4l2_input",
+            "versioned_id": "v4l2_input",
             "settings": {
-                "Auto Exposure": 3,
-                "Brightness": 1,
-                "Exposure, Dynamic Framerate": true,
+                "device_id": "/dev/video2",
                 "Focus, Automatic Continuous": true,
-                "White Balance Temperature": 4600,
+                "Brightness": 1,
                 "White Balance, Automatic": true,
-                "auto_reset": true,
-                "buffering": false,
-                "device_id": "/dev/video0",
-                "framerate": -1,
+                "White Balance Temperature": 4600,
+                "Auto Exposure": 3,
+                "Exposure, Dynamic Framerate": true,
                 "input": 0,
                 "pixelformat": 1196444237,
-                "resolution": 4398046511872
+                "resolution": 5497558139600,
+                "framerate": -1,
+                "buffering": false,
+                "auto_reset": true
             },
             "mixers": 0,
             "sync": 0,
@@ -1289,9 +1204,9 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "libobs.mute": [],
-                "libobs.unmute": [],
                 "libobs.push-to-mute": [],
-                "libobs.push-to-talk": []
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -1299,11 +1214,11 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Instant Replay!",
             "uuid": "dee27a2a-b36b-46fb-9ea8-7a22c70b8374",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
+            "id": "text_ft2_source",
+            "versioned_id": "text_ft2_source_v2",
             "settings": {
                 "text": "Instant Replay"
             },
@@ -1325,7 +1240,7 @@
             "private_settings": {},
             "filters": [
                 {
-                    "prev_ver": 520159234,
+                    "prev_ver": 536936448,
                     "name": "Color Correction",
                     "uuid": "69c97192-b659-4378-930e-1c1379ca1101",
                     "id": "color_filter",
@@ -1353,30 +1268,31 @@
             ]
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Killer Queen Seattle Text",
             "uuid": "a27f9c5e-8b50-4eb2-b9d7-f1a8e3a525cb",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
+            "id": "text_ft2_source",
+            "versioned_id": "text_ft2_source_v2",
             "settings": {
-                "custom_width": 0,
-                "drop_shadow": false,
-                "outline": false,
-                "text": "Killer Queen Seattle",
-                "word_wrap": false,
-                "extents": true,
-                "font": {
-                    "face": "Segoe UI",
-                    "style": "Regular",
-                    "size": 36,
-                    "flags": 0
-                },
                 "align": "center",
-                "valign": "top",
-                "extents_wrap": false,
+                "custom_width": 0,
+                "extents": true,
                 "extents_cx": 416,
                 "extents_cy": 58,
-                "antialiasing": true
+                "extents_wrap": false,
+                "text": "Killer Queen Seattle",
+                "valign": "top",
+                "undo_uuid": "a27f9c5e-8b50-4eb2-b9d7-f1a8e3a525cb",
+                "font": {
+                    "face": "Adwaita Sans",
+                    "style": "Regular",
+                    "size": 26,
+                    "flags": 0
+                },
+                "antialiasing": true,
+                "word_wrap": false,
+                "outline": false,
+                "drop_shadow": false
             },
             "mixers": 0,
             "sync": 0,
@@ -1396,13 +1312,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "KQ Logo",
             "uuid": "c8976e31-8333-4b60-9cbe-9d53d0b1f434",
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/hitos/src/kqsea-streaming/obs/art/kq-logo.jpg"
+                "file": "/home/stream/kqsea-streaming/obs/art/kq-logo.jpg"
             },
             "mixers": 0,
             "sync": 0,
@@ -1422,7 +1338,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "kq_sea",
             "uuid": "417da25b-53a9-45a1-9382-d4c020a654d8",
             "id": "browser_source",
@@ -1457,7 +1373,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "kq_sea2",
             "uuid": "6b819c6b-5592-407a-becd-5649c7ae9744",
             "id": "browser_source",
@@ -1492,7 +1408,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "kq_sea3",
             "uuid": "e7b57685-75c5-4c00-a63f-5e6f00035492",
             "id": "browser_source",
@@ -1527,7 +1443,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Main",
             "uuid": "b59a975a-f14d-4d42-a0cc-7fa672749a3f",
             "id": "scene",
@@ -2015,14 +1931,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "NS - Art",
             "uuid": "847fc456-9a47-43ed-801a-1aeee5b3fc1d",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 2,
+                "id_counter": 4,
                 "items": [
                     {
                         "name": "Backdrop.jpg",
@@ -2035,7 +1951,7 @@
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 0,
+                        "bounds_type": 3,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -2045,28 +1961,28 @@
                         "id": 37,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 1504.0,
-                            "y": 234.00003051757812
+                            "x": 1503.3634033203125,
+                            "y": 222.0
                         },
                         "pos_rel": {
-                            "x": 1.0074074268341064,
-                            "y": -0.5666666030883789
+                            "x": 1.0062285661697388,
+                            "y": -0.5888888835906982
                         },
                         "scale": {
-                            "x": 2.3302321434020996,
-                            "y": 2.3299999237060547
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_rel": {
-                            "x": 1.9348833560943604,
-                            "y": 1.8578509092330933
+                            "x": 0.8458417654037476,
+                            "y": 0.8457196354866028
                         },
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 492.57000732421875,
+                            "y": 1062.976806640625
                         },
                         "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 0.9121666550636292,
+                            "y": 1.968475580215454
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -2080,8 +1996,8 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "ECC_2025_Drone.png",
-                        "source_uuid": "9462e8ab-d465-4866-aeb9-874087841829",
+                        "name": "ECC2026 chat background",
+                        "source_uuid": "5b30b14e-c332-44b1-8fd6-609a9ca0f6f9",
                         "visible": true,
                         "locked": true,
                         "rot": 0.0,
@@ -2097,23 +2013,23 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 39,
+                        "id": 4,
                         "group_item_backup": true,
                         "pos": {
-                            "x": 1651.80029296875,
-                            "y": 932.4881591796875
+                            "x": 1503.0,
+                            "y": 222.0
                         },
                         "pos_rel": {
-                            "x": 1.2811115980148315,
-                            "y": 0.7268298864364624
+                            "x": 1.005555510520935,
+                            "y": -0.5888888835906982
                         },
                         "scale": {
-                            "x": -0.06013986095786095,
-                            "y": 0.060280222445726395
+                            "x": 1.4195090532302856,
+                            "y": 1.4774049520492554
                         },
                         "scale_rel": {
-                            "x": -0.04993649199604988,
-                            "y": 0.04806509241461754
+                            "x": 1.200680136680603,
+                            "y": 1.2494703531265259
                         },
                         "bounds": {
                             "x": 0.0,
@@ -2127,65 +2043,10 @@
                         "blend_method": "default",
                         "blend_type": "normal",
                         "show_transition": {
-                            "duration": 0
+                            "duration": 300
                         },
                         "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "ECC_2025_Queen.png",
-                        "source_uuid": "e744e17d-d58d-400a-b584-45d9ad739815",
-                        "visible": true,
-                        "locked": true,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 40,
-                        "group_item_backup": true,
-                        "pos": {
-                            "x": 1504.0,
-                            "y": 556.1932373046875
-                        },
-                        "pos_rel": {
-                            "x": 1.0074074268341064,
-                            "y": 0.029987454414367676
-                        },
-                        "scale": {
-                            "x": 0.1944875419139862,
-                            "y": 0.19453641772270203
-                        },
-                        "scale_rel": {
-                            "x": 0.16149064898490906,
-                            "y": 0.1551157534122467
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
+                            "duration": 300
                         },
                         "private_settings": {}
                     },
@@ -2210,20 +2071,20 @@
                         "id": 1,
                         "group_item_backup": false,
                         "pos": {
-                            "x": 1504.0,
-                            "y": 234.00003051757812
+                            "x": 1503.0,
+                            "y": 222.0
                         },
                         "pos_rel": {
-                            "x": 1.0074074268341064,
-                            "y": -0.5666666030883789
+                            "x": 1.005555510520935,
+                            "y": -0.5888888835906982
                         },
                         "scale": {
-                            "x": 0.8303393125534058,
-                            "y": 0.7973609566688538
+                            "x": 0.8458417654037476,
+                            "y": 0.8457196354866028
                         },
                         "scale_rel": {
-                            "x": 0.8303393125534058,
-                            "y": 0.7973609566688538
+                            "x": 0.8458417654037476,
+                            "y": 0.8457196354866028
                         },
                         "bounds": {
                             "x": 1.0,
@@ -2328,7 +2189,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "NS - Audio",
             "uuid": "590a06a0-56ad-4bdb-851c-4a23b50aed3d",
             "id": "scene",
@@ -2474,7 +2335,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "NS - Game Feed",
             "uuid": "0cb186f7-4389-4b19-aa2e-f67084b918fa",
             "id": "scene",
@@ -2563,7 +2424,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "NS - Game Replay",
             "uuid": "1a020ef8-7317-425a-ae4f-5934bda41898",
             "id": "scene",
@@ -2652,7 +2513,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "NS - Header",
             "uuid": "71904b57-855c-4bf0-85c8-babc580512c8",
             "id": "scene",
@@ -2672,7 +2533,7 @@
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 0,
+                        "bounds_type": 6,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -2683,11 +2544,11 @@
                         "group_item_backup": true,
                         "pos": {
                             "x": 1503.9998779296875,
-                            "y": 176.0
+                            "y": 172.0
                         },
                         "pos_rel": {
                             "x": 1.0074071884155273,
-                            "y": -0.6740740537643433
+                            "y": -0.6814814805984497
                         },
                         "scale": {
                             "x": 1.0,
@@ -2698,12 +2559,12 @@
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 416.0,
+                            "y": 50.0
                         },
                         "bounds_rel": {
-                            "x": 0.0018518518190830946,
-                            "y": 0.0018518518190830946
+                            "x": 0.770370364189148,
+                            "y": 0.09259258955717087
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -2727,7 +2588,7 @@
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 0,
+                        "bounds_type": 6,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -2738,27 +2599,27 @@
                         "group_item_backup": true,
                         "pos": {
                             "x": 1503.9998779296875,
-                            "y": 118.0
+                            "y": 132.0
                         },
                         "pos_rel": {
                             "x": 1.0074071884155273,
-                            "y": -0.7814815044403076
+                            "y": -0.7555555701255798
                         },
                         "scale": {
                             "x": 1.0,
-                            "y": 1.0
+                            "y": 0.9655172228813171
                         },
                         "scale_rel": {
                             "x": 1.0,
-                            "y": 1.0
+                            "y": 0.9655171632766724
                         },
                         "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 416.0,
+                            "y": 50.0
                         },
                         "bounds_rel": {
-                            "x": 0.0018518518190830946,
-                            "y": 0.0018518518190830946
+                            "x": 0.770370364189148,
+                            "y": 0.09259258955717087
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -2775,14 +2636,14 @@
                         "name": "Tournament Subtitle",
                         "source_uuid": "098e53f9-cf7b-4470-a2b0-04371c2e79f8",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 0,
+                        "bounds_type": 6,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -2793,11 +2654,11 @@
                         "group_item_backup": true,
                         "pos": {
                             "x": 1503.9998779296875,
-                            "y": 60.0
+                            "y": 82.0
                         },
                         "pos_rel": {
                             "x": 1.0074071884155273,
-                            "y": -0.8888888955116272
+                            "y": -0.8481481671333313
                         },
                         "scale": {
                             "x": 1.0,
@@ -2808,12 +2669,12 @@
                             "y": 1.0
                         },
                         "bounds": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 416.0,
+                            "y": 50.0
                         },
                         "bounds_rel": {
-                            "x": 0.0018518518190830946,
-                            "y": 0.0018518518190830946
+                            "x": 0.770370364189148,
+                            "y": 0.09259258955717087
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -2829,7 +2690,7 @@
                     {
                         "name": "Tournament Title",
                         "source_uuid": "fd2f7d65-b977-47e5-aa3e-3e44bf04271e",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -2885,7 +2746,7 @@
                         "name": "Header",
                         "source_uuid": "3490f323-95e7-4f1e-b4f3-215b78f8f961",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -2961,7 +2822,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "NS - HiveMind Auto",
             "uuid": "7fdf513d-e6e5-438f-a249-4ef6e2fe2fb9",
             "id": "scene",
@@ -3028,7 +2889,7 @@
                     {
                         "name": "Toshi Auto",
                         "source_uuid": "61309b6d-d2df-4bc9-b5a6-b4696479e610",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3083,7 +2944,7 @@
                     {
                         "name": "4Bs Auto",
                         "source_uuid": "5e917719-a662-4605-9d6b-fcf3ba0c6b55",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3164,7 +3025,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "NS - HiveMind In-Game",
             "uuid": "feae7da7-af2b-4f76-88ea-c6d3f26b03a1",
             "id": "scene",
@@ -3231,7 +3092,7 @@
                     {
                         "name": "Toshi In-Game",
                         "source_uuid": "6abcda61-9b21-4d20-9627-ddd80f072f45",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3286,7 +3147,7 @@
                     {
                         "name": "4Bs In-Game",
                         "source_uuid": "695e34a2-298f-4ebe-b61e-b481c4265bc6",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3367,7 +3228,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "NS - HiveMind Post-Game",
             "uuid": "358cf547-9300-4dd7-8c07-07bf6fb198f8",
             "id": "scene",
@@ -3434,7 +3295,7 @@
                     {
                         "name": "Toshi Post-Game",
                         "source_uuid": "43614a8a-dfd1-43a7-ba6b-8f7db7f78d86",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3489,7 +3350,7 @@
                     {
                         "name": "4Bs Post-Game",
                         "source_uuid": "d8e80809-2929-46ac-9b99-5ce18aa5c80c",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3570,7 +3431,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "NS - Twitch Chat",
             "uuid": "95b621ee-dda8-4f75-9bc8-1d20b918d04d",
             "id": "scene",
@@ -3582,7 +3443,7 @@
                     {
                         "name": "kq_sea3",
                         "source_uuid": "e7b57685-75c5-4c00-a63f-5e6f00035492",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3692,8 +3553,8 @@
                     {
                         "name": "kq_sea",
                         "source_uuid": "417da25b-53a9-45a1-9382-d4c020a654d8",
-                        "visible": false,
-                        "locked": true,
+                        "visible": true,
+                        "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -3773,7 +3634,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "NS - Webcams",
             "uuid": "23ab138b-1f20-46b9-aa13-7e1f7169fcb3",
             "id": "scene",
@@ -3841,14 +3702,14 @@
                         "name": "Gold Webcam",
                         "source_uuid": "6b089859-76bb-418c-b62e-8365d137340c",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 0,
+                        "bounds_type": 4,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -3866,20 +3727,20 @@
                             "y": -1.2407407760620117
                         },
                         "scale": {
-                            "x": 0.64453125,
-                            "y": 0.64453125
-                        },
-                        "scale_rel": {
-                            "x": 0.64453125,
-                            "y": 0.64453125
-                        },
-                        "bounds": {
                             "x": 1.0,
                             "y": 1.0
                         },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 660.0,
+                            "y": 371.0
+                        },
                         "bounds_rel": {
-                            "x": 0.0018518518190830946,
-                            "y": 0.0018518518190830946
+                            "x": 1.2222222089767456,
+                            "y": 0.6870370507240295
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -3896,14 +3757,14 @@
                         "name": "Blue Webcam",
                         "source_uuid": "93222da9-a3bb-410e-ba10-0b7bc440b2dd",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
                             "y": 1080.0
                         },
                         "align": 5,
-                        "bounds_type": 0,
+                        "bounds_type": 4,
                         "bounds_align": 0,
                         "bounds_crop": false,
                         "crop_left": 0,
@@ -3921,20 +3782,20 @@
                             "y": -1.2407407760620117
                         },
                         "scale": {
-                            "x": 0.64453125,
-                            "y": 0.64453125
-                        },
-                        "scale_rel": {
-                            "x": 0.64453125,
-                            "y": 0.64453125
-                        },
-                        "bounds": {
                             "x": 1.0,
                             "y": 1.0
                         },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 660.0,
+                            "y": 371.0
+                        },
                         "bounds_rel": {
-                            "x": 0.0018518518190830946,
-                            "y": 0.0018518518190830946
+                            "x": 1.2222222089767456,
+                            "y": 0.6870370507240295
                         },
                         "scale_filter": "disable",
                         "blend_method": "default",
@@ -3976,7 +3837,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Replay",
             "uuid": "6c7f9907-d790-4365-990e-abbf5387e3d7",
             "id": "scene",
@@ -4464,7 +4325,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Stats",
             "uuid": "ad0bda69-7c1a-4eab-93d4-adc6b70c6392",
             "id": "scene",
@@ -4952,14 +4813,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Time",
             "uuid": "2e745fc8-43cf-46b5-9554-8200685e3d0b",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": true,
-                "local_file": "C:/Users/hitos/src/kqsea-streaming/obs/source/clock.html",
+                "local_file": "/home/stream/kqsea-streaming/obs/source/clock.html",
                 "width": 416,
                 "height": 58,
                 "restart_when_active": false,
@@ -4989,7 +4850,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Toshi Auto",
             "uuid": "61309b6d-d2df-4bc9-b5a6-b4696479e610",
             "id": "browser_source",
@@ -5023,7 +4884,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Toshi In-Game",
             "uuid": "6abcda61-9b21-4d20-9627-ddd80f072f45",
             "id": "browser_source",
@@ -5059,7 +4920,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Toshi Post-Game",
             "uuid": "43614a8a-dfd1-43a7-ba6b-8f7db7f78d86",
             "id": "browser_source",
@@ -5094,7 +4955,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Toshi2 Auto",
             "uuid": "52c48297-c90f-4975-85d8-ef1ff50148fd",
             "id": "browser_source",
@@ -5128,7 +4989,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Toshi2 In-Game",
             "uuid": "f65dbdcf-0645-4acd-bb34-e79af4a723aa",
             "id": "browser_source",
@@ -5164,7 +5025,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Toshi2 Post-Game",
             "uuid": "a11673e6-4200-4f47-95c9-3efc96d13f05",
             "id": "browser_source",
@@ -5199,25 +5060,25 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Tournament Subtitle",
             "uuid": "098e53f9-cf7b-4470-a2b0-04371c2e79f8",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
+            "id": "text_ft2_source",
+            "versioned_id": "text_ft2_source_v2",
             "settings": {
-                "text": "4Bs Seattle",
-                "extents": true,
-                "font": {
-                    "face": "Segoe UI",
-                    "style": "Regular",
-                    "size": 36,
-                    "flags": 0
-                },
                 "align": "center",
-                "valign": "top",
-                "extents_wrap": false,
+                "extents": true,
                 "extents_cx": 416,
-                "extents_cy": 58
+                "extents_cy": 58,
+                "extents_wrap": false,
+                "valign": "top",
+                "text": "Cab 1 - Friday Trash",
+                "font": {
+                    "face": "Adwaita Sans",
+                    "style": "Regular",
+                    "size": 28,
+                    "flags": 0
+                }
             },
             "mixers": 0,
             "sync": 0,
@@ -5237,25 +5098,25 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520159234,
+            "prev_ver": 536936448,
             "name": "Tournament Title",
             "uuid": "fd2f7d65-b977-47e5-aa3e-3e44bf04271e",
-            "id": "text_gdiplus",
-            "versioned_id": "text_gdiplus_v3",
+            "id": "text_ft2_source",
+            "versioned_id": "text_ft2_source_v2",
             "settings": {
-                "text": "Thursday Mixer & Trash",
+                "align": "center",
                 "extents": true,
+                "extents_cx": 416,
+                "extents_cy": 60,
+                "extents_wrap": false,
+                "text": "Test kq-stream-1",
+                "valign": "center",
                 "font": {
                     "face": "Segoe UI",
-                    "style": "Regular",
+                    "flags": 0,
                     "size": 48,
-                    "flags": 0
-                },
-                "align": "center",
-                "valign": "center",
-                "extents_wrap": false,
-                "extents_cx": 416,
-                "extents_cy": 60
+                    "style": "Regular"
+                }
             },
             "mixers": 0,
             "sync": 0,
