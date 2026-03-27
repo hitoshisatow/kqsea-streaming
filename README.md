@@ -234,3 +234,21 @@ Ensure IP is correct in `./configs/hivemind/config-<cab>.json`
 Get Websocket server password from OBS and paste into corresponding config in `./configs/kq-streaming/<cab>.json`
 
 > `[stream@kq-stream-1]$ npm run <cab>`
+
+## Recording post processing
+
+### Combining video files
+
+Create input.txt
+```
+file 'video1.mp4'
+file 'video2.mp4'
+```
+
+Combine videos using the same codex
+> ffmpeg -f concat -safe 0 -i input.txt -c copy output.mp4
+
+### Splitting video files
+
+Make new video from subset of input video
+> `ffmpeg -i input.mp4 -ss start_time -to end_time -c copy output.mp4`
