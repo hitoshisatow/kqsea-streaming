@@ -479,8 +479,8 @@
             "name": "NS - Audio"
         }
     ],
-    "current_scene": "NS - Header",
-    "current_program_scene": "NS - Header",
+    "current_scene": "Main",
+    "current_program_scene": "Main",
     "canvases": [],
     "current_transition": "Fade",
     "transition_duration": 300,
@@ -665,7 +665,7 @@
             "id": "pulse_input_capture",
             "versioned_id": "pulse_input_capture",
             "settings": {
-                "device_id": "alsa_input.usb-BurrBrown_from_Texas_Instruments_USB_AUDIO_CODEC-00.analog-stereo"
+                "device_id": "alsa_input.usb-Burr-Brown_from_TI_USB_Audio_CODEC-00.analog-stereo"
             },
             "mixers": 255,
             "sync": 0,
@@ -777,12 +777,12 @@
             "id": "v4l2_input",
             "versioned_id": "v4l2_input",
             "settings": {
-                "device_id": "/dev/video0",
                 "frame_interval": 166666,
                 "last_resolution": "1920x1080",
                 "last_video_device_id": "OBS Virtual Camera:",
                 "res_type": 1,
                 "video_device_id": "OBS Virtual Camera:",
+                "device_id": "/dev/announcer-cam",
                 "Exposure, Dynamic Framerate": true,
                 "input": 0,
                 "pixelformat": 1196444237,
@@ -902,15 +902,16 @@
             "versioned_id": "v4l2_input",
             "settings": {
                 "undo_uuid": "93222da9-a3bb-410e-ba10-0b7bc440b2dd",
-                "device_id": "/dev/video2",
+                "device_id": "/dev/webcam1",
+                "Exposure, Dynamic Framerate": true,
                 "input": 0,
-                "pixelformat": 1196444237,
+                "pixelformat": 875967048,
                 "resolution": 5497558139600,
                 "framerate": -1,
-                "color_range": 0,
-                "buffering": false,
+                "color_range": 1,
+                "buffering": true,
                 "auto_reset": true,
-                "Exposure, Dynamic Framerate": true
+                "timeout_frames": 120
             },
             "mixers": 0,
             "sync": 0,
@@ -1014,7 +1015,7 @@
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
-            "monitoring_type": 2,
+            "monitoring_type": 0,
             "private_settings": {},
             "filters": [
                 {
@@ -1060,7 +1061,7 @@
                 "color_range": "default",
                 "last_video_device_id": "OBS Virtual Camera:",
                 "video_device_id": "OBS Virtual Camera:",
-                "device_id": "/dev/video4",
+                "device_id": "/dev/elgato",
                 "input": 0,
                 "pixelformat": 1448695129,
                 "resolution": 8246337209400,
@@ -1204,18 +1205,18 @@
             "versioned_id": "v4l2_input",
             "settings": {
                 "Focus, Automatic Continuous": true,
-                "input": 0,
-                "pixelformat": 1196444237,
-                "resolution": 5497558139600,
-                "framerate": -1,
-                "buffering": false,
-                "auto_reset": true,
+                "device_id": "/dev/webcam2",
                 "Brightness": 1,
                 "White Balance, Automatic": true,
                 "White Balance Temperature": 4600,
                 "Auto Exposure": 3,
                 "Exposure, Dynamic Framerate": true,
-                "device_id": "/dev/video8"
+                "input": 0,
+                "pixelformat": 1196444237,
+                "resolution": -1,
+                "framerate": -1,
+                "buffering": false,
+                "auto_reset": true
             },
             "mixers": 0,
             "sync": 0,
@@ -2895,10 +2896,10 @@
             "push-to-talk-delay": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.5": [],
-                "libobs.hide_scene_item.5": [],
                 "libobs.show_scene_item.7": [],
-                "libobs.hide_scene_item.7": []
+                "libobs.hide_scene_item.7": [],
+                "libobs.show_scene_item.5": [],
+                "libobs.hide_scene_item.5": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -2919,7 +2920,7 @@
                     {
                         "name": "Toshi2 Auto",
                         "source_uuid": "52c48297-c90f-4975-85d8-ef1ff50148fd",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3029,7 +3030,7 @@
                     {
                         "name": "4Bs Auto",
                         "source_uuid": "5e917719-a662-4605-9d6b-fcf3ba0c6b55",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3122,7 +3123,7 @@
                     {
                         "name": "Toshi2 In-Game",
                         "source_uuid": "f65dbdcf-0645-4acd-bb34-e79af4a723aa",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3232,7 +3233,7 @@
                     {
                         "name": "4Bs In-Game",
                         "source_uuid": "695e34a2-298f-4ebe-b61e-b481c4265bc6",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3325,7 +3326,7 @@
                     {
                         "name": "Toshi2 Post-Game",
                         "source_uuid": "a11673e6-4200-4f47-95c9-3efc96d13f05",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3435,7 +3436,7 @@
                     {
                         "name": "4Bs Post-Game",
                         "source_uuid": "d8e80809-2929-46ac-9b99-5ce18aa5c80c",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3528,7 +3529,7 @@
                     {
                         "name": "kq_sea3",
                         "source_uuid": "e7b57685-75c5-4c00-a63f-5e6f00035492",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3638,7 +3639,7 @@
                     {
                         "name": "kq_sea",
                         "source_uuid": "417da25b-53a9-45a1-9382-d4c020a654d8",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3707,6 +3708,8 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
                 "libobs.show_scene_item.1": [],
                 "libobs.hide_scene_item.1": []
             },
@@ -5155,7 +5158,7 @@
                 "extents_cy": 58,
                 "extents_wrap": false,
                 "valign": "top",
-                "text": "Cab 1 - Friday Trash",
+                "text": "Cab 1 - Sunday Trash",
                 "font": {
                     "face": "Adwaita Sans",
                     "style": "Regular",

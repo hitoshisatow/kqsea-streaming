@@ -1,0 +1,4 @@
+SUBSYSTEM=="video4linux", ATTRS{idVendor}=="0fd9", ATTRS{idProduct}=="008a", ATTR{index}=="0", SYMLINK+="elgato"
+SUBSYSTEM=="video4linux", KERNELS=="1-1", ATTRS{idVendor}=="32e4", ATTRS{idProduct}=="9422", ATTR{index}=="0", SYMLINK+="webcam1"
+SUBSYSTEM=="video4linux", KERNELS=="1-2", ATTRS{idVendor}=="32e4", ATTRS{idProduct}=="9422", ATTR{index}=="0", SYMLINK+="webcam2"
+SUBSYSTEM=="video4linux", ATTRS{idVendor}=="0c45", ATTRS{idProduct}=="2690", ATTR{index}=="0", SYMLINK+="announcer-cam"
