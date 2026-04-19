@@ -1,0 +1,15 @@
+[Unit]
+Description=FFmpeg Virtual Webcam%i Copy Stream to Loopback Device
+BindsTo=dev-webcam2.device
+After=dev-webcam2.device
+
+[Service]
+Type=simple
+User=root
+EnvironmentFile=/etc/default/webcam-copy2.env
+ExecStart=/bin/sh -c '/usr/bin/ffmpeg -hide_banner -loglevel error -f v4l2 -input_format mjpeg -video_size 1280x720 -framerate 30 -fflags nobuffer -flags low_delay -probesize 32 -analyzeduration 0 -thread_queue_size 512 -i $(readlink -f /dev/webcam2) -codec copy -f v4l2 -fflags nobuffer ${OUTPUT_DEVICE}'
+Restart=on-failure
+RestartSec=1
+
+[Install]
+WantedBy=dev-webcam2.device

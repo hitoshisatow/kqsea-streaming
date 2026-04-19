@@ -514,6 +514,9 @@
     "scaling_level": -11,
     "scaling_off_x": 0.0,
     "scaling_off_y": 0.0,
+    "virtual-camera": {
+        "type2": 3
+    },
     "modules": {
         "auto-scene-switcher": {
             "active": false,
@@ -789,9 +792,9 @@
                 "resolution": 8246337209400,
                 "framerate": -1,
                 "color_range": 1,
-                "buffering": true,
+                "buffering": false,
                 "auto_reset": true,
-                "timeout_frames": 120
+                "timeout_frames": 60
             },
             "mixers": 0,
             "sync": 0,
@@ -904,14 +907,16 @@
             "versioned_id": "v4l2_input",
             "settings": {
                 "undo_uuid": "93222da9-a3bb-410e-ba10-0b7bc440b2dd",
-                "device_id": "/dev/webcam1",
                 "Exposure, Dynamic Framerate": true,
+                "device_id": "/dev/video100",
+                "keep_format": false,
+                "sustain_framerate": false,
                 "input": 0,
                 "pixelformat": 1196444237,
-                "resolution": -1,
+                "resolution": 5497558139600,
                 "framerate": -1,
                 "color_range": 1,
-                "buffering": true,
+                "buffering": false,
                 "auto_reset": true,
                 "timeout_frames": 120
             },
@@ -1207,18 +1212,18 @@
             "versioned_id": "v4l2_input",
             "settings": {
                 "Focus, Automatic Continuous": true,
-                "device_id": "/dev/webcam2",
                 "Brightness": 1,
                 "White Balance, Automatic": true,
                 "White Balance Temperature": 4600,
                 "Auto Exposure": 3,
                 "Exposure, Dynamic Framerate": true,
+                "device_id": "/dev/video101",
                 "input": 0,
                 "pixelformat": 1196444237,
-                "resolution": -1,
+                "resolution": 5497558139600,
                 "framerate": -1,
                 "color_range": 1,
-                "buffering": true,
+                "buffering": false,
                 "auto_reset": true,
                 "timeout_frames": 120
             },
@@ -2924,7 +2929,7 @@
                     {
                         "name": "Toshi2 Auto",
                         "source_uuid": "52c48297-c90f-4975-85d8-ef1ff50148fd",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -2979,7 +2984,7 @@
                     {
                         "name": "Toshi Auto",
                         "source_uuid": "61309b6d-d2df-4bc9-b5a6-b4696479e610",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3127,7 +3132,7 @@
                     {
                         "name": "Toshi2 In-Game",
                         "source_uuid": "f65dbdcf-0645-4acd-bb34-e79af4a723aa",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3182,7 +3187,7 @@
                     {
                         "name": "Toshi In-Game",
                         "source_uuid": "6abcda61-9b21-4d20-9627-ddd80f072f45",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3330,7 +3335,7 @@
                     {
                         "name": "Toshi2 Post-Game",
                         "source_uuid": "a11673e6-4200-4f47-95c9-3efc96d13f05",
-                        "visible": true,
+                        "visible": false,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3385,7 +3390,7 @@
                     {
                         "name": "Toshi Post-Game",
                         "source_uuid": "43614a8a-dfd1-43a7-ba6b-8f7db7f78d86",
-                        "visible": false,
+                        "visible": true,
                         "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3731,7 +3736,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 5,
+                "id_counter": 6,
                 "items": [
                     {
                         "name": "Announcer Webcam",

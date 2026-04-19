@@ -4,7 +4,7 @@
       "sceneName": "sea",
       "cabinetName": "toshi",
       "token": "rksZ8GmOg2S0VoCMpZDwSYM0dkJgdki2rvxNYLOvjKQ",
-      "url": "ws://192.168.0.48:12749"
+      "url": "ws://192.168.4.21:12749"
     }
   ],
   "servers": [
@@ -14,7 +14,7 @@
     },
     {
       "name": "kqsea-streaming",
-      "url": "ws://localhost:8123"
+      "url": "ws://localhost:9000"
     }
   ]
 }
